@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://ibb.co/1ZHvW6n)
-
 Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV (Fundação Getúlio Vargas). Mathematics, with its enchanting dance of numbers and patterns, has been my steadfast companion since as far back as I can remember.
 
 Born into a world where academia was not just a profession but a way of life, both my parents served as beacons of knowledge at UENF (Universidade Estadual Norte Fluminense). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
