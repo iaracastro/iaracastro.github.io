@@ -26,49 +26,37 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+![TeXt Theme](https://ibb.co/1ZHvW6n)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV (Fundação Getúlio Vargas). Mathematics, with its enchanting dance of numbers and patterns, has been my steadfast companion since as far back as I can remember.
+
+Born into a world where academia was not just a profession but a way of life, both my parents served as beacons of knowledge at UENF (Universidade Estadual Norte Fluminense). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
+
+My journey took an exciting turn during high school when I participated in OBMEP (Olimpíada Brasileira de Matemática) and ONC (Olimpíada Nacional de Ciências). The challenges intensified my fascination with the beauty of mathematics and its profound connection to our daily lives.
+
+Early on, I embarked on a bilingual journey at Externato Campista, earning two Cambridge Certificates and immersing myself in English and Spanish. Hailing from a Peruvian family, language became not just a tool but a bridge connecting me to a different culture.
+
+In 2020, I grappled with depression following the passing of my mom, my greatest supporter. While my academic pursuits remained resilient, the lens through which I viewed life underwent some transformations.
+
+Fast forward to 2021, stepping into the realms of college life unveiled a newfound love for modeling real life problems and programming. My trajectory is set, and I aspire to pursue a master's degree here aswell.
+
+Recently, I find myself immersed in the dynamic world of finance at BOCOM (Banco de Comunicações) as part of my internship, contributing to Anti-Money Laundering and Counter-Terrorism Financing efforts. Surrounded by seasoned colleagues, I am gaining valuable experience in a renamed institution.
+
+Beyond the world of academia and finance, my heart finds solace in the realms of gaming, piano melodies, and the creation of digital art. As the future beckons with myriad possibilities, my main goal is to explore the infinite avenues STEM has to offer and, in the process, extend a helping hand and share knowledge with fellow teammates.
 
 ```javascript
 (() => console.log('Hello, World!'))();
 ```
 
-## Features
+## Interests
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
-
-## Skins
-
-TeXt has 6 built-in skins, you can also set up your own skin.
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+- Applied Mathematics
+- Academic Researches
+- Programming
+- Data Manipulation
+- Game Dev'ing and Coordination
+- Number Theory
+- Finances
+- Technology
+- Data Science and IA
+- Music
