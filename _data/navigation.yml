@@ -60,3 +60,9 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+docs-en:
+  - title:  Processos Estocásticos
+    children:
+      - title:  Teste
+        url:    https://scholar.google.com/
