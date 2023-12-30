@@ -25,7 +25,10 @@ titles:
   # @end locale config
 key: page-about
 ---
-
+<div style="float:left; margin-right:2em;">
+    <img src="https://raw.githubusercontent.com/JiananAlvin/blob/master/profile.png" width="250"/>
+</div>
+<div>
 Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV (Fundação Getúlio Vargas). Mathematics, with its enchanting dance of numbers and patterns, has been my steadfast companion since as far back as I can remember.
 
 Born into a world where academia was not just a profession but a way of life, both my parents served as beacons of knowledge at UENF (Universidade Estadual Norte Fluminense). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
@@ -41,12 +44,13 @@ Fast forward to 2021, stepping into the realms of college life unveiled a newfou
 Recently, I find myself immersed in the dynamic world of finance at BOCOM (Banco de Comunicações) as part of my internship, contributing to Anti-Money Laundering and Counter-Terrorism Financing efforts. Surrounded by seasoned colleagues, I am gaining valuable experience in a renamed institution.
 
 Beyond the world of academia and finance, my heart finds solace in the realms of gaming, piano melodies, and the creation of digital art. As the future beckons with myriad possibilities, my main goal is to explore the infinite avenues STEM has to offer and, in the process, extend a helping hand and share knowledge with fellow teammates.
+</div>
 
 ```javascript
 (() => console.log('Hello, World!'))();
 ```
 
-## Interests
+## 🔬 Interests
 
 - Applied Mathematics
 - Academic Researches
@@ -58,3 +62,19 @@ Beyond the world of academia and finance, my heart finds solace in the realms of
 - Technology
 - Data Science and IA
 - Music
+
+## 🚀 Skills
+
+#### Profissional Skills
+
+Programming Languages: Python, R, VBA, Matlab/Scilab
+Microsoft Tools: Excel, Power BI, Power Point, Word
+Document markup languages: LaTeX, Markdown, HTML
+
+#### Language skills
+
+<p><ul>
+  <li>Portuguese - native</li>
+  <li>English - fluent</li>
+  <li>Spanish - advanced</li>
+</ul></p>
