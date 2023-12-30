@@ -66,10 +66,11 @@ Beyond the world of academia and finance, my heart finds solace in the realms of
 ## 🚀 Skills
 
 #### Profissional Skills
-
-Programming Languages: Python, R, VBA, Matlab/Scilab
-Microsoft Tools: Excel, Power BI, Power Point, Word
+<p><ul>
+<li> Programming Languages: Python, R, VBA, Matlab/Scilab</li>
+<li>Microsoft Tools: Excel, Power BI, Power Point, Word</li>
 Document markup languages: LaTeX, Markdown, HTML
+</ul></p>
 
 #### Language skills
 
