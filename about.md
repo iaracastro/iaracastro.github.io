@@ -29,9 +29,7 @@ key: page-about
     <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/profile.png" width="250"/>
 </div>
 <div>
-Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV (Fundação Getúlio Vargas). Mathematics, with its enchanting dance of numbers and patterns, has been my steadfast companion since as far back as I can remember.
-
-Born into a world where academia was not just a profession but a way of life, both my parents served as beacons of knowledge at UENF (Universidade Estadual Norte Fluminense). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
+Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV-RJ (Fundação Getúlio Vargas). Born into a world where academia was not just a profession but a way of life, both my parents served as professors at UENF (Universidade Estadual Norte Fluminense Darcy Ribeiro). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
 
 My journey took an exciting turn during high school when I participated in OBMEP (Olimpíada Brasileira de Matemática) and ONC (Olimpíada Nacional de Ciências). The challenges intensified my fascination with the beauty of mathematics and its profound connection to our daily lives.
 
@@ -41,7 +39,7 @@ In 2020, I grappled with depression following the passing of my mom, my greatest
 
 Fast forward to 2021, stepping into the realms of college life unveiled a newfound love for modeling real life problems and programming. My trajectory is set, and I aspire to pursue a master's degree here aswell.
 
-Recently, I find myself immersed in the dynamic world of finance at BOCOM (Banco de Comunicações) as part of my internship, contributing to Anti-Money Laundering and Counter-Terrorism Financing efforts. Surrounded by seasoned colleagues, I am gaining valuable experience in a renamed institution.
+Recently, I find myself immersed in the dynamic world of finance at BOCOM BBM (Banco de Comunicações) as part of my internship, contributing to Anti-Money Laundering and Counter-Terrorism Financing efforts. Surrounded by seasoned colleagues, I am gaining valuable experience in a renamed institution.
 
 Beyond the world of academia and finance, my heart finds solace in the realms of gaming, piano melodies, and the creation of digital art. As the future beckons with myriad possibilities, my main goal is to explore the infinite avenues STEM has to offer and, in the process, extend a helping hand and share knowledge with fellow teammates.
 </div>
@@ -79,3 +77,5 @@ Document markup languages: LaTeX, Markdown, HTML
   <li>English - fluent</li>
   <li>Spanish - advanced</li>
 </ul></p>
+
+<br><br>
