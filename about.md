@@ -78,4 +78,13 @@ Beyond the world of academia and finance, my heart finds solace in the realms of
   <li>Spanish - advanced</li>
 </ul></p>
 
+#### Soft skills
+
+<p><ul>
+<li>Time Management</li>
+<li>Organization</li>
+<li>Estrategy and Conflict Resolution</li>
+<li>Teamwork</li>
+</ul></p>
+
 <br><br>
