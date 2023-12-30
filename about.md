@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 <div style="float:left; margin-right:2em;">
-    <img src="https://raw.githubusercontent.com/JiananAlvin/blob/master/profile.png" width="250"/>
+    <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/profile.png" width="250"/>
 </div>
 <div>
 Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV (Fundação Getúlio Vargas). Mathematics, with its enchanting dance of numbers and patterns, has been my steadfast companion since as far back as I can remember.
