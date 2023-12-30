@@ -1,5 +1,15 @@
 header:
   - titles:
+        # @start locale config
+        en      : &EN       Materials
+        en-GB   : *EN
+        en-US   : *EN
+        en-CA   : *EN
+        en-AU   : *EN
+        # @end locale config
+      url: /materials.html
+    
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
