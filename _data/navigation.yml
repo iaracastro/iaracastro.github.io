@@ -34,7 +34,7 @@ docs-en:
   - title:      Probabilidade
     children:
       - title:  Conceitos Iniciais
-        url:    /docs/en/1.1-quick-start/
+        url:    /docs/_docs/en/1.1-quick-start/
       - title:  V.A Discretas
         url:    https://www.youtube.com/
       - title: V.A Contínuas
