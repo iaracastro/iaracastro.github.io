@@ -34,75 +34,72 @@ docs-en:
   - title:      Probabilidade
     children:
       - title:  Conceitos Iniciais
-        url:    /docs/en/quick-start/
+        url:    /docs/en/quick-start
       - title:  V.A Discretas
-        url:    /docs/en/structure/
+        url:    /docs/en/structure
       - title: V.A Contínuas
-        url: /docs/en/quick-start/
+        url: /docs/en/quick-start
       - title: Somas e Médias de V.A
-        url:    /docs/en/structure/
+        url:    /docs/en/structure
       - title: Qui-Quadrado e T-Student
-        url: /docs/en/quick-start/
+        url: /docs/en/quick-start
       -title: Introdução a Estatística
-        url: /docs/en/structure/
+        url: /docs/en/structure
       
       
   - title:      Inferência Estatística
     children:
       - title:  Variância e Valor Esperado
-        url:    /docs/en/configuration/
+        url:    /docs/en/configuration
       - title:  Convergência e Teorema de Bayes
-        url:    /docs/en/navigation/
+        url:    /docs/en/navigation
       - title: Priori e Posteriori
-        url:    /docs/en/configuration/
+        url:    /docs/en/configuration
       - title: Distribuições Discretas e Contínuas
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       - title: Funções de Perda e Estimadores de Bayes
-        url:   /docs/en/configuration/
+        url:   /docs/en/configuration
       - title: Consistência de um estimador
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       - title: EMV 
-        url:   /docs/en/configuration/
+        url:   /docs/en/configuration
       - title: Risco e Viés
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       - title: Método dos Momentos
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Suficiência de um estimador
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Teorema da Fatorização
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Erro Quadrático Médio
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Teorema de Rao-Blackwell
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Admissibilidade e Dominância de um estimador
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Informação de Fisher
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Cramer-Ráo
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Eficiência de um estimador
-        url: /docs/en/configuration/
-        
+        url: /docs/en/configuration    
       -title: Intervalo de Confiança
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Teste de Hipóteses
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Região Crítica e de Rejeição
-        url: /docs/en/navigation/
-        
+        url: /docs/en/navigation      
       -title: Função Poder
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Tipos de Erro
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Tamanho do Teste
-        url: /docs/en/navigation/
-        
+        url: /docs/en/navigation     
       -title: P-valor
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Teste da razão da verossimilhança
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
       -title: Teorema de Wilks
-        url: /docs/en/navigation/
+        url: /docs/en/navigation
       -title: Teste não-viesado
-        url: /docs/en/configuration/
+        url: /docs/en/configuration
