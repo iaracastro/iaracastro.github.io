@@ -34,7 +34,7 @@ docs-en:
   - title:      Probabilidade
     children:
       - title:  Conceitos Iniciais
-        url:    https://www.youtube.com/
+        url:    /docs/en/1.1-quick-start/
       - title:  V.A Discretas
         url:    https://www.youtube.com/
       - title: V.A Contínuas
@@ -43,7 +43,7 @@ docs-en:
         url:    https://www.youtube.com/
       - title: Qui-Quadrado e T-Student
         url:    https://www.youtube.com/
-      -title: Introdução a Estatística
+      - title: Introdução a Estatística
         url:    https://www.youtube.com/
       
       
@@ -67,39 +67,39 @@ docs-en:
         url:    https://www.youtube.com/
       - title: Método dos Momentos
         url:    https://www.youtube.com/
-      -title: Suficiência de um estimador
+      - title: Suficiência de um estimador
         url:    https://www.youtube.com/
-      -title: Teorema da Fatorização
+      - title: Teorema da Fatorização
         url:    https://www.youtube.com/
-      -title: Erro Quadrático Médio
+      - title: Erro Quadrático Médio
         url:    https://www.youtube.com/
-      -title: Teorema de Rao-Blackwell
+      - title: Teorema de Rao-Blackwell
         url:    https://www.youtube.com/
-      -title: Admissibilidade e Dominância de um estimador
+      - title: Admissibilidade e Dominância de um estimador
         url:    https://www.youtube.com/
-      -title: Informação de Fisher
+      - title: Informação de Fisher
         url:    https://www.youtube.com/
-      -title: Cramer-Ráo
+      - title: Cramer-Ráo
         url:    https://www.youtube.com/
-      -title: Eficiência de um estimador
+      - title: Eficiência de um estimador
         url:    https://www.youtube.com/
-      -title: Intervalo de Confiança
+      - title: Intervalo de Confiança
         url:    https://www.youtube.com/
-      -title: Teste de Hipóteses
+      - title: Teste de Hipóteses
         url:    https://www.youtube.com/
-      -title: Região Crítica e de Rejeição
+      - title: Região Crítica e de Rejeição
         url:    https://www.youtube.com/
-      -title: Função Poder
+      - title: Função Poder
         url:    https://www.youtube.com/
-      -title: Tipos de Erro
+      - title: Tipos de Erro
         url:    https://www.youtube.com/
-      -title: Tamanho do Teste
+      - title: Tamanho do Teste
         url:    https://www.youtube.com/ 
-      -title: P-valor
+      - title: P-valor
         url:    https://www.youtube.com/
-      -title: Teste da razão da verossimilhança
+      - title: Teste da razão da verossimilhança
         url:    https://www.youtube.com/
-      -title: Teorema de Wilks
+      - title: Teorema de Wilks
         url:    https://www.youtube.com/
-      -title: Teste não-viesado
+      - title: Teste não-viesado
         url:    https://www.youtube.com/
