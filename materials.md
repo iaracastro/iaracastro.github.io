@@ -1,5 +1,9 @@
 ---
 layout: article
+sidebar:
+  nav: docs-en
+aside:
+  toc: true
 titles:
   # @start locale config
   en      : &EN       Materials
@@ -11,4 +15,4 @@ permalink: /materials/
 - [Modelagem Estatística e Inferência Estatística](https://github.com/iaracastro/Inferencia-Modelagem-Estatistica)
 - [Álgebra Linear](https://github.com/iaracastro/AlgebraLinear)
 - [Matemática Discreta](https://github.com/iaracastro/TeoriaDosGrafos)
-- [Curvas e Superfícies](https://github.com/iaracastro/TeoriaDaProbabilidade)
+- [Curvas e Superfícies](https://github.com/iaracastro/Curvas-e-Superficies)
