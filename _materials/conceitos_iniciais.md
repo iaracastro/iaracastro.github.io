@@ -1,6 +1,9 @@
 ---
 layout: article
-title: Conceitos Iniciais
+titles:
+  # @start locale config
+  en      : &EN       Materials
+  # @end locale config
 permalink: /materials/conceitos_iniciais.html
 key: materials-conceitos_iniciais
 aside:
