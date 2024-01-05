@@ -5,7 +5,6 @@ titles:
   en      : &EN       Conceitos Iniciais
   # @end locale config
 permalink: /materials/conceitos-iniciais.html
-key: materials-conceitos-iniciais
 aside:
   toc: true
 sidebar:
