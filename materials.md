@@ -8,7 +8,7 @@ titles:
   # @start locale config
   en      : &EN       Materials
   # @end locale config
-permalink: /materials/
+permalink: /materials.html
 ---
 
 - [Probabilidade](https://github.com/iaracastro/TeoriaDaProbabilidade)
