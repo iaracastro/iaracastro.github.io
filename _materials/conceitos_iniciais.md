@@ -2,7 +2,7 @@
 layout: article
 titles:
   # @start locale config
-  en      : &EN       Materials
+  en      : &EN       Conceitos Iniciais
   # @end locale config
 permalink: /materials/conceitos_iniciais.html
 key: materials-conceitos_iniciais
