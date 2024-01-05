@@ -4,12 +4,12 @@ titles:
   # @start locale config
   en      : &EN       Conceitos Iniciais
   # @end locale config
-permalink: /materials/conceitos_iniciais.html
-key: materials-conceitos_iniciais
+permalink: /materials/conceitos-iniciais.html
+key: materials-conceitos-iniciais
 aside:
   toc: true
 sidebar:
-  nav: docs_en
+  nav: docs-en
 ---
 
 Testando!
