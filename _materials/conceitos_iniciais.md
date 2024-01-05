@@ -8,6 +8,8 @@ permalink: /materials/conceitos_iniciais.html
 key: materials-conceitos_iniciais
 aside:
   toc: true
+sidebar:
+  nav: docs_en
 ---
 
 Testando!
