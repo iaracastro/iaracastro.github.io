@@ -17,7 +17,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /materials/
+    url: /materials.html
     
 
   - titles:
