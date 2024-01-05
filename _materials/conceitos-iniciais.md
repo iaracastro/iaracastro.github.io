@@ -1,14 +1,14 @@
 ---
 layout: article
+aside:
+  toc: true
+sidebar:
+  nav: docs-en
 titles:
   # @start locale config
   en      : &EN       Conceitos Iniciais
   # @end locale config
 permalink: /materials/conceitos-iniciais.html
-aside:
-  toc: true
-sidebar:
-  nav: docs-en
 ---
 
 Testando!
