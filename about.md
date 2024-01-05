@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 <div style="float:left; margin-right:2em;">
-    <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/profile.png" width="250"/>
+    <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/images/profile.png" width="250"/>
 </div>
 <div>
 Greetings! I'm Iara Cristina, a 19-year-old studant currently at my last year on the Undergraduate course of Applied Mathematics at FGV-RJ (Fundação Getúlio Vargas). Born into a world where academia was not just a profession but a way of life, both my parents served as professors at UENF (Universidade Estadual Norte Fluminense Darcy Ribeiro). Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics.
