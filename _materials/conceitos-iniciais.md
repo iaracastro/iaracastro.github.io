@@ -1,14 +1,14 @@
 ---
 layout: article
+title: Conceitos Iniciais
+articles:
+  data_source: site.materials
+  type: brief
+  show_info: true
 aside:
   toc: true
 sidebar:
   nav: docs-en
-titles:
-  # @start locale config
-  en      : &EN       Conceitos Iniciais
-  # @end locale config
-permalink: /materials/conceitos-iniciais.html
 ---
 
 Testando!
