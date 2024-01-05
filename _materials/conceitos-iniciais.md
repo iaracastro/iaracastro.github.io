@@ -2,8 +2,7 @@
 layout: article
 title: Conceitos Iniciais
 permalink: /materials/conceitos_iniciais.html
-key: page-aside
-cover: /docs/assets/images/axure/page-aside.jpg
+key: materials-conceitos_iniciais
 aside:
   toc: true
 ---
