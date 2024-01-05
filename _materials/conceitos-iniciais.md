@@ -2,10 +2,7 @@
 layout: article
 title: Conceitos Iniciais
 permalink: /materials/conceitos-iniciais.html
-articles:
-  data_source: site.materials
-  type: brief
-  show_info: true
+key: materials-conceitos-iniciais
 aside:
   toc: true
 sidebar:
