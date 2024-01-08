@@ -47,6 +47,7 @@ Var(X)=\frac{1}{\lambda^2}
 \end{gathered}$$
 
 ## Distribuição Gama
+
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
@@ -62,8 +63,8 @@ $X \sim Gamma(\alpha, \lambda)$
 $$E(X)=\frac{\alpha}{\lambda}$$
 
 $$\begin{gathered}
-\operatorname{Var}(X)=\frac{\alpha}{\lambda^2} \\
-\operatorname{Moda}=\frac{\alpha}{\lambda}-\frac{1}{\lambda}
+Var(X)=\frac{\alpha}{\lambda^2} \\
+Moda=\frac{\alpha}{\lambda}-\frac{1}{\lambda}
 \end{gathered}$$
 
 ## Distribuição Normal
@@ -71,8 +72,8 @@ $$\begin{gathered}
 $$X \sim N\left(\mu, \sigma^2\right)$$
 
 $$\begin{gathered}
-f(x)=\operatorname{NormalDen}(x)=\frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-\mu)^2}{2 \sigma^2}} \\
+f(x)=Normalden(x)=\frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-\mu)^2}{2 \sigma^2}} \\
 Z=\frac{X-\mu}{\sigma} \sim N(0,1) \\
-E(X)=\operatorname{Moda}(\mathrm{X})=\operatorname{Med}(X)=\mu \\
-\operatorname{Var}(X)=\sigma^2
+E(X)=Moda(\mathrm{X})=Med(X)=\mu \\
+Var(X)=\sigma^2
 \end{gathered}$$
