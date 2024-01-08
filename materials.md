@@ -1,10 +1,12 @@
 ---
 layout: article
-titles:
+titles: 
   # @start locale config
   en      : &EN       Materials
   # @end locale config
 permalink: /materials.html
+sidebar:
+    nav: docs-en
 ---
 
 - [Probabilidade](https://github.com/iaracastro/TeoriaDaProbabilidade)
