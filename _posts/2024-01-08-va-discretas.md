@@ -6,7 +6,7 @@ sidebar:
     nav: docs-en
 ---
 
-#### Função de Probabilidade
+### Função de Probabilidade
 Seja $X$ uma variável aleatória discreta, definimos a funçăo de probabilide de $X$ :
 $$p_X(x)=Pr(X-x)$$
 
@@ -41,5 +41,46 @@ Pr(X=i, Y=j)=Pr(X=i) \cdot Pr(Y=j) \\
 Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 \end{gathered}$$
 
-Função de Probabilidade Acumulada
+#### Função de Probabilidade Acumulada
 $$F_X(x)=Pr(X<x)$$
+
+### Valor Esperado $E(X)$
+Também conhecido como esperança matemática, é uma média ponderada dos valores de $X$ com pesos iguais às respectivas probabilidades destes valores.
+$$E(X)-\sum_{y \subset S} x \cdot p(x)$$
+
+Propriedades:
+$\cdot$ Seja $Y=f(X)$,
+$$\begin{gathered}
+E(Y)=E(f(X))=\sum_{x \in S} f(x) \cdot p(x) \\
+E(a X+b)=a E(X)+b \\
+E(b)-0
+\end{gathered}$$
+
+$\cdot$  Seja $Z-f(X, Y)$,
+$$\begin{gathered}
+E(Z)=E(f(X, Y))=\sum_{x: y} f(x, y) p_{X: Y}(x, y) \\
+E(a X+b Y)=a E(X)+b E(y) \\
+E(X-Y)=E^{\prime}(X)+E(Y)
+\end{gathered}$$
+
+$\cdot$ Se $X$ e $Y$ sāo independentes:
+$$E(X Y)=E(X) E(Y)$$
+
+### Variância e Desvio Padrão $(\sigma)$
+$$\begin{gathered}
+\operatorname{Var}(X)=E\left[(X-E(X))^2\right] \\
+\operatorname{Var}(X)=E\left(X^2\right)-(E(X))^2 \\
+\sigma(X)=\sqrt{\operatorname{Var}(X)}
+\end{gathered}$$
+
+$\cdot$ Propriedades:
+$$\begin{gathered}
+\operatorname{Var}(a X \mid b)=a^2 \operatorname{Var}(X) \\
+\sigma(a X+b)=|a| \cdot \sigma(X) \\
+\operatorname{Var}(b)=0 \\
+\operatorname{Var}(X+b)-\operatorname{Var}(X) \\
+\operatorname{Var}(a X)=a^2 \operatorname{Var}(X)
+\end{gathered}$$
+
+$\cdot$  Se $X$ e $Y$ säo independentes:
+$$\operatorname{Var}(X \mid Y)=\operatorname{Var}(X) \text { । } \operatorname{Var}(Y)$$
