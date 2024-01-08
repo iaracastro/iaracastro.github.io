@@ -19,19 +19,13 @@ $\cdot$ Lei da Adição: $Pr(A \cup B)= Pr(A)+Pr(B)-Pr(A \cap B)$
 $\cdot$ Lei da Multiplicação: $Pr(A \cap B)=Pr(B \mid A) \cdot Pr(A)=Pr(A \mid B) \cdot Pr(B)$
 
 $\cdot$ Probabilidade Condicional: Sejam dois eventos $A$ e $B$ com $Pr(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
-$$
-\operatorname{Pr}(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}
-$$
+$$\operatorname{Pr}(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}$$
 
 $\cdot$ Lei da Probabilidade Total:
-$$
-Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})
-$$
+$$Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})$$
 
 $\cdot$ Lei da Adição:
-$$
-Pr(A \cup B)=Pr(A)+Pr(B)-Pr(A \cap B)
-$$
+$$Pr(A \cup B)=Pr(A)+Pr(B)-Pr(A \cap B)$$
 
 $\cdot$ Lei da Multiplicação:
 $$
@@ -40,18 +34,12 @@ $$
 
 $\cdot$ Probabilidade Condicional:
 Sejam dois eventos $A$ e $B$ com $Pr(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
-$$
-Pr(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}
-$$
+$$Pr(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}$$
 
 $\cdot$ Lei da Probabilidade Total:
-$$
-Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})
-$$
+$$Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})$$
 
 $\cdot$ Teorema de Bayes:
 (substituir fórmulas da multiplicação e da probabilidade total na fórmula da probabilidade condicional)
-$$
-Pr(B \mid A)=\frac{Pr(A \mid B) \cdot Pr(B)}{Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})}
-$$
+$$Pr(B \mid A)=\frac{Pr(A \mid B) \cdot Pr(B)}{Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})}$$
 
