@@ -47,7 +47,6 @@ Var(X)=\frac{1}{\lambda^2}
 \end{gathered}$$
 
 ## Distribuição Gama
-
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
