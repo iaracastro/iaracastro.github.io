@@ -47,6 +47,7 @@ Var(X)=\frac{1}{\lambda^2}
 \end{gathered}$$
 
 ## Distribuição Gama
+A Distribuição Gama é uma família de distribuições contínuas de probabilidade de dois parâmetros. É comumente utilizada para cálculos em estudos de sobrevivência.
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
