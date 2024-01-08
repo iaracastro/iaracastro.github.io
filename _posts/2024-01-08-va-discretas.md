@@ -44,6 +44,7 @@ Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 \end{gathered}$$
 
 ### Função de Probabilidade Acumulada
+
 $$F_X(x)=Pr(X<x)$$
 
 ### Valor Esperado $E(X)$
@@ -95,6 +96,7 @@ $$Var(X \mid Y)=Var(X) \text { । } Var(Y)$$
 Seja $X$ uma variável aleatória com valor esperado $\mu=E(X)$ e desvio padräo $\sigma(X)$.
 Para um intervalo $P, P=\{x \in \mathbb{R} \| x-\mu \mid<k \sigma\}$.
 Para qualquer $k>0$, teremos:
+
 $$\begin{gathered}
 Pr(X \notin P) \leq \frac{1}{k^2} \\
 Pr(\mid X-\mu \geq k \sigma) \leq \frac{1}{k^2} \\
