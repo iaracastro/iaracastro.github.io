@@ -11,6 +11,7 @@ Seja $X$ uma variável aleatória discreta, definimos a funçăo de probabilide 
 $$p_X(x)=Pr(X-x)$$
 
 #### Função de Probabilidade Conjunta
+
 $$p_{X, Y}(x, y)-Pr(X-x \mathrm{e} Y-y)$$
 
 #### Distribuição Marginal
