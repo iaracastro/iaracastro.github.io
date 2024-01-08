@@ -4,6 +4,9 @@ title: V.A Contínuas
 #published: false
 sidebar:
     nav: docs-en
+aside:
+  toc: true
+key: 2024-01-08_en
 ---
 
 ## Distribuição Uniforme
