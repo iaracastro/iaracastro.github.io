@@ -31,17 +31,19 @@ x & 1 & 2 & 3 \\
 Pr(X=x) & 0.4 & 0.3 & 0.3
 \end{array}$$
 
-####  Distribuição Condicional
-Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo ackia, a distribuçóo condicional de $X$ dodo que $Y=0$ é simplesmente
+###  Distribuição Condicional
+Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo ackia, a distribuçóo condicional de $X$ dodo que $Y=0$ é simplesmente:
+
 $$Pr(X-x \mid Y=0) \quad \frac{1}{6} \quad \frac{1}{6} \quad \frac{1}{6}$$
 
-Variáveis Aleatórias Discretas Indepententes
+### Variáveis Aleatórias Discretas Indepententes:
+
 $$\begin{gathered}
 Pr(X=i, Y=j)=Pr(X=i) \cdot Pr(Y=j) \\
 Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 \end{gathered}$$
 
-#### Função de Probabilidade Acumulada
+### Função de Probabilidade Acumulada
 $$F_X(x)=Pr(X<x)$$
 
 ### Valor Esperado $E(X)$
@@ -50,6 +52,7 @@ $$E(X)-\sum_{y \subset S} x \cdot p(x)$$
 
 Propriedades:
 $\cdot$ Seja $Y=f(X)$,
+
 $$\begin{gathered}
 E(Y)=E(f(X))=\sum_{x \in S} f(x) \cdot p(x) \\
 E(a X+b)=a E(X)+b \\
@@ -57,6 +60,7 @@ E(b)-0
 \end{gathered}$$
 
 $\cdot$  Seja $Z-f(X, Y)$,
+
 $$\begin{gathered}
 E(Z)=E(f(X, Y))=\sum_{x: y} f(x, y) p_{X: Y}(x, y) \\
 E(a X+b Y)=a E(X)+b E(y) \\
@@ -67,6 +71,7 @@ $\cdot$ Se $X$ e $Y$ sāo independentes:
 $$E(X Y)=E(X) E(Y)$$
 
 ### Variância e Desvio Padrão $(\sigma)$
+
 $$\begin{gathered}
 Var(X)=E\left[(X-E(X))^2\right] \\
 Var(X)=E\left(X^2\right)-(E(X))^2 \\
@@ -105,22 +110,22 @@ Cov(X, Y)=E(X Y)-E(X) E(Y)=0 \\
 \rho(X, Y)=\frac{Cov(X, Y)}{\sigma(X) \sigma(Y)}
 \end{gathered}$$
 
-Propriedades de Covariância
-$$
-\begin{gathered}
+$\cdot$ Propriedades de Covariância:
+
+$$\begin{gathered}
 Cov(X, Y)=Cov(Y, X) \\
 Cov(a X, Y)=a Cov(X, Y) \\
 Cov(X+Y, Z)-Cov(X, Z)+Cov(Y, Z) \\
 Var(X+Y)-Var(X)+Var(Y)+2 Cov(X, Y) \\
 Cov(a X+b, Y)=a Cov(X, Y)
-\end{gathered}
-$$
+\end{gathered}$$
 
-Quartis
+### Quartis
+
 Qualquer valor $x_2$ onde a função acumulada acerta $q$ ou "passa" por $q$.
-$$
-F\left(x_q^{-}\right) \leq q \leq F\left(x_y\right)
-$$
+
+$$F\left(x_q^{-}\right) \leq q \leq F\left(x_y\right)$$
+
 - Primeiro Quartil: 0.25
 - Segundo Quartil: 0.5 (mediana)
 - Terceiro Quartil: 0.75
