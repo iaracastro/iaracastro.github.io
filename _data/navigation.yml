@@ -34,11 +34,11 @@ docs-en:
   - title:      Probabilidade
     children:
       - title:  Conceitos Iniciais
-        url:    /2024/08/01/conceitos-iniciais.html
+        url:    /2024/01/08/conceitos-iniciais.html
       - title:  V.A Discretas
-        url:    https://www.youtube.com/
+        url:    /2024/01/08/va-discretas.html
       - title: V.A Contínuas
-        url:    https://www.youtube.com/
+        url:    /2024/01/08/va-continuas.html
       - title: Somas e Médias de V.A
         url:    https://www.youtube.com/
       - title: Qui-Quadrado e T-Student
