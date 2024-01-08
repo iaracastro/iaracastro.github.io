@@ -12,7 +12,6 @@ key: 2024-01-08_en
 ## Distribuição Uniforme
 
 Distribuição de uma variável aleatória $X$ que tem distribuiçăo uniforme no intervalo $[a, b]$
-
 $$\begin{gathered}
 f(x)-\left\{\begin{array}{r}
 \frac{1}{b-a} ; \text { se } a \leq x \leq b \\
@@ -29,7 +28,6 @@ Var[x]=\frac{(b-a)^2}{12}
 
 ## Distribuição Exponencial
 A distribuição exponencial é a distribuiçāo de probabilidade do tempo entre eventos de um processo de Poisson.
-
 $$\begin{gathered}
 f(t)-\left\{\begin{array}{r}
 \lambda e^{\lambda t}, \text { se } t>0 \\
@@ -49,7 +47,6 @@ Var(X)=\frac{1}{\lambda^2}
 \end{gathered}$$
 
 ## Distribuição Gama
-
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
@@ -60,4 +57,22 @@ $$\begin{gathered}
 \end{array}\right.
 \end{gathered}$$
 
-$$X \sim Gamma(\alpha, \lambda)$$
+$X \sim Gamma(\alpha, \lambda)$
+
+$$E(X)=\frac{\alpha}{\lambda}$$
+
+$$\begin{gathered}
+\operatorname{Var}(X)=\frac{\alpha}{\lambda^2} \\
+\operatorname{Moda}=\frac{\alpha}{\lambda}-\frac{1}{\lambda}
+\end{gathered}$$
+
+## Distribuição Normal
+
+$$X \sim N\left(\mu, \sigma^2\right)$$
+
+$$\begin{gathered}
+f(x)=\operatorname{NormalDen}(x)=\frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-\mu)^2}{2 \sigma^2}} \\
+Z=\frac{X-\mu}{\sigma} \sim N(0,1) \\
+E(X)=\operatorname{Moda}(\mathrm{X})=\operatorname{Med}(X)=\mu \\
+\operatorname{Var}(X)=\sigma^2
+\end{gathered}$$
