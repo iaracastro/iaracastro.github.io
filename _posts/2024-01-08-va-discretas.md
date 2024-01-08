@@ -98,7 +98,8 @@ $$Var(X \mid Y)=Var(X) \text { । } Var(Y)$$
 
 Seja $X$ uma variável aleatória com valor esperado $\mu=E(X)$ e desvio padräo $\sigma(X)$.
 Para um intervalo $P$, $P=\{x \in \mathbb{R} \| x-\mu \mid<k \sigma\}$.
-Para qualquer $k>0$, teremos:
+
+\cdot Para qualquer $k>0$, teremos:
 
 $$\begin{gathered}
 Pr(X \notin P) \leq \frac{1}{k^2} \\
