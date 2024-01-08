@@ -14,44 +14,44 @@ $\cdot$ Espaço Amostral: Conjunto de todos os resultados possíveis de um exper
 
 $\cdot$ Eventos Mutuamente excludentes: Seja dois eventos $A$ e $B. A \cup B=\phi$
 
-$\cdot$ Lei da Adição: $\operatorname{Pr}(A \cup B)=\operatorname{Pr}(A)+\operatorname{Pr}(B)-\operatorname{Pr}(A \cap B)$
+$\cdot$ Lei da Adição: $Pr(A \cup B)= Pr(A)+Pr(B)-Pr(A \cap B)$
 
-$\cdot$ Lei da Multiplicação: $\operatorname{Pr}(A \cap B)=\operatorname{Pr}(B \mid A) \cdot \operatorname{Pr}(A)=\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)$
+$\cdot$ Lei da Multiplicação: $Pr(A \cap B)=Pr(B \mid A) \cdot Pr(A)=Pr(A \mid B) \cdot Pr(B)$
 
-$\cdot$ Probabilidade Condicional: Sejam dois eventos $A$ e $B$ com $\operatorname{Pr}(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
+$\cdot$ Probabilidade Condicional: Sejam dois eventos $A$ e $B$ com $Pr(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
 $$
-\operatorname{Pr}(B \mid A)=\frac{\operatorname{Pr}(A \cap B)}{\operatorname{Pr}(A)}
+\operatorname{Pr}(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}
 $$
 
 $\cdot$ Lei da Probabilidade Total:
 $$
-\operatorname{Pr}(A)=\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)+\operatorname{Pr}(A \mid \bar{B}) \cdot \operatorname{Pr}(\bar{B})
+Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})
 $$
 
 $\cdot$ Lei da Adição:
 $$
-\operatorname{Pr}(A \cup B)=\operatorname{Pr}(A)+\operatorname{Pr}(B)-\operatorname{Pr}(A \cap B)
+Pr(A \cup B)=Pr(A)+Pr(B)-Pr(A \cap B)
 $$
 
 $\cdot$ Lei da Multiplicação:
 $$
-\operatorname{Pr}(A \cap B)=\operatorname{Pr}(B \mid A) \cdot \operatorname{Pr}(A)=\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)
+Pr(A \cap B)=Pr(B \mid A) \cdot Pr(A)=Pr(A \mid B) \cdot Pr(B)
 $$
 
 $\cdot$ Probabilidade Condicional:
-Sejam dois eventos $A$ e $B$ com $\operatorname{Pr}(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
+Sejam dois eventos $A$ e $B$ com $Pr(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
 $$
-\operatorname{Pr}(B \mid A)=\frac{\operatorname{Pr}(A \cap B)}{\operatorname{Pr}(A)}
+Pr(B \mid A)=\frac{Pr(A \cap B)}{Pr(A)}
 $$
 
 $\cdot$ Lei da Probabilidade Total:
 $$
-\operatorname{Pr}(A)=\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)+\operatorname{Pr}(A \mid \bar{B}) \cdot \operatorname{Pr}(\bar{B})
+Pr(A)=Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})
 $$
 
 $\cdot$ Teorema de Bayes:
 (substituir fórmulas da multiplicação e da probabilidade total na fórmula da probabilidade condicional)
 $$
-\operatorname{Pr}(B \mid A)=\frac{\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)}{\operatorname{Pr}(A \mid B) \cdot \operatorname{Pr}(B)+\operatorname{Pr}(A \mid \bar{B}) \cdot \operatorname{Pr}(\bar{B})}
+Pr(B \mid A)=\frac{Pr(A \mid B) \cdot Pr(B)}{Pr(A \mid B) \cdot Pr(B)+Pr(A \mid \bar{B}) \cdot Pr(\bar{B})}
 $$
 
