@@ -21,7 +21,7 @@ F(x)=\left\{\begin{array}{c}
 1 \text { se } b<x
 \end{array}\right. \\
 E[x]=\frac{a+b}{2} \\
-\operatorname{Var}[x]=\frac{(b-a)^2}{12}
+Var[x]=\frac{(b-a)^2}{12}
 \end{gathered}$$
 
 ## Distribuição Exponencial
@@ -38,11 +38,11 @@ F(x)=\left\{\begin{array}{r}
 \end{array}\right.
 \end{gathered}$$
 
-$$X \sim \operatorname{Exp}(\lambda)$$
+$$X \sim Exp(\lambda)$$
 
 $$\begin{gathered}
 E(X)=\frac{1}{\lambda} \\
-\operatorname{Var}(X)=\frac{1}{\lambda^2}
+Var(X)=\frac{1}{\lambda^2}
 \end{gathered}$$
 
 ## Distribuição Gama
@@ -57,4 +57,4 @@ $$\begin{gathered}
 \end{array}\right.
 \end{gathered}$$
 
-$$X \sim \operatorname{Gamma}(\alpha, \lambda)$$
+$$X \sim Gamma(\alpha, \lambda)$$
