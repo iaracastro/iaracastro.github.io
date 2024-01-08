@@ -29,3 +29,77 @@ header:
       en-AU   : *EN
       # @end locale config
     url: /about.html
+
+docs-en:
+  - title:      Probabilidade
+    children:
+      - title:  Conceitos Iniciais
+        url:    /materials/conceitos-iniciais.html
+      - title:  V.A Discretas
+        url:    https://www.youtube.com/
+      - title: V.A Contínuas
+        url:    https://www.youtube.com/
+      - title: Somas e Médias de V.A
+        url:    https://www.youtube.com/
+      - title: Qui-Quadrado e T-Student
+        url:    https://www.youtube.com/
+      - title: Introdução a Estatística
+        url:    https://www.youtube.com/
+      
+      
+  - title:      Inferência Estatística
+    children:
+      - title:  Variância e Valor Esperado
+        url:    https://www.youtube.com/
+      - title:  Convergência e Teorema de Bayes
+        url:    https://www.youtube.com/
+      - title: Priori e Posteriori
+        url:    https://www.youtube.com/
+      - title: Distribuições Discretas e Contínuas
+        url:    https://www.youtube.com/
+      - title: Funções de Perda e Estimadores de Bayes
+        url:   https://www.youtube.com/
+      - title: Consistência de um estimador
+        url:    https://www.youtube.com/
+      - title: EMV 
+        url:   https://www.youtube.com/
+      - title: Risco e Viés
+        url:    https://www.youtube.com/
+      - title: Método dos Momentos
+        url:    https://www.youtube.com/
+      - title: Suficiência de um estimador
+        url:    https://www.youtube.com/
+      - title: Teorema da Fatorização
+        url:    https://www.youtube.com/
+      - title: Erro Quadrático Médio
+        url:    https://www.youtube.com/
+      - title: Teorema de Rao-Blackwell
+        url:    https://www.youtube.com/
+      - title: Admissibilidade e Dominância de um estimador
+        url:    https://www.youtube.com/
+      - title: Informação de Fisher
+        url:    https://www.youtube.com/
+      - title: Cramer-Ráo
+        url:    https://www.youtube.com/
+      - title: Eficiência de um estimador
+        url:    https://www.youtube.com/
+      - title: Intervalo de Confiança
+        url:    https://www.youtube.com/
+      - title: Teste de Hipóteses
+        url:    https://www.youtube.com/
+      - title: Região Crítica e de Rejeição
+        url:    https://www.youtube.com/
+      - title: Função Poder
+        url:    https://www.youtube.com/
+      - title: Tipos de Erro
+        url:    https://www.youtube.com/
+      - title: Tamanho do Teste
+        url:    https://www.youtube.com/ 
+      - title: P-valor
+        url:    https://www.youtube.com/
+      - title: Teste da razão da verossimilhança
+        url:    https://www.youtube.com/
+      - title: Teorema de Wilks
+        url:    https://www.youtube.com/
+      - title: Teste não-viesado
+        url:    https://www.youtube.com/
