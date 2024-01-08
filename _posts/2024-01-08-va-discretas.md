@@ -36,7 +36,7 @@ Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aq
 
 $$Pr(X-x \mid Y=0) \quad \frac{1}{6} \quad \frac{1}{6} \quad \frac{1}{6}$$
 
-### Variáveis Aleatórias Discretas Indepententes:
+### Variáveis Aleatórias Discretas Indepententes
 
 $$\begin{gathered}
 Pr(X=i, Y=j)=Pr(X=i) \cdot Pr(Y=j) \\
