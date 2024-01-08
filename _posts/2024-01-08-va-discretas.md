@@ -19,20 +19,20 @@ Seja $p(x, y)=P(X=x, Y=y)$ a funçào de probabilidade conjunta de $\mathrm{X}$ 
 $$f(x)=P(X-x)=\sum_n p(x, y)$$
 
 Exemplo:
-$$\begin{array}{cccc}
+$\begin{array}{cccc}
 Y & 1 & 2 & 3 \\
 0 & 0.4 & 0.1 & 0.1 \\
 1 & 0 & 0.2 & 0.2
-\end{array}$$
+\end{array}$
 
 Fazendo o total dentro de cada colune cucontranes a distribuicão marginal de $X$ :
-$$\begin{array}{cccc}
+$\begin{array}{cccc}
 x & 1 & 2 & 3 \\
 Pr(X=x) & 0.4 & 0.3 & 0.3
-\end{array}$$
+\end{array}$
 
 ###  Distribuição Condicional
-Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo ackia, a distribuçóo condicional de $X$ dodo que $Y=0$ é simplesmente:
+Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo acima, a distribução condicional de $X$ dodo que $Y=0$ é simplesmente:
 
 $$Pr(X-x \mid Y=0) \quad \frac{1}{6} \quad \frac{1}{6} \quad \frac{1}{6}$$
 
@@ -47,7 +47,7 @@ Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 
 Descreve completamente a distribuição da probabilidade de uma variável aleatória de valor real X. Determina a probabilidade de que uma observação aleatória que é extraída da população seja menor ou igual a um determinado valor. 
 
-$$F_X(x)=Pr(X<x)$$
+$$F_X(x) = Pr(X<x)$$
 
 ### Valor Esperado $E(X)$
 Também conhecido como esperança matemática, é uma média ponderada dos valores de $X$ com pesos iguais às respectivas probabilidades destes valores.
