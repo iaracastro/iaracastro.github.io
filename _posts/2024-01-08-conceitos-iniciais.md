@@ -28,9 +28,7 @@ $\cdot$ Lei da Adição:
 $$Pr(A \cup B)=Pr(A)+Pr(B)-Pr(A \cap B)$$
 
 $\cdot$ Lei da Multiplicação:
-$$
-Pr(A \cap B)=Pr(B \mid A) \cdot Pr(A)=Pr(A \mid B) \cdot Pr(B)
-$$
+$$Pr(A \cap B)=Pr(B \mid A) \cdot Pr(A)=Pr(A \mid B) \cdot Pr(B)$$
 
 $\cdot$ Probabilidade Condicional:
 Sejam dois eventos $A$ e $B$ com $Pr(A) \neq 0$. A probabilidade condicional de $B$ dado $A$ é:
