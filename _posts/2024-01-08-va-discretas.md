@@ -43,7 +43,9 @@ Pr(X=i, Y=j)=Pr(X=i) \cdot Pr(Y=j) \\
 Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 \end{gathered}$$
 
-### Função de Probabilidade Acumulada
+### Função de Probabilidade Acumulada:
+
+Descreve completamente a distribuição da probabilidade de uma variável aleatória de valor real X. Determina a probabilidade de que uma observação aleatória que é extraída da população seja menor ou igual a um determinado valor. 
 
 $$F_X(x)=Pr(X<x)$$
 
@@ -80,6 +82,7 @@ Var(X)=E\left(X^2\right)-(E(X))^2 \\
 \end{gathered}$$
 
 $\cdot$ Propriedades:
+
 $$\begin{gathered}
 Var(a X \mid b)=a^2 Var(X) \\
 \sigma(a X+b)=|a| \cdot \sigma(X) \\
@@ -94,7 +97,7 @@ $$Var(X \mid Y)=Var(X) \text { । } Var(Y)$$
 ### Desigualdade de Chebyshev
 
 Seja $X$ uma variável aleatória com valor esperado $\mu=E(X)$ e desvio padräo $\sigma(X)$.
-Para um intervalo $P, P=\{x \in \mathbb{R} \| x-\mu \mid<k \sigma\}$.
+Para um intervalo $P$, $P=\{x \in \mathbb{R} \| x-\mu \mid<k \sigma\}$.
 Para qualquer $k>0$, teremos:
 
 $$\begin{gathered}
