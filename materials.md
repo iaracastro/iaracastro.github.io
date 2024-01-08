@@ -1,9 +1,5 @@
 ---
 layout: article
-sidebar:
-  nav: docs-en
-aside:
-  toc: true
 titles:
   # @start locale config
   en      : &EN       Materials
