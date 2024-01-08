@@ -68,19 +68,59 @@ $$E(X Y)=E(X) E(Y)$$
 
 ### Variância e Desvio Padrão $(\sigma)$
 $$\begin{gathered}
-\operatorname{Var}(X)=E\left[(X-E(X))^2\right] \\
-\operatorname{Var}(X)=E\left(X^2\right)-(E(X))^2 \\
-\sigma(X)=\sqrt{\operatorname{Var}(X)}
+Var(X)=E\left[(X-E(X))^2\right] \\
+Var(X)=E\left(X^2\right)-(E(X))^2 \\
+\sigma(X)=\sqrt{Var(X)}
 \end{gathered}$$
 
 $\cdot$ Propriedades:
 $$\begin{gathered}
-\operatorname{Var}(a X \mid b)=a^2 \operatorname{Var}(X) \\
+Var(a X \mid b)=a^2 Var(X) \\
 \sigma(a X+b)=|a| \cdot \sigma(X) \\
-\operatorname{Var}(b)=0 \\
-\operatorname{Var}(X+b)-\operatorname{Var}(X) \\
-\operatorname{Var}(a X)=a^2 \operatorname{Var}(X)
+Var(b)=0 \\
+Var(X+b)-Var(X) \\
+Var(a X)=a^2 Var(X)
 \end{gathered}$$
 
 $\cdot$  Se $X$ e $Y$ säo independentes:
-$$\operatorname{Var}(X \mid Y)=\operatorname{Var}(X) \text { । } \operatorname{Var}(Y)$$
+$$Var(X \mid Y)=Var(X) \text { । } Var(Y)$$
+
+### Desigualdade de Chebyshev
+
+Seja $X$ uma variável aleatória com valor esperado $\mu=E(X)$ e desvio padräo $\sigma(X)$.
+Para um intervalo $P, P=\{x \in \mathbb{R} \| x-\mu \mid<k \sigma\}$.
+Para qualquer $k>0$, teremos:
+$$\begin{gathered}
+Pr(X \notin P) \leq \frac{1}{k^2} \\
+Pr(\mid X-\mu \geq k \sigma) \leq \frac{1}{k^2} \\
+Pr(|X-\mu|<k \sigma) \geq 1-\frac{1}{k^2}
+\end{gathered}$$
+
+### Covariância e Correlação $(\rho)$
+$$Cov(X, Y)=E(X Y)-E(X) E(Y)$$
+
+$\cdot$ Se $X$ e $Y$ são independentes:
+$$\begin{gathered}
+Cov(X, Y)=E(X Y)-E(X) E(Y)=0 \\
+\rho(X, Y)=\frac{Cov(X, Y)}{\sigma(X) \sigma(Y)}
+\end{gathered}$$
+
+Propriedades de Covariância
+$$
+\begin{gathered}
+Cov(X, Y)=Cov(Y, X) \\
+Cov(a X, Y)=a Cov(X, Y) \\
+Cov(X+Y, Z)-Cov(X, Z)+Cov(Y, Z) \\
+Var(X+Y)-Var(X)+Var(Y)+2 Cov(X, Y) \\
+Cov(a X+b, Y)=a Cov(X, Y)
+\end{gathered}
+$$
+
+Quartis
+Qualquer valor $x_2$ onde a função acumulada acerta $q$ ou "passa" por $q$.
+$$
+F\left(x_q^{-}\right) \leq q \leq F\left(x_y\right)
+$$
+- Primeiro Quartil: 0.25
+- Segundo Quartil: 0.5 (mediana)
+- Terceiro Quartil: 0.75
