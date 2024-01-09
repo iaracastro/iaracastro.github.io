@@ -51,10 +51,11 @@ Var(X)=\frac{1}{\lambda^2}
 
 ## Distribuição Gama
 A Distribuição Gama é uma família de distribuições contínuas de probabilidade de dois parâmetros. É comumente utilizada para cálculos em estudos de sobrevivência.
+
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
-\Gamma\left(\frac{1}{2}\right)-\sqrt{\pi} \\
+\Gamma\left(\frac{1}{2}\right) = \sqrt{\pi} \\
 \text { GammaDen }(t)=\left\{\begin{array}{rr}
 \frac{\lambda^\alpha}{\Gamma(\alpha)} t^{\alpha-1} e^{-\lambda l}, & \text { se } t>0 \\
 0, \text { c.c }
@@ -77,6 +78,7 @@ $$X \sim N\left(\mu, \sigma^2\right)$$
 $$\begin{gathered}
 f(x)=Normalden(x)=\frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-\mu)^2}{2 \sigma^2}} \\
 Z=\frac{X-\mu}{\sigma} \sim N(0,1) \\
-E(X)=Moda(\mathrm{X})=Med(X)=\mu \\
-Var(X)=\sigma^2
 \end{gathered}$$
+
+$$E(X)=Moda(\mathrm{X})=Med(X)=\mu$$
+$$Var(X)=\sigma^2$$
