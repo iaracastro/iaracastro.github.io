@@ -13,7 +13,7 @@ key: 2024-01-08_en
 
 Distribuição de uma variável aleatória $X$ que tem distribuiçăo uniforme no intervalo $[a, b]$
 $$\begin{gathered}
-f(x)-\left\{\begin{array}{r}
+f(x)=\left\{\begin{array}{r}
 \frac{1}{b-a} ; \text { se } a \leq x \leq b \\
 \text { Nâo rejeitar } H_0, \text { se }\left|\bar{X}_b-\mu_0\right|<c
 \end{array}\right. \\
@@ -22,6 +22,9 @@ F(x)=\left\{\begin{array}{c}
 \frac{x-a}{b-a}, \text { se } a \leq x \leq b \\
 1 \text { se } b<x
 \end{array}\right. \\
+\end{gathered}$$
+
+$$\begin{gathered}
 E[x]=\frac{a+b}{2} \\
 Var[x]=\frac{(b-a)^2}{12}
 \end{gathered}$$
