@@ -32,7 +32,7 @@ Var[x]=\frac{(b-a)^2}{12}
 ## Distribuição Exponencial
 A distribuição exponencial é a distribuiçāo de probabilidade do tempo entre eventos de um processo de Poisson.
 $$\begin{gathered}
-f(t)-\left\{\begin{array}{r}
+f(t)=\left\{\begin{array}{r}
 \lambda e^{\lambda t}, \text { se } t>0 \\
 0, \text { c.c }
 \end{array}\right. \\
@@ -55,12 +55,13 @@ A Distribuição Gama é uma família de distribuições contínuas de probabili
 $$\begin{gathered}
 \Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^* \\
 \Gamma(n)=(n-1) ! \\
-\Gamma\left(\frac{1}{2}\right) = \sqrt{\pi} \\
-\text { GammaDen }(t)=\left\{\begin{array}{rr}
+\Gamma\left(\frac{1}{2}\right) = \sqrt{\pi} 
+\end{gathered}$$
+
+$\text { GammaDen }(t)=\left\{\begin{array}{rr}
 \frac{\lambda^\alpha}{\Gamma(\alpha)} t^{\alpha-1} e^{-\lambda l}, & \text { se } t>0 \\
 0, \text { c.c }
-\end{array}\right.
-\end{gathered}$$
+\end{array}\right.$
 
 $X \sim Gamma(\alpha, \lambda)$
 
@@ -81,4 +82,5 @@ Z=\frac{X-\mu}{\sigma} \sim N(0,1) \\
 \end{gathered}$$
 
 $$E(X)=Moda(\mathrm{X})=Med(X)=\mu$$
+
 $$Var(X)=\sigma^2$$
