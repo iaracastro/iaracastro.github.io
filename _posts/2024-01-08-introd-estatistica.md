@@ -17,21 +17,21 @@ $$E(\hat{\theta})=\theta$$
 
 ## Viés
 
-$$\operatorname{Viés}(\theta)=E(\hat{\theta})-\theta$$
+$$\text{ Viés }(\theta)=E(\hat{\theta})-\theta$$
 
 ## Eficiência
 Um estimador $\hat{\theta_1}$ é dito mais eficiente que $\hat{\theta_2}$ quando
 
-$$\operatorname{Var}\left(\hat{\theta_1}\right)<\operatorname{Var}\left(\hat{\theta_2}\right)$$
+$$\text{ Var }\left(\hat{\theta_1}\right)<text{ Var }\left(\hat{\theta_2}\right)$$
 
 ## Consistência
 Um estimador $\hat{\theta}$ é dito consistente quando, para todo $\epsilon>0$
 
-$$\lim _{n \rightarrow \infty} \operatorname{Pr}(|\hat{\theta}-\theta|>\epsilon)=0$$
+$$\lim _{n \rightarrow \infty} text{ Pr }(|\hat{\theta}-\theta|>\epsilon)=0$$
 
 ##Erro Quadrático Médio (EQM)
 
 $$\begin{gathered}
-\operatorname{EQM}(T ; \theta)=E\left((T-\theta)^2\right) \\
-\operatorname{EQM}(T ; \theta)=\operatorname{Var}(T)+(\operatorname{Viés}(T))^2
+\text{ EQM }(T ; \theta)=E\left((T-\theta)^2\right) \\
+\text{ EQM }(T ; \theta)=\text{Var}(T)+(\operatorname{ Viés }(T))^2
 \end{gathered}$$
