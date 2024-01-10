@@ -33,5 +33,5 @@ $$\lim _{n \rightarrow \infty} text{ Pr }(|\hat{\theta}-\theta|>\epsilon)=0$$
 
 $$\begin{gathered}
 \text{ EQM }(T ; \theta)=E\left((T-\theta)^2\right) \\
-\text{ EQM }(T ; \theta)=\text{Var}(T)+(\operatorname{ Viés }(T))^2
+\text{ EQM }(T ; \theta)=\text{Var}(T)+(\text{ Viés }(T))^2
 \end{gathered}$$
