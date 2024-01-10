@@ -30,7 +30,7 @@ por exemplo, $Pr(X=1 ; Y=1)=0$ ($X$ e $Y$ nunca são 1 ao mesmo tempo), enquanto
 
 $$\begin{array}{cccc}
 x & 1 & 2 & 3 \\
-\operatorname{Pr}(X=x) & 0.4 & 0.3 & 0.3
+Pr(X=x) & 0.4 & 0.3 & 0.3
 \end{array}$$
 
 ###  Distribuição Condicional
