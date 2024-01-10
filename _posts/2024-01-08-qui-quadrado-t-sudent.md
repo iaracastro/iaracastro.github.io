@@ -28,7 +28,7 @@ $n$ é pequeno e a medida que $n$ cresce, a distribuição t de Student se aprox
 $$T \sim t(n)$$
 
 $$\begin{gathered}
-f(t)=T \text{ Den }(t ; n)=\frac{\Gamma\left(\frac{n \mid 1}{2}\right)}{\Gamma\left(\frac{n}{2}\right) \sqrt{\pi n}}\left(1+\frac{t^2}{n}\right)^{-(n-1) / 2} \\
+f(t)=T \text{ Den }(t ; n)=\frac{\Gamma\left(\frac{n + 1}{2}\right)}{\Gamma\left(\frac{n}{2}\right) \sqrt{\pi n}}\left(1+\frac{t^2}{n}\right)^{-(n-1) / 2} \\
 E(T)=0, \quad n \geq 2 \\
 \text{ Var }(T)=\frac{n}{n-2}, \quad n \geq 3
 \end{gathered}$$
