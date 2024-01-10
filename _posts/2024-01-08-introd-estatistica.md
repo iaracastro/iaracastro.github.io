@@ -22,7 +22,7 @@ $$\text{ Viés }(\theta)=E(\hat{\theta})-\theta$$
 ## Eficiência
 Um estimador $\hat{\theta_1}$ é dito mais eficiente que $\hat{\theta_2}$ quando
 
-$$\text{ Var }\left(\hat{\theta_1}\right)<text{ Var }\left(\hat{\theta_2}\right)$$
+$$\text{ Var }\left(\hat{\theta_1}\right)< \text{ Var }\left(\hat{\theta_2}\right)$$
 
 ## Consistência
 Um estimador $\hat{\theta}$ é dito consistente quando, para todo $\epsilon>0$
