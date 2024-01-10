@@ -20,18 +20,18 @@ Seja $p(x, y)=P(X=x, Y=y)$ a funçào de probabilidade conjunta de $\mathrm{X}$ 
 $$f(x)=P(X-x)=\sum_n p(x, y)$$
 
 Exemplo:
+
 | $Y \backslash X$ | 1 | 2 | 3 |
 | --- | --- | --- | --- |
 | 0 | 0.4 | 0.1 | 0.1 |
 | 1 | 0 | 0.2 | 0.2 |
 
 por exemplo, $Pr(X=1 ; Y=1)=0$ ($X$ e $Y$ nunca são 1 ao mesmo tempo), enquanto Pr$(X=1 ; Y=0)=40\% $. Fazendo o total dentro de cada coluna encontramos a distribuição marginal de $X$:
-$$
-\begin{array}{cccc}
+
+$$\begin{array}{cccc}
 x & 1 & 2 & 3 \\
 \operatorname{Pr}(X=x) & 0.4 & 0.3 & 0.3
-\end{array}
-$$
+\end{array}$$
 
 ###  Distribuição Condicional
 Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo acima, a distribução condicional de $X$ dodo que $Y=0$ é simplesmente:
@@ -124,8 +124,8 @@ $\cdot$ Propriedades de Covariância:
 $$\begin{gathered}
 Cov(X, Y)=Cov(Y, X) \\
 Cov(a X, Y)=a Cov(X, Y) \\
-Cov(X+Y, Z)-Cov(X, Z)+Cov(Y, Z) \\
-Var(X+Y)-Var(X)+Var(Y)+2 Cov(X, Y) \\
+Cov(X+Y, Z)=Cov(X, Z)+Cov(Y, Z) \\
+Var(X+Y)=Var(X)+Var(Y)+2 Cov(X, Y) \\
 Cov(a X+b, Y)=a Cov(X, Y)
 \end{gathered}$$
 
