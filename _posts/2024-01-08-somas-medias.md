@@ -8,12 +8,11 @@ sidebar:
 
 ## Definições
 Seja $\left(X_1, X_2, \ldots, X_*\right)$ um conjunto de variáveis aleatórias de uma distribuição $X$. Definimos:
-$$
-\begin{gathered}
+
+$$\begin{gathered}
 S_n=X_1+X_2+\ldots+X_n \\
 \bar{X}=\frac{S_n}{n}=\frac{X_1-X_2+\ldots+X_n}{n}
-\end{gathered}
-$$
+\end{gathered}$$
 
 ## Propriedades da Distribuição Normal
 Se $X_1 \sim N\left(\mu_1, \sigma_1^2\right)$ e $X_2 \sim N\left(\mu_2, \sigma_2^2\right)$ são independentes, entấo qualquer combinaçẫo linear: $X=a X_1+b X_2$ também terá distribuição normal.
@@ -21,12 +20,11 @@ Se $X_1 \sim N\left(\mu_1, \sigma_1^2\right)$ e $X_2 \sim N\left(\mu_2, \sigma_2
 $$a X_1+b X_2 \sim N\left(a \mu_1+b \mu_2, a^2 \sigma_1^2+b^2 \sigma_2^2\right)$$
 
 Se $X_i \sim N\left(\mu, \text{sigman}^2\right)$
-$$
-\begin{gathered}
+
+$$\begin{gathered}
 S_{n^c} \sim N\left(n \mu, n \sigma^2\right) \\
 X \sim N\left(\mu, \frac{\sigma^2}{n}\right)
-\end{gathered}
-$$
+\end{gathered}$$
 
 Se $X_1, X_2, \ldots, X_n$ säo i.i.d $\text{com} X_i \sim N\left(\mu, \sigma^2\right)$
 
