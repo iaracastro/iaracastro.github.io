@@ -8,11 +8,11 @@ sidebar:
 
 ### Função de Probabilidade
 Seja $X$ uma variável aleatória discreta, definimos a funçăo de probabilide de $X$ :
-$$p_X(x)=Pr(X-x)$$
+$$p_X(x) = Pr(X=x)$$
 
 #### Função de Probabilidade Conjunta
 
-$$p_{X, Y}(x, y) = Pr(X-x \; \mathrm{e} \; Y-y)$$
+$$p_{X, Y}(x, y) = Pr(X=x \; \mathrm{e} \; Y=y)$$
 
 #### Distribuição Marginal
 Oferece as probabilidades de vários valores das variáveis no subconjunto sem referenciar aos valores das outras variáveis.
@@ -21,9 +21,17 @@ $$f(x)=P(X-x)=\sum_n p(x, y)$$
 
 Exemplo:
 | $Y \backslash X$ | 1 | 2 | 3 |
-| :---: | :---: | :---: | :---: |
+| --- | --- | --- | --- |
 | 0 | 0.4 | 0.1 | 0.1 |
 | 1 | 0 | 0.2 | 0.2 |
+
+por exemplo, $Pr(X=1 ; Y=1)=0$ ($X$ e $Y$ nunca são 1 ao mesmo tempo), enquanto Pr$(X=1 ; Y=0)=40\% $. Fazendo o total dentro de cada coluna encontramos a distribuição marginal de $X$:
+$$
+\begin{array}{cccc}
+x & 1 & 2 & 3 \\
+\operatorname{Pr}(X=x) & 0.4 & 0.3 & 0.3
+\end{array}
+$$
 
 ###  Distribuição Condicional
 Valor de $X$ é conhecido, então a distribuição de $Y$ é condicional dado aquele valor de $X=x$. Exemplo: valor de $Y$. No exemplo acima, a distribução condicional de $X$ dodo que $Y=0$ é simplesmente:
@@ -40,12 +48,13 @@ Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 ### Função de Probabilidade Acumulada:
 
 Descreve completamente a distribuição da probabilidade de uma variável aleatória de valor real X. Determina a probabilidade de que uma observação aleatória que é extraída da população seja menor ou igual a um determinado valor. 
-
+$$\begin{gathered}
 $$F_X(x) = Pr(X<x)$$
+\end{gathered}$$
 
 ### Valor Esperado $E(X)$
 Também conhecido como esperança matemática, é uma média ponderada dos valores de $X$ com pesos iguais às respectivas probabilidades destes valores.
-$$E(X)-\sum_{y \subset S} x \cdot p(x)$$
+$$E(X)=\sum_{y \subset S} x \cdot p(x)$$
 
 Propriedades:
 $\cdot$ Seja $Y=f(X)$,
@@ -53,10 +62,10 @@ $\cdot$ Seja $Y=f(X)$,
 $$\begin{gathered}
 E(Y)=E(f(X))=\sum_{x \in S} f(x) \cdot p(x) \\
 E(a X+b)=a E(X)+b \\
-E(b)-0
+E(b)=0
 \end{gathered}$$
 
-$\cdot$  Seja $Z-f(X, Y)$,
+$\cdot$  Seja $Z=f(X, Y)$,
 
 $$\begin{gathered}
 E(Z)=E(f(X, Y))=\sum_{x: y} f(x, y) p_{X: Y}(x, y) \\
@@ -81,7 +90,7 @@ $$\begin{gathered}
 Var(a X \mid b)=a^2 Var(X) \\
 \sigma(a X+b)=|a| \cdot \sigma(X) \\
 Var(b)=0 \\
-Var(X+b)-Var(X) \\
+Var(X+b)=Var(X) \\
 Var(a X)=a^2 Var(X)
 \end{gathered}$$
 
