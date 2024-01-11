@@ -48,8 +48,9 @@ Pr(X=i Y=j)=\frac{Pr(X=i \text { e } Y=j)}{Pr(Y=j)}=Pr(X=i)
 ### Função de Probabilidade Acumulada:
 
 Descreve completamente a distribuição da probabilidade de uma variável aleatória de valor real X. Determina a probabilidade de que uma observação aleatória que é extraída da população seja menor ou igual a um determinado valor. 
+
 $$\begin{gathered}
-$$F_X(x) = Pr(X<x)$$
+F_X(x) = Pr(X<x)
 \end{gathered}$$
 
 ### Valor Esperado $E(X)$
