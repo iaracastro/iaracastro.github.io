@@ -50,7 +50,7 @@ docs-en:
   - title:      Inferência Estatística
     children:
       - title:  Variância e Valor Esperado
-        url:    2024/01/09/variancia-valor-eseprado.html
+        url:    2024/01/09/variancia-valor-esperado.html
       - title:  Convergência, Teorema de Bayes, TCL e LGN
         url:    2024/01/09/convergencia-bayes-tcl-lgn.html
       - title:  Inferência Frequentista e Bayesiana
@@ -60,7 +60,7 @@ docs-en:
       - title: Distribuições Discretas e Contínuas
         url:    2024/01/09/distribuicoes.html
       - title: Funções de Perda e Estimadores de Bayes
-        url:   https://www.youtube.com/
+        url:    2024/01/09/perda-estimador-bayes.html
       - title: Consistência de um estimador
         url:    https://www.youtube.com/
       - title: EMV 
