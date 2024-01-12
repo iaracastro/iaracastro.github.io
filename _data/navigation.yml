@@ -50,11 +50,13 @@ docs-en:
   - title:      Inferência Estatística
     children:
       - title:  Variância e Valor Esperado
-        url:    https://www.youtube.com/
-      - title:  Convergência e Teorema de Bayes
-        url:    https://www.youtube.com/
+        url:    2024/01/09/variancia-valor-eseprado.html
+      - title:  Convergência, Teorema de Bayes, TCL e LGN
+        url:    2024/01/09/convergencia-bayes-tcl-lgn.html
+      - title:  Inferência Frequentista e Bayesiana
+        url:    2024/01/09/inferencia-freq-bayes.html
       - title: Priori e Posteriori
-        url:    https://www.youtube.com/
+        url:    2024/01/09/priori-posteriori.html
       - title: Distribuições Discretas e Contínuas
         url:    https://www.youtube.com/
       - title: Funções de Perda e Estimadores de Bayes
