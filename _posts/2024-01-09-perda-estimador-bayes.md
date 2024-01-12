@@ -31,11 +31,11 @@ $$E[L(\theta, \delta(\bar{x})) \mid \bar{x}]=\int_{\Omega} L(\theta, \delta) \xi
 
 ### Exemplos:
 
-$\operatorname{Gamma}(\alpha, \rho):$
+$\text{Gamma}(\alpha, \rho):$
 
 $$\delta=\frac{\alpha+n \bar{x}}{\beta+n}=\frac{\alpha+y}{\beta+n}, y=\sum_1^n x_i$$
 
-$\operatorname{Bet} \alpha(\alpha, \beta):$
+$\text{Bet} \alpha(\alpha, \beta):$
 
 $$\delta^*=\frac{\alpha}{\alpha+\beta}$$
 
