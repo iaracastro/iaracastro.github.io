@@ -29,9 +29,13 @@ Um estimador $\hat{\theta}$ é dito consistente quando, para todo $\epsilon>0$
 
 $$\lim _{n \rightarrow \infty} text{ Pr }(|\hat{\theta}-\theta|>\epsilon)=0$$
 
-##Erro Quadrático Médio (EQM)
+## Erro Quadrático Médio (EQM)
 
 $$\begin{gathered}
 \text{ EQM }(T ; \theta)=E\left((T-\theta)^2\right) \\
 \text{ EQM }(T ; \theta)=\text{Var}(T)+(\text{ Viés }(T))^2
 \end{gathered}$$
+
+## Estimador Consistente
+
+Um estimador $\delta$ é dito consistente quando: $\delta_n \rightarrow \theta$, para $n \rightarrow \infty$
