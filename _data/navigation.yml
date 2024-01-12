@@ -61,10 +61,8 @@ docs-en:
         url:    2024/01/09/distribuicoes.html
       - title: Funções de Perda e Estimadores de Bayes
         url:    2024/01/09/perda-estimador-bayes.html
-      - title: Consistência de um estimador
-        url:    https://www.youtube.com/
       - title: EMV 
-        url:   https://www.youtube.com/
+        url:   2024/01/09/emv.html
       - title: Risco e Viés
         url:    https://www.youtube.com/
       - title: Método dos Momentos
