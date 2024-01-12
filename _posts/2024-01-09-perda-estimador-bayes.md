@@ -10,11 +10,11 @@ sidebar:
 
 Uma função de perda especifica uma penalidade para uma estimativa incorreta de um modelo estatístico. Funções de perda típicas podem especificar a penalidade em função da diferença entre a estimativa e o valor real.
 
-### Perda Quadrática:
+### Perda Quadrática
 
 $$L(\theta, \delta)-(\delta-\theta)^2$$
 
-### Perda Absoluta:
+### Perda Absoluta
 
 $$L(\theta, \delta)=|\delta-\theta|$$
 
@@ -29,7 +29,7 @@ $$E[L(\theta, \delta(\bar{x})) \mid \bar{x}]=\int_{\Omega} L(\theta, \delta) \xi
 - Na perda quadrátca: $\theta_{\text {buye }}=$ média da posteriori
 - Na perda absoluta: $\theta_{\text {suyes }}=$ mediana da posteriori
 
-### Exemplos:
+### Exemplos
 
 $\text{Gamma}(\alpha, \rho):$
 
