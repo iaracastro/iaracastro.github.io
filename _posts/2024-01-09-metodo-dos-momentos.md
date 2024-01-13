@@ -27,8 +27,8 @@ O estimador de momentos é a solução da igualdade dos momentos amostrais com o
 ### Resolver o sistema de $\mathrm{n}$ equações:
 
 - $\mu_1(\theta)=m_1$
-- $\mu_2(\theta)=m_2$
-.
-.
-.
+- $\mu_2(\theta)=m_2$ \
+. \
+. \
+. 
 - $\mu_n(\theta)=m_n$
