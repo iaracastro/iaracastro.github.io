@@ -1,5 +1,5 @@
 ---
-tags: probability
+tags: statistics
 title: Convergência, Teorema de Bayes, TCL e LGN
 #published: false
 sidebar:
