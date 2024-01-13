@@ -64,11 +64,11 @@ docs-en:
       - title: EMV 
         url:   2024/01/09/emv.html
       - title: Risco e Viés
-        url:    2024/01/09/rico-vies.html
+        url:    2024/01/09/risco-vies.html
       - title: Método dos Momentos
         url:    2024/01/09/metodo-dos-momentos.html
       - title: Suficiência de um estimador
-        url:    https://www.youtube.com/
+        url:    2024/01/09/suficiencia-estimador.html
       - title: Teorema da Fatorização
         url:    https://www.youtube.com/
       - title: Erro Quadrático Médio
