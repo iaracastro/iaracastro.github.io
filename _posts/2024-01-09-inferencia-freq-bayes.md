@@ -1,5 +1,5 @@
 ---
-tags: probability
+tags: statistics
 title: Inferência Frequentista e Bayesiana
 #published: false
 sidebar:
