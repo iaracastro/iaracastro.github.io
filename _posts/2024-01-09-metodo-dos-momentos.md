@@ -13,12 +13,9 @@ O estimador de momentos é a solução da igualdade dos momentos amostrais com o
 | Definição: Método dos Momentos (MM) |
 | --------- |
 | Suponha que $X_1, X_2, \ldots, X_n$ formam uma amostra aleatória com distribuição conjunta $f_n\left(X_1, X_2, \ldots, X_n \mid \theta\right), \theta \in \Omega \subseteq \mathbb{R}^k$ e que o $k$-ésimo momento existe. Defina $\mu_j(\theta)=E\left[X_1^j \mid \theta\right]$ e suponha que $\mu: \Omega \rightarrow \mathbb{R}^k$ é biúnivoca, de modo que sua inversa é
-
 $$\theta=M\left(\mu_1(\theta), \ldots, \mu_k(\theta)\right)$$
-
 Dados os momentos amostrais $m_j:=\frac{1}{n} \sum_{i=1}^n X_i^j, j=1, \ldots, k$, o estimador de momentos (EMM) de $\theta$ é
-
-$$\hat{\theta}_{E M M}=M\left(m_1, \ldots, m_k\right)$$|
+$$\hat{\theta}_{E M M}=M\left(m_1, \ldots, m_k\right)$$ |
 
 ## Primeiro Momento
 
