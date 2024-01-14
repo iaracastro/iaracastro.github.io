@@ -31,8 +31,8 @@ $$\begin{aligned}
 
 ### Estimador não-viesado da variância
 
-Seja $\boldsymbol{X}=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória, com $E\left[X_1\right]=m e$ $\operatorname{Var}\left(X_1\right)=v<\infty$. Então
+Seja $\boldsymbol{X}= \{X_1, X_2, \ldots, X_n \}$ uma amostra aleatória, com $E\left[X_1\right]=m e$ $\text{Var}\left(X_1\right)=v<\infty$. Então
 
+$$\delta_1(\boldsymbol{X})=\frac{1}{n-1} \sum_{i=1}^n \left(X_i-\bar{X}_n \right )^2$$
 
-$$\delta_1(\boldsymbol{X})=\frac{1}{n-1} \sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2$$
 é um estimador não-viesado de $v$.
