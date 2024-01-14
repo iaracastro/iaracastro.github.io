@@ -22,7 +22,7 @@ Quando a estatística suficiente não é representada por um único valor, e sim
 
 ### Suficiência Mínima
 
-Definição 1: Uma estatística T é dita mínima suficiente se T é suficiente e é função de qualquer outra estatística suficiente. Analogamente, um vetor $T=\left\{T_1, T_2, \ldots, T_k\right\}$ é dito minimamente suficiente conjunto se é função de qualquer outro vetor de estatísticas suficientes. \
+Definição 1: Uma estatística T é dita mínima suficiente se T é suficiente e é função de qualquer outra estatística suficiente. Analogamente, um vetor $T= \{ T_1, T_2, \ldots, T_k \}$ é dito minimamente suficiente conjunto se é função de qualquer outro vetor de estatísticas suficientes. \
 Definição 2: Uma estatística T é mínima suficiente se para cada estatística T' e para todo $x, y \in X$, $T(x)=T(y)$ sempre que $T^{\prime}(x)=T^{\prime}(y)$. Em outras palavras, T é uma função de $\mathrm{T}^{\prime}$.
 
 ### Teorema
