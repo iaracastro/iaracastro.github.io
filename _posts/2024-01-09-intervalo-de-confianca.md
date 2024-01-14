@@ -21,7 +21,7 @@ Dizemos que $I(X)=(A(X), B(X))$ é um intervalo de confiança de $100 \gamma \%$
 Lembremos que
 $$U=\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}} \sim T(n-1) .$$
 
-Para $c>0$, podemos computar $text{Pr}(-c<U<c)=\gamma$ :
+Para $c>0$, podemos computar $text{Pr}(-c < U < c)=\gamma$ :
 $$\begin{aligned}
 & text{Pr}\left(-c<\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}}<c\right)=\gamma, \\
 & text{Pr}\left(\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}<\mu<\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}\right)=\gamma, \\
@@ -32,11 +32,11 @@ Concluímos que $c=F_T^{-1}\left(\frac{1+\gamma}{2} ; n-1\right)$.
 
 No caso do intervalo de confiança para o parâmetro de média, temos
 
-$$text{Pr}\{A(\boldsymbol{X})<g(\mu)<B(\boldsymbol{X})\} \geq \gamma,$$
+$$text{Pr}\{A(X) < g(\mu) < B(X)\} \geq \gamma,$$
 $text{com} g(\mu)=\mu \mathrm{e}$
 $$\begin{aligned}
-& A(\boldsymbol{X})=\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n-\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}}, \\
-& B(\boldsymbol{X})=\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n+\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}} .
+& A(X)=\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n-\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}}, \\
+& B(X)=\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n+\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}} .
 \end{aligned}$$
 
 ### Mapeando uma distribuição normal genérica $\sim(\mu, \sigma)$ para uma distribuição normal padrão $\sim(0,1)$
@@ -56,13 +56,13 @@ Portanto a probabilidade de extrairmos um elemento da população com distribui�
 
 | Definição |
 | --- |
-| Suponha que dispomos de dados $\boldsymbol{X}=\{X_1, X_2, \ldots, X_n\}$ com f.d.p. comum $f(x \mid \theta)$, e estamos interessados em testar as hipóteses:
+| Suponha que dispomos de dados $X=\{X_1, X_2, \ldots, X_n\}$ com f.d.p. comum $f(x \mid \theta)$, e estamos interessados em testar as hipóteses:
 $$H_0: g(\theta)=g_0$$
 $$H_1: g(\theta) \neq g_0$$
-de modo que existe um teste $\delta_{g_0}$ com nível $\alpha_0$ destas hipóteses. Para cada $\boldsymbol{X}=\boldsymbol{x}$, defina
-$$w(\boldsymbol{x})=\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado que } \boldsymbol{X}=\boldsymbol{x}\} .$$
+de modo que existe um teste $\delta_{g_0}$ com nível $\alpha_0$ destas hipóteses. Para cada $X=\boldsymbol{x}$, defina
+$$w(\boldsymbol{x})=\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado que } X=\boldsymbol{x}\} .$$
 Fazendo o nível de confiança do intervalo $\gamma=1-\alpha_0$, temos
-$$\text{Pr}\left(g\left(\theta_0\right) \in w(\boldsymbol{X}) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$ |
+$$\text{Pr}\left(g\left(\theta_0\right) \in w(X) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$ |
 
 ### Interpretação do Gráfico
 
