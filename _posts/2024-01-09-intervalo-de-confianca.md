@@ -41,9 +41,9 @@ $$\begin{aligned}
 & H_1: g(\theta) \neq g_0,
 \end{aligned}$$
 de modo que existe um teste $\delta_{g_0}$ com nível $\alpha_0$ destas hipóteses. Para cada $\boldsymbol{X}=\boldsymbol{x}$, defina
-$$w(\boldsymbol{x})=\left\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado que } \boldsymbol{X}=\boldsymbol{x}\right\} .$$
+$$w(\boldsymbol{x})=\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado que } \boldsymbol{X}=\boldsymbol{x}\} .$$
 Fazendo o nível de confiança do intervalo $\gamma=1-\alpha_0$, temos
-$$\operatorname{Pr}\left(g\left(\theta_0\right) \in w(\boldsymbol{X}) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$ |
+$$\text{Pr}\left(g\left(\theta_0\right) \in w(\boldsymbol{X}) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$ |
 
 ## Interpretação do Intervalo de Confiança
 
@@ -52,7 +52,7 @@ O intervalo de confiança $(100-\alpha) \%$ para um parâmetro consiste em um in
 ### Observações 
 
 - Um intervalo de confiança não é uma afirmação sobre o(s) parâmetro(s)!
-A afirmação probabilística da forma $\operatorname{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ diz respeito à distribuição conjunta das variáveis aleatórias $A(\boldsymbol{X})$ e $B(\boldsymbol{X})$ para um valor fixo de $\theta$ - e, portanto, de $g(\theta)$.
+A afirmação probabilística da forma $\text{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ diz respeito à distribuição conjunta das variáveis aleatórias $A(\boldsymbol{X})$ e $B(\boldsymbol{X})$ para um valor fixo de $\theta$ - e, portanto, de $g(\theta)$.
 
 - Intervalos de confiança são procedimentos
 
