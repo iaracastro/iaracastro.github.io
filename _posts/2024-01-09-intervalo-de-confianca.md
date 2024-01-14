@@ -50,10 +50,10 @@ O intervalo de confiança $(100-\alpha) \%$ para um parâmetro consiste em um in
 ### Observações 
 
 - Um intervalo de confiança não é uma afirmação sobre o(s) parâmetro(s)!
-A afirmação probabilística da forma $\text{Pr}\{A(X)<g(\theta)<B(X)\}=\gamma$ diz respeito à distribuição conjunta das variáveis aleatórias $A(\boldsymbol{X})$ e $B(\boldsymbol{X})$ para um valor fixo de $\theta$ - e, portanto, de $g(\theta)$.
+A afirmação probabilística da forma $\text{Pr} \{ A(X)<g(\theta)<B(X) \} = \gamma$ diz respeito à distribuição conjunta das variáveis aleatórias $A(X)$ e $B(X)$ para um valor fixo de $\theta$ - e, portanto, de $g(\theta)$.
 
 - Intervalos de confiança são procedimentos
 
-Como de costume na teoria ortodoxa (frequentista), o foco da construção de um intervalo confiança está em dar garantias probabilísticas com relação à distribuição dos dados. Dizer que $\operatorname{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ é dizer que, se eu gerasse $M$ grande amostras aleatórias $\boldsymbol{X}^{(1)}, \boldsymbol{X}^{(2)}, \ldots, \boldsymbol{X}^{(M)}$ de tamanho $n$ e construisse $M$ intervalos $I\left(\boldsymbol{X}^{(1)}\right), I\left(X^{(2)}\right), \ldots, I\left(X^{(M)}\right)$, eu esperaria encontrar:
+Como de costume na teoria ortodoxa (frequentista), o foco da construção de um intervalo confiança está em dar garantias probabilísticas com relação à distribuição dos dados. Dizer que $\text{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ é dizer que, se eu gerasse $M$ grande amostras aleatórias $\boldsymbol{X}^{(1)}, \boldsymbol{X}^{(2)}, \ldots, \boldsymbol{X}^{(M)}$ de tamanho $n$ e construisse $M$ intervalos $I\left(\boldsymbol{X}^{(1)}\right), I\left(X^{(2)}\right), \ldots, I\left(X^{(M)}\right)$, eu esperaria encontrar:
 
 $$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(X^{(i)}\right)\right) \approx \gamma$$
