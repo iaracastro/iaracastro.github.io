@@ -35,7 +35,7 @@ Portanto a probabilidade de extrairmos um elemento da população com distribui�
 
 | Definição |
 | --- |
-| Suponha que dispomos de dados $\boldsymbol{X}=\left\{X_1, X_2, \ldots, X_n\right\}$ com f.d.p. comum $f(x \mid \theta)$, e estamos interessados em testar as hipóteses:
+| Suponha que dispomos de dados $\boldsymbol{X}=\{X_1, X_2, \ldots, X_n\}$ com f.d.p. comum $f(x \mid \theta)$, e estamos interessados em testar as hipóteses:
 $$\begin{aligned}
 & H_0: g(\theta)=g_0, \\
 & H_1: g(\theta) \neq g_0,
@@ -48,3 +48,14 @@ $$\operatorname{Pr}\left(g\left(\theta_0\right) \in w(\boldsymbol{X}) \mid \thet
 ## Interpretação do Intervalo de Confiança
 
 O intervalo de confiança $(100-\alpha) \%$ para um parâmetro consiste em um intervalo aleatório que possui a propriedade de conter o valor real desse parâmetro com uma probabilidade de $(100-\alpha) \%$. O termo aleatório nessa interpretação indica que, antes de realizarmos a amostragem e calcularmos o intervalo de confiança de acordo com o procedimento apropriado, haverá uma probabilidade de $(100-\alpha) \%$ de o intervalo vir a conter o real valor do parâmetro de interesse.
+
+### Observações 
+
+- Um intervalo de confiança não é uma afirmação sobre o(s) parâmetro(s)!
+A afirmação probabilística da forma $\operatorname{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ diz respeito à distribuição conjunta das variáveis aleatórias $A(\boldsymbol{X})$ e $B(\boldsymbol{X})$ para um valor fixo de $\theta$ - e, portanto, de $g(\theta)$.
+
+- Intervalos de confiança são procedimentos
+
+Como de costume na teoria ortodoxa (frequentista), o foco da construção de um intervalo confiança está em dar garantias probabilísticas com relação à distribuição dos dados. Dizer que $\operatorname{Pr}\{A(\boldsymbol{X})<g(\theta)<B(\boldsymbol{X})\}=\gamma$ é dizer que, se eu gerasse $M$ grande amostras aleatórias $\boldsymbol{X}^{(1)}, \boldsymbol{X}^{(2)}, \ldots, \boldsymbol{X}^{(M)}$ de tamanho $n$ e construisse $M$ intervalos $I\left(\boldsymbol{X}^{(1)}\right), I\left(\boldsymbol{X}^{(2)}\right), \ldots, I\left(\boldsymbol{X}^{(M)}\right)$, eu esperaria encontrar:
+
+$$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(\boldsymbol{X}^{(i)}\right)\right) \approx \gamma$$
