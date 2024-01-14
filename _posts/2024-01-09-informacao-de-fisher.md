@@ -8,6 +8,8 @@ sidebar:
 
 # Informação de Fisher : $I(\theta)$
 
+Seja $\boldsymbol{X}=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória e seja $I_n(\theta)=E_\theta\left[-\lambda_n^{\prime \prime}(\boldsymbol{X} \mid \theta)\right]$ a informação de Fisher da amostra. Então:
+
 $$l(x \mid \theta)=\log f(x \mid \theta)$$
 
 $f(x \mid \theta)$ é diferenciável em $\theta$ :
