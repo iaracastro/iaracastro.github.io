@@ -10,7 +10,7 @@ sidebar:
 
 O limite de Cramér-Rao afirma que o inverso da informação de Fisher é um limite inferior na variância de qualquer estimador não enviesado de $\theta$. $(\hat{\theta})$
 
-### Information Inequality:
+### Information Inequality
 
 $$\text{Var}_\theta(\delta) \geq \frac{\left[m^{\prime}(\theta)\right]^2}{n I(\theta)}$$
 
