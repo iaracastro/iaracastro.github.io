@@ -8,17 +8,37 @@ sidebar:
 
 ## Definição
 
-De acordo com a interpretação frequentista, um intervalo de confiança para um determinado parâmetro da população mostra um intervalo de valores do verdadeiro parâmetro da população compatíveis com os dados da amostra, com um certo nível de confiança, seja o parãmetro a média de uma determinada distribuição, o risco relativo, a razão de chances, a variância, etc. O cálculo do intervalo de confiança é um dos principais resultados de uma análise estatística
+De acordo com a interpretação frequentista, um intervalo de confiança para um determinado parâmetro da população mostra um intervalo de valores do verdadeiro parâmetro da população compatíveis com os dados da amostra, com um certo nível de confiança, seja o parãmetro a média de uma determinada distribuição, o risco relativo, a razão de chances, a variância, etc. O cálculo do intervalo de confiança é um dos principais resultados de uma análise estatística.
 
-Suponha que $z_p$ significa o valor da variável aleatória $\mathbf{Z}$ que segue a distribuição normal padrão, $N(0,1)$, para o qual $P\left(z \leq z_p \right)=p$, ou seja, a área sob a curva normal padrão à esquerda de $z_p$ é igual a $p$. Assim, para $p=0,01(1 \%), z_{0,01}=-2,33$. 
+Seja $X=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Sejam $A(X)$ e $B(X)$ duas estatísticas de modo que valha
+$$\text{Pr}\{A(X)<g(\theta)<B(X)\} \geq \gamma$$
 
-<div style="float:middle; margin:2em;">
-    <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/images/distribuicao-normal-padrao.png"/>
-</div>
+Dizemos que $I(X)=(A(X), B(X))$ é um intervalo de confiança de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade for uma igualdade para todo $\theta \in \Omega$, dizemos que o intervalo é exato.
 
-Para uma população com uma distribuição normal padrão, dado um valor $\alpha(0 \leq \alpha \leq 1)$, podemos obter ० intervalo $\left(z_{\alpha / 2}, z_{1-\alpha / 2}\right)$ que conterá com probabilidade $(1-\alpha)$ o valor de um elemento extraído aleatoriamente dessa população. Para a distribuição normal padrão, $z_{\alpha / 2}=-z_{1-\alpha / 2}$.
+### Intervalo de confiança para a média no caso Normal
 
-### Uma distribuição normal genérica $\sim(\mu, \sigma)$
+Lembremos que
+$$U=\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}} \sim T(n-1) .$$
+
+Para $c>0$, podemos computar $text{Pr}(-c<U<c)=\gamma$ :
+$$\begin{aligned}
+& text{Pr}\left(-c<\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}}<c\right)=\gamma, \\
+& text{Pr}\left(\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}<\mu<\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}\right)=\gamma, \\
+& T_{n-1}(c)-T_{n-1}(-c)=2 T_{n-1}(c)-1=\gamma .
+\end{aligned}$$
+
+Concluímos que $c=F_T^{-1}\left(\frac{1+\gamma}{2} ; n-1\right)$.
+
+No caso do intervalo de confiança para o parâmetro de média, temos
+
+$$text{Pr}\{A(\boldsymbol{X})<g(\mu)<B(\boldsymbol{X})\} \geq \gamma,$$
+$text{com} g(\mu)=\mu \mathrm{e}$
+$$\begin{aligned}
+& A(\boldsymbol{X})=\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n-\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}}, \\
+& B(\boldsymbol{X})=\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n+\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}} .
+\end{aligned}$$
+
+### Mapeando uma distribuição normal genérica $\sim(\mu, \sigma)$ para uma distribuição normal padrão $\sim(0,1)$
 
 Podemos mapear áreas sob o gráfico de uma distribuição normal genérica com média $\mu$ e desvio padrão $\sigma$ para áreas sob o gráfico da distribuição normal padrão por meio da expressão:
 $$Z=\frac{X-\mu}{\sigma}$$
@@ -42,6 +62,16 @@ de modo que existe um teste $\delta_{g_0}$ com nível $\alpha_0$ destas hipótes
 $$w(\boldsymbol{x})=\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado que } \boldsymbol{X}=\boldsymbol{x}\} .$$
 Fazendo o nível de confiança do intervalo $\gamma=1-\alpha_0$, temos
 $$\text{Pr}\left(g\left(\theta_0\right) \in w(\boldsymbol{X}) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$ |
+
+### Interpretação do Gráfico
+
+Suponha que $z_p$ significa o valor da variável aleatória $\mathbf{Z}$ que segue a distribuição normal padrão, $N(0,1)$, para o qual $P\left(z \leq z_p \right)=p$, ou seja, a área sob a curva normal padrão à esquerda de $z_p$ é igual a $p$. Assim, para $p=0,01(1 \%), z_{0,01}=-2,33$. 
+
+<div style="float:middle; margin:2em;">
+    <img src="https://raw.githubusercontent.com/iaracastro/iaracastro.github.io/master/images/distribuicao-normal-padrao.png"/>
+</div>
+
+Para uma população com uma distribuição normal padrão, dado um valor $\alpha(0 \leq \alpha \leq 1)$, podemos obter ० intervalo $\left(z_{\alpha / 2}, z_{1-\alpha / 2}\right)$ que conterá com probabilidade $(1-\alpha)$ o valor de um elemento extraído aleatoriamente dessa população. Para a distribuição normal padrão, $z_{\alpha / 2}=-z_{1-\alpha / 2}$.
 
 ## Interpretação do Intervalo de Confiança
 
