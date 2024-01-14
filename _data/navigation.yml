@@ -81,10 +81,10 @@ docs-en:
         url:    2024/01/09/informacao-de-fisher.html
       - title: Cramer-Ráo e Eficiência de um estimador
         url:    2024/01/09/cramer-rao-e-eficiencia-de-estimador.html
-      - title: Intervalo de Confiança
-        url:    https://www.youtube.com/
       - title: Teste de Hipóteses
-        url:    https://www.youtube.com/
+        url:    2024/01/09/teste-de-hipoteses.html
+      - title: Intervalo de Confiança
+        url:    2024/01/09/intervalo-de-confianca.html
       - title: Região Crítica e de Rejeição
         url:    https://www.youtube.com/
       - title: Função Poder
