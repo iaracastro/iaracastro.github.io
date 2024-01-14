@@ -17,9 +17,9 @@ l^{\prime}(x \mid \theta) & =\frac{\partial l(x \mid \theta)}{\partial \theta} \
 l^{\prime \prime}(x \mid \theta) & =\frac{\partial^2 l(x \mid \theta)}{\partial \theta^2}
 \end{aligned}$$
 
-## Fórmula da informação de Fisher:
+## Fórmula da informação de Fisher
 
-$$I_n(\theta)=E_\theta\left[l^{\prime}(x \mid \theta)^2\right]=-E_\theta\left[l^{\prime \prime}(x \mid \theta)\right]=\operatorname{Var}_\theta\left(l^{\prime}(x \mid \theta)\right)$$
+$$I_n(\theta)=E_\theta\left[l^{\prime}(x \mid \theta)^2\right]=-E_\theta\left[l^{\prime \prime}(x \mid \theta)\right]=\text{Var}_\theta\left(l^{\prime}(x \mid \theta)\right)$$
 
 - Lembrete: A informação de Fisher sempre é positiva.
 
