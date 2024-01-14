@@ -15,16 +15,24 @@ Um estimador bom, terá um risco baixo.
 ### Viés
 
 $$\begin{gathered}
-R(\theta, \delta)=\operatorname{var}_\theta(\delta(\bar{X}))+\text { viés }_\theta(\bar{\delta}) \\
-v i e ́ s(\hat{\theta})=E(\hat{\theta})-g(\theta)
+R(\theta, \delta)= \text{ var }_{\theta}(\delta(\bar{X})) + \text{viés}_{\theta}(\bar{\delta}) \\
+\text{ viés }(\hat{\theta})=E(\hat{\theta})-g(\theta)
 \end{gathered}$$
 
 ### Estimador $\theta$ não envieasado
 
 $$\begin{aligned}
 & \text { viés }(\hat{\theta})=0 \rightarrow E(\hat{\theta})=\theta \\
-& \text { viés }(\hat{\theta}) \rightarrow R(\theta, \delta)=\operatorname{var}_\theta(\delta(\bar{X}))
+& \text { viés }(\hat{\theta}) \rightarrow R(\theta, \delta)=\text{ var }_\theta(\delta(\bar{X}))
 \end{aligned}$$
 
 - Lembrete: Nem sempre um estimador não-viesado existe.
 - Lembrete 2: Nem sempre um estimador não-viesado é um bom estimador.
+
+### Estimador não-viesado da variância
+
+Seja $\boldsymbol{X}=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória, com $E\left[X_1\right]=m e$ $\operatorname{Var}\left(X_1\right)=v<\infty$. Então
+
+
+$$\delta_1(\boldsymbol{X})=\frac{1}{n-1} \sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2$$
+é um estimador não-viesado de $v$.
