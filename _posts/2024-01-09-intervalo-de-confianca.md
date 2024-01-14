@@ -10,7 +10,7 @@ sidebar:
 
 De acordo com a interpretação frequentista, um intervalo de confiança para um determinado parâmetro da população mostra um intervalo de valores do verdadeiro parâmetro da população compatíveis com os dados da amostra, com um certo nível de confiança, seja o parãmetro a média de uma determinada distribuição, o risco relativo, a razão de chances, a variância, etc. O cálculo do intervalo de confiança é um dos principais resultados de uma análise estatística.
 
-Seja $X=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Sejam $A(X)$ e $B(X)$ duas estatísticas de modo que valha
+Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Sejam $A(X)$ e $B(X)$ duas estatísticas de modo que valha
 $$\text{Pr}\{A(X)<g(\theta)<B(X)\} \geq \gamma$$
 
 Dizemos que $I(X)=(A(X), B(X))$ é um intervalo de confiança de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade for uma igualdade para todo $\theta \in \Omega$, dizemos que o intervalo é exato.
