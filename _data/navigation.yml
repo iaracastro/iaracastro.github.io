@@ -76,13 +76,11 @@ docs-en:
       - title: Teorema de Rao-Blackwell
         url:    2024/01/09/teorema-de-rao-blackwell.html
       - title: Admissibilidade e Dominância de um estimador
-        url:    https://www.youtube.com/
+        url:    2024/01/09/admissibilidade-e-dominancia-de-estimador.html
       - title: Informação de Fisher
-        url:    https://www.youtube.com/
-      - title: Cramer-Ráo
-        url:    https://www.youtube.com/
-      - title: Eficiência de um estimador
-        url:    https://www.youtube.com/
+        url:    2024/01/09/informacao-de-fisher.html
+      - title: Cramer-Ráo e Eficiência de um estimador
+        url:    2024/01/09/cramer-rao-e-eficiencia-de-estimador.html
       - title: Intervalo de Confiança
         url:    https://www.youtube.com/
       - title: Teste de Hipóteses
