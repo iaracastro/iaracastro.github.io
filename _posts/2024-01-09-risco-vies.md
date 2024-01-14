@@ -14,7 +14,7 @@ Um estimador bom, terá um risco baixo.
 
 ### Viés
 
-$$R(\theta, \delta) = \text{ var }_{\theta} (\delta(\bar{X})) + \text{viés}_{\theta}(\bar{\delta})$$
+$$R(\theta, \delta) = var_{\theta} (\delta(\bar{X})) + viés_{\theta}(\bar{\delta})$$
 
 $$\text{ viés }(\hat{\theta})=E(\hat{\theta})-g(\theta)$$
 
