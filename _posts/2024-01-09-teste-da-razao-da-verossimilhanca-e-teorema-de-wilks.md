@@ -9,6 +9,7 @@ sidebar:
 ## Teste da razão da verossimilhança
 
 Considere testar
+
 $$\begin{aligned}
 & H_0: \theta \in \Omega_0, \\
 & H_1: \theta \in \Omega_1 
@@ -31,8 +32,8 @@ O teorema de Wilks afirma que a razão log-verossimilhança é assintoticamente 
 Suponha que temos um espaço de parâmetros com $k$ coordenadas, $\theta=\left(\theta_1, \theta_2, \ldots, \theta_k\right)$ e desejamos testar a hipótese (simples) da forma
 
 $$\begin{aligned}
-& H_0: \theta_j=\theta_0^j, j=1,2, \ldots, k, \\
-& H_1: \theta_j \neq \theta_0^j, j=1,2, \ldots, k .
+& H_0: \theta_j=\theta_0^j, \; j=1,2, \ldots, k, \\
+& H_1: \theta_j \neq \theta_0^j, \;  j=1,2, \ldots, k .
 \end{aligned}$$
 
 Então, sob condições de regularidade, temos que, à medida que $n \rightarrow \infty$,
