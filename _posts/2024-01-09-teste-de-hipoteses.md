@@ -48,7 +48,7 @@ Dizemos que uma hipótese $H_i$, é simples, se $\Omega_i=\{\theta_i\}$, isto é
 
 Suponha que estamos estudando o efeito de uma droga na redução da pressão arterial. Modelamos esta redução como uma variável aleatória $X$ com esperança $E[X]=: \theta$. É costumaz testar a hipótese $H_0: \theta=0$, que chamamos, especificamente nesse caso, de "hipótese de efeito nulo".
 
-### Hipótese unilateral e bilateral
+## Hipótese unilateral e bilateral
 
 Uma hipótese da forma $H_0: \theta \leq \theta_0$ ou $H_0: \theta \geq \theta_0$ é dita unilateral ("one-sided"), enquanto hipóteses da forma $H_0: \theta \neq \theta_0$ são ditas bilaterais ("two-sided").
 
