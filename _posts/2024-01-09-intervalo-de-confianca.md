@@ -33,8 +33,10 @@ Concluímos que $c=F_T^{-1}\left(\frac{1+\gamma}{2} ; n-1\right)$.
 
 No caso do intervalo de confiança para o parâmetro de média, temos
 
-$$\text{Pr}\{A(X) < g(\mu) < B(X)\} \geq \gamma,$$
-$\text{com} g(\mu)=\mu \mathrm{e}$
+$$\text{Pr}b\{bA(X) < g(\mu) < B(X)\} \geq \gamma$$
+
+com $g(\mu)=\mu \mathrm{e}$
+
 $$\begin{aligned}
 & A(X)=\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n-\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}}, \\
 & B(X)=\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}=\bar{X}_n+\frac{c \sqrt{\sum_{i=1}^n\left(X_i-\bar{X}_n\right)^2}}{\sqrt{n(n-1)}} .
