@@ -42,6 +42,6 @@ $$S_1:=\{x: r(x) \in R\}$$
 ### Construindo um teste de tamanho $\alpha_0$
 Se $T=r(X)$ é uma estatística, podemos quase sempre encontrar c tal que valha
 
-$$\sup _{\theta \in \Omega_0} \operatorname{Pr}(T \geq c \mid \theta) \leq \alpha_0$$
+$$\sup _{\theta \in \Omega_0} \text{Pr}(T \geq c \mid \theta) \leq \alpha_0$$
 
 ou seja, encontrar c tal que $\delta$ tenha tamanho (ou nível de significância) $\alpha_0$.
