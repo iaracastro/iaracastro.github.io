@@ -86,18 +86,14 @@ docs-en:
       - title: Intervalo de Confiança
         url:    2024/01/09/intervalo-de-confianca.html
       - title: Região Crítica e de Rejeição
-        url:    https://www.youtube.com/
-      - title: Função Poder
-        url:    https://www.youtube.com/
-      - title: Tipos de Erro
-        url:    https://www.youtube.com/
-      - title: Tamanho do Teste
-        url:    https://www.youtube.com/ 
+        url:    2024/01/09/regiao-critica-e-regiao-de-rejeicao.html
+      - title: Função Poder, Tipos de Erro e Tamanho do Teste
+        url:    2024/01/09/funcao-poder-tipos-de-erro-e-tamanho-do-teste.html
       - title: P-valor
-        url:    https://www.youtube.com/
+        url:    2024/01/09/p-valor.html
       - title: Teste da razão da verossimilhança
-        url:    https://www.youtube.com/
+        url:    2024/01/09/teste-da-razao-da-verossimilhanca-html
       - title: Teorema de Wilks
-        url:    https://www.youtube.com/
+        url:    2024/01/09/teorema-de-wilks.html
       - title: Teste não-viesado
         url:    https://www.youtube.com/
