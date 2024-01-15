@@ -21,7 +21,7 @@ Considere a situação em que $X_1, X_2, \ldots, X_n$ vêm de uma Normal com mé
 
 - $\sigma^2$ conhecida
 
-Lembrando que $T= |\bar{X}_n-\mu_0 |$, e tomando $\delta$ como o procedimento descrito acima, escrevemos
+Lembrando que $T= \mid \bar{X}_n-\mu_0 \mid$, e tomando $\delta$ como o procedimento descrito acima, escrevemos
 
 $$\begin{aligned}
 \pi(\mu \mid \delta) & =\text{Pr}(T \in R \mid \mu) \\
