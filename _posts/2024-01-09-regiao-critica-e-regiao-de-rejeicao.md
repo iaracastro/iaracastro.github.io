@@ -38,10 +38,3 @@ Se $R \subseteq \mathbb{R}$ é tal que dizemos que "rejeitamos $H_0$ se $T \in R
 Podemos relacionar os conceitos de região crítica e região de rejeição notando queremos
 
 $$S_1:=\{x: r(x) \in R\}$$
-
-### Construindo um teste de tamanho $\alpha_0$
-Se $T=r(X)$ é uma estatística, podemos quase sempre encontrar c tal que valha
-
-$$\sup _{\theta \in \Omega_0} \text{Pr}(T \geq c \mid \theta) \leq \alpha_0$$
-
-ou seja, encontrar c tal que $\delta$ tenha tamanho (ou nível de significância) $\alpha_0$.
