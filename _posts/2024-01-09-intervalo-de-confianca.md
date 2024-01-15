@@ -91,7 +91,7 @@ $$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(X^{(i)}\right)\r
 
 Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Seja $A(X)$ uma estatística que, para todo $\theta \in \Omega$, valha
 
-$$\text{Pr}\{A(X)<g(\theta)\} \geq \gamma,$$
+$$\text{Pr}\{A(X) < g(\theta)\} \geq \gamma$$
 
 dizemos que o intervalo aleatório $(A(X), \infty)$ é chamado um intervalo de confiança unilateral de $100 \gamma \%$ para $g(\theta)$, ou, ainda, um intervalo de confiança inferior de $100 \gamma \%$ para $g(\theta)$. O intervalo $(-\infty, B(X))$, com
 
@@ -104,11 +104,11 @@ Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \
 
 Podemos utilizar quantidades pivotais para construir intervalos de confiança. Considere uma função $r(v, \boldsymbol{x})$ tal que
 
-$$r(V(X, \theta), \boldsymbol{X})=g(\theta)$$
+$$r(V(X, \theta), X)=g(\theta)$$
 
 #### Construindo IC a partir de quantidade pivotal
 
-Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Suponha que existe uma quantidade pivotal $V$, com c.d.f. contínua $G$. Assuma que existe $r(v, x)$, estritamente crescente em $v$ para todo $x$. Finalmente, tome $0<\gamma<1$ e $\gamma_1<\gamma_2$ de modo que $\gamma_2-\gamma_1=\gamma$. Então as estatísticas
+Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Suponha que existe uma quantidade pivotal $V$, com c.d.f. contínua $G$. Assuma que existe $r(v, x)$, estritamente crescente em $v$ para todo $x$. Finalmente, tome $0 < \gamma < 1$ e $\gamma_1 < \gamma_2$ de modo que $\gamma_2-\gamma_1=\gamma$. Então as estatísticas
 
 $$\begin{aligned}
 & A(X)=r\left(G^{-1}\left(\gamma_1\right), X\right), \\
