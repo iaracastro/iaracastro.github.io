@@ -19,9 +19,9 @@ Idealmente, queremos $\pi(\theta \mid \delta)=1$ para $\theta \in \Omega_1$.
 
 Considere a situação em que $X_1, X_2, \ldots, X_n$ vêm de uma Normal com média $\mu$, desconhecida, e variância $\sigma^2$, conhecida.
 
--$\sigma^2$ conhecida
+- $\sigma^2$ conhecida
 
-Lembrando que $T=\left|\bar{X}_n-\mu_0\right|$, e tomando $\delta$ como o procedimento descrito acima, escrevemos
+Lembrando que $T= |\bar{X}_n-\mu_0 |$, e tomando $\delta$ como o procedimento descrito acima, escrevemos
 
 $$\begin{aligned}
 \pi(\mu \mid \delta) & =\text{Pr}(T \in R \mid \mu) \\
@@ -43,8 +43,8 @@ Isto nos leva a concluir que
 
 | Situação | Quantidade | Interpretação |
 | --- | --- | --- |
-| $\theta \in \Omega_0 | $\pi(\theta \mid \delta)$ | $\operatorname{Pr}($ Erro tipo I) |
-| $\theta \in \Omega_1$ | $1-\pi(\theta \mid \delta)$ | $\operatorname{Pr}($ Erro tipo II $)$ |
+| $\theta \in \Omega_0$ | $\pi(\theta \mid \delta)$ | $\text{Pr}($ Erro tipo I) |
+| $\theta \in \Omega_1$ | $1-\pi(\theta \mid \delta)$ | $\text{Pr}($ Erro tipo II $)$ |
 
 - Diminuir o erro do Tipo I implica em aumentar o erro do tipo II
 
