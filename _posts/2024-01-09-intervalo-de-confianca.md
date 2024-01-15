@@ -6,7 +6,7 @@ sidebar:
     nav: docs-en
 ---
 
-## Definição
+## Definição de Intervalo de Confiança (IC)
 
 De acordo com a interpretação frequentista, um intervalo de confiança para um determinado parâmetro da população mostra um intervalo de valores do verdadeiro parâmetro da população compatíveis com os dados da amostra, com um certo nível de confiança, seja o parãmetro a média de uma determinada distribuição, o risco relativo, a razão de chances, a variância, etc. O cálculo do intervalo de confiança é um dos principais resultados de uma análise estatística.
 
@@ -86,3 +86,33 @@ A afirmação probabilística da forma $\text{Pr} \{ A(X) < g(\theta) < B(X) \} 
 Como de costume na teoria ortodoxa (frequentista), o foco da construção de um intervalo confiança está em dar garantias probabilísticas com relação à distribuição dos dados. Dizer que $\text{Pr}\{A(X) < g(\theta) < B(X)\}=\gamma$ é dizer que, se eu gerasse $M$ grande amostras aleatórias $X^{(1)}, X^{(2)}, \ldots, X^{(M)}$ de tamanho $n$ e construisse $M$ intervalos $I\left(X^{(1)}\right), I\left(X^{(2)}\right), \ldots, I\left(X^{(M)}\right)$, eu esperaria encontrar:
 
 $$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(X^{(i)}\right)\right) \approx \gamma$$
+
+### Intervalos Unilaterais
+
+Seja $X=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Seja $A(X)$ uma estatística que, para todo $\theta \in \Omega$, valha
+
+$$\text{Pr}\{A(X)<g(\theta)\} \geq \gamma,$$
+
+dizemos que o intervalo aleatório $(A(X), \infty)$ é chamado um intervalo de confiança unilateral de $100 \gamma \%$ para $g(\theta)$, ou, ainda, um intervalo de confiança inferior de $100 \gamma \%$ para $g(\theta)$. O intervalo $(-\infty, B(X))$, com
+
+$$\text{Pr}\{g(\theta)<B(X)\} \geq \gamma,$$
+é definido de forma análoga, e é chamado de intervalo de confiança superior de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade é uma igualdade para todo $\theta \in \Omega$, os intervalos são chamados exatos.
+
+### Quantidade Pivotal 
+
+Seja $X=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Seja $V(X, \theta)$ uma variável aleatória cuja distribuição é a mesma para todo $\theta \in \Omega$. Dizemos que $V(X, \theta)$ é uma quantidade pivotal.
+
+Podemos utilizar quantidades pivotais para construir intervalos de confiança. Considere uma função $r(v, \boldsymbol{x})$ tal que
+
+$$r(V(X, \theta), \boldsymbol{X})=g(\theta)$$
+
+#### Construindo IC a partir de quantidade pivotal
+
+Seja $X=\left\{X_1, X_2, \ldots, X_n\right\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Suponha que existe uma quantidade pivotal $V$, com c.d.f. contínua $G$. Assuma que existe $r(v, x)$, estritamente crescente em $v$ para todo $x$. Finalmente, tome $0<\gamma<1$ e $\gamma_1<\gamma_2$ de modo que $\gamma_2-\gamma_1=\gamma$. Então as estatísticas
+
+$$\begin{aligned}
+& A(X)=r\left(G^{-1}\left(\gamma_1\right), X\right), \\
+& B(X)=r\left(G^{-1}\left(\gamma_2\right), X\right)
+\end{aligned}$$
+
+são os limites de um intervalo de confiança de $100 \gamma \%$ para $g(\theta)$.
