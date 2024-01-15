@@ -58,7 +58,7 @@ Buscamos o teste que tenha $\pi\left(\theta \mid \delta^*\right)$ máxima em $\t
 
 Dizemos que um teste, $\delta$, tem tamanho ou nível de significância $\alpha(\delta)$, com
 
-$$alpha(\delta):=\sup _{\theta \in \Omega_0} \pi(\theta \mid \delta)$$
+$$\alpha(\delta):=\sup _{\theta \in \Omega_0} \pi(\theta \mid \delta)$$
 
 ### Tamanho de um teste com $H_0$ simples
   
