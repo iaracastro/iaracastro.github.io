@@ -21,11 +21,12 @@ Dizemos que $I(X)=(A(X), B(X))$ é um intervalo de confiança de $100 \gamma \%$
 Lembremos que
 $$U=\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}} \sim T(n-1) .$$
 
-Para $c>0$, podemos computar $text{Pr}(-c < U < c)=\gamma$ :
+Para $c>0$, podemos computar $text{Pr}(-c < U < c)=\gamma$:
+
 $$\begin{aligned}
-& \text{Pr}\left(-c<\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}}<c\right)=\gamma, \\
-& \text{Pr}\left(\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}<\mu<\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}\right)=\gamma, \\
-& T_{n-1}(c)-T_{n-1}(-c)=2 T_{n-1}(c)-1=\gamma .
+& \text{Pr}\left(-c<\frac{\sqrt{n}\left(\bar{X}_n-\mu\right)}{\sqrt{\frac{\Delta^2}{n-1}}}<c\right)=\gamma \\
+& \text{Pr}\left(\bar{X}_n-\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}<\mu<\bar{X}_n+\frac{c \hat{\sigma}^{\prime}}{\sqrt{n}}\right)=\gamma\\
+& T_{n-1}(c)-T_{n-1}(-c)=2 T_{n-1}(c)-1=\gamma
 \end{aligned}$$
 
 Concluímos que $c=F_T^{-1}\left(\frac{1+\gamma}{2} ; n-1\right)$.
