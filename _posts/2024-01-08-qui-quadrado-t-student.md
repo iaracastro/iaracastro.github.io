@@ -15,10 +15,14 @@ $$Y \sim \chi^2(n)$$
 $\mathrm{n}$ : graus de liberdade
 
 $$\begin{gathered}
-f(y)=\frac{1}{\Gamma\left(\frac{n}{2}\right) 2^{n / 2}} y^{\frac{n}{2}-1 e^{-y / 2}}, \quad y>0 \\
+f_{Y}(y)=\frac{1}{\Gamma\left(\frac{n}{2}\right) 2^{n / 2}} y^{\frac{n}{2}-1 e^{-y / 2}}, \quad y>0 \\
 E(Y)=n \\
 \text{ Var }(Y)=2 n
 \end{gathered}$$
+
+Vemos que $Y$ tem função geradora de momentos
+
+$$\psi(t)=\left(\frac{1}{1-2 t}\right)^{n / 2}, t<1 / 2$$
 
 ## Distribuição T-student
 
