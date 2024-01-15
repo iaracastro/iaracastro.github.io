@@ -42,7 +42,7 @@ $$\begin{aligned}
 
 ## Hipóteses Simples e Compostas
 
-Dizemos que uma hipótese $H_i$, é simples, se $\Omega_i=\left\{\theta_i\right\}$, isto é, se a partição correspondente é um ponto. Uma hipótese é dita composta se não é simples.
+Dizemos que uma hipótese $H_i$, é simples, se $\Omega_i=\{\theta_i\}$, isto é, se a partição correspondente é um ponto. Uma hipótese é dita composta se não é simples.
 
 ### Hipótese simples sobre a média
 
