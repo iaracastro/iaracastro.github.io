@@ -10,7 +10,7 @@ sidebar:
 
 Se queremos rejeitar $H_0$ (hipótese nula) se $\bar{X}_n$ está longe de $\mu_0$. Para isso definimos
 
-$$S_0:=\left\{x:-c \leq \bar{X}_n-\mu_0 \leq c\right\}$$
+$$S_0:= \{x:-c \leq \bar{X}_n-\mu_0 \leq c \}$$
 
 de modo que $S_1=S_0^C$. Então, seguimos o procedimento:
 
@@ -19,15 +19,15 @@ $$\begin{aligned}
 & X \in S_0 \Longrightarrow \text { não rejeitar } H_0
 \end{aligned}$$
 
-Seja $T:=\left|\bar{X}_n-\mu_0\right|$, rejeitamos $H_0$ se $T \geq c$.
+Seja $T:= | \bar{X}_n-\mu_0 |$, rejeitamos $H_0$ se $T \geq c$.
 
 ---
 
 O conjunto
 
-$$S_1:=\left\{x:\left|\bar{X}_n-\mu_0\right| \geq c\right\}$$
+$$S_1:= \{x: | \bar{X}_n-\mu_0 | \geq c \}$$
 
-é chamado de região crítica do teste.
+é cham ado de região crítica do teste.
 
 ## Região de Rejeição
 
