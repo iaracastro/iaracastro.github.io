@@ -91,11 +91,11 @@ $$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(X^{(i)}\right)\r
 
 Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Seja $A(X)$ uma estatística que, para todo $\theta \in \Omega$, valha
 
-$$\text{Pr}\{A(X) < g(\theta)\} \geq \gamma$$
+$$\text{Pr } \{ A(X) < g(\theta) \} \geq \gamma$$
 
 dizemos que o intervalo aleatório $(A(X), \infty)$ é chamado um intervalo de confiança unilateral de $100 \gamma \%$ para $g(\theta)$, ou, ainda, um intervalo de confiança inferior de $100 \gamma \%$ para $g(\theta)$. O intervalo $(-\infty, B(X))$, com
 
-$$\text{Pr}\{g(\theta) < B(X)\} \geq \gamma$$
+$$\text{Pr }\{g(\theta) < B(X)\} \geq \gamma$$
 
 é definido de forma análoga, e é chamado de intervalo de confiança superior de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade é uma igualdade para todo $\theta \in \Omega$, os intervalos são chamados exatos.
 
@@ -105,7 +105,7 @@ Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \
 
 Podemos utilizar quantidades pivotais para construir intervalos de confiança. Considere uma função $r(v, \boldsymbol{x})$ tal que
 
-$$r(V(X, \theta), X)=g(\theta)$$
+$$Pr(V(X, \theta), X)=g(\theta)$$
 
 #### Construindo IC a partir de quantidade pivotal
 
