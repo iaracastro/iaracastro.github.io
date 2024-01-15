@@ -26,7 +26,7 @@ Lembrando que $T= |\bar{X}_n-\mu_0 |$, e tomando $\delta$ como o procedimento de
 $$\begin{aligned}
 \pi(\mu \mid \delta) & =\text{Pr}(T \in R \mid \mu) \\
 & =\text{Pr}\left(\bar{X}_n \geq \mu_0+c \mid \mu\right)+\text{Pr}\left(\bar{X}_n \leq \mu_0-c \mid \mu\right) \\
-& =\left\{1-\Phi\left(\sqrt{n} \frac{\mu_0+c-\mu}{\sigma}\right)\right\}+\Phi\left(\sqrt{n} \frac{\mu_0-c-\mu}{\sigma}\right) .
+& = \{ 1-\Phi\left(\sqrt{n} \frac{\mu_0+c-\mu}{\sigma}\right) \}+\Phi\left(\sqrt{n} \frac{\mu_0-c-\mu}{\sigma}\right) .
 \end{aligned}$$
 
 ## Tipos de Erro
