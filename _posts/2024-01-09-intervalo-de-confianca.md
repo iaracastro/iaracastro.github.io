@@ -62,7 +62,7 @@ $$w(\boldsymbol{x})=\{g_0: \delta_{g_0} \text { não rejeita } H_0 \text { dado 
 Fazendo o nível de confiança do intervalo $\gamma=1-\alpha_0$, temos
 $$\text{Pr}\left(g\left(\theta_0\right) \in w(X) \mid \theta=\theta_0\right) \geq \gamma, \forall \theta_0 \in \Omega$$
 
-### Interpretação do Gráfico
+## Interpretação do Gráfico
 
 Suponha que $z_p$ significa o valor da variável aleatória $\mathbf{Z}$ que segue a distribuição normal padrão, $N(0,1)$, para o qual $P\left(z \leq z_p \right)=p$, ou seja, a área sob a curva normal padrão à esquerda de $z_p$ é igual a $p$. Assim, para $p=0,01(1 \%), z_{0,01}=-2,33$. 
 
@@ -87,7 +87,7 @@ Como de costume na teoria ortodoxa (frequentista), o foco da construção de um 
 
 $$\frac{1}{M} \sum_{i=1}^M \mathbb{I}\left(g(\theta) \in I\left(X^{(i)}\right)\right) \approx \gamma$$
 
-### Intervalos Unilaterais
+## Intervalos Unilaterais
 
 Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória, cada variável aleatória com p.d.f. $f(x \mid \theta)$, e considere uma função real $g(\theta)$. Seja $A(X)$ uma estatística que, para todo $\theta \in \Omega$, valha
 
@@ -99,7 +99,7 @@ $$\text{Pr }\{g(\theta) < B(X)\} \geq \gamma$$
 
 é definido de forma análoga, e é chamado de intervalo de confiança superior de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade é uma igualdade para todo $\theta \in \Omega$, os intervalos são chamados exatos.
 
-### Quantidade Pivotal 
+## Quantidade Pivotal 
 
 Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Seja $V(X, \theta)$ uma variável aleatória cuja distribuição é a mesma para todo $\theta \in \Omega$. Dizemos que $V(X, \theta)$ é uma quantidade pivotal.
 
@@ -107,7 +107,7 @@ Podemos utilizar quantidades pivotais para construir intervalos de confiança. C
 
 $$Pr(V(X, \theta), X)=g(\theta)$$
 
-#### Construindo IC a partir de quantidade pivotal
+### Construindo IC a partir de quantidade pivotal
 
 Seja $X=\{X_1, X_2, \ldots, X_n\}$ uma amostra aleatória com p.d.f. $f(x \mid \theta)$. Suponha que existe uma quantidade pivotal $V$, com c.d.f. contínua $G$. Assuma que existe $r(v, x)$, estritamente crescente em $v$ para todo $x$. Finalmente, tome $0 < \gamma < 1$ e $\gamma_1 < \gamma_2$ de modo que $\gamma_2-\gamma_1=\gamma$. Então as estatísticas
 
