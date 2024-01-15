@@ -81,7 +81,7 @@ $$Z=\frac{X \quad \mu}{\sigma}$$
 
 $Z \sim(0,1)$
 
-$$\operatorname{Pr}(Z \leq c)=\Phi(c)$$
+$$\text{Pr}(Z \leq c)=\Phi(c)$$
 
 ### Propriedade
 
@@ -89,11 +89,11 @@ Seja $X_1, X_2, \ldots X_i$ i.i.d onde $X_i \sim\left(\mu, \sigma^2\right)$, ent
 
 $$\begin{gathered}
 E\left(\frac{1}{n} \sum_{i=1}^n X_i\right)-\sum_{i=1}^n \frac{1}{n} E\left(X_i\right)=n \frac{1}{n} \mu-\mu \\
-\operatorname{Var}\left(\sum_{i=1}^n \frac{1}{n} X_i\right)=\sum_{i=1}^n\left(\frac{1}{n}\right)^2 \operatorname{Var}\left(X_i\right)=\sum_{i=1}^n\left(\frac{1}{n}\right)^2 \sigma^2=n\left(\frac{1}{n}\right)^2 \sigma^2=\frac{\sigma^2}{n} \\
+\text{Var}\left(\sum_{i=1}^n \frac{1}{n} X_i\right)=\sum_{i=1}^n\left(\frac{1}{n}\right)^2 \text{Var}\left(X_i\right)=\sum_{i=1}^n\left(\frac{1}{n}\right)^2 \sigma^2=n\left(\frac{1}{n}\right)^2 \sigma^2=\frac{\sigma^2}{n} \\
 \bar{X}_n \sim\left(\mu, \frac{\sigma^2}{n}\right)
 \end{gathered}$$
 
-## Distribuição $\operatorname{Gamma}(\alpha, \beta)$
+## Distribuição $\text{Gamma}(\alpha, \beta)$
 
 $$\begin{gathered}
 f(x \mid \alpha, \beta)=\frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha x-1} e^{-\beta x}, x>0 \\
@@ -105,7 +105,7 @@ E x]=\text { média }=\frac{\alpha}{\beta}
 
 $$f(x \mid \alpha, \beta)=\frac{\beta^\alpha}{\Gamma(\alpha)} x^{-\alpha-1} e^{-\frac{\rho}{\alpha}}$$
 
-## Distribuição $\operatorname{Beta}\left(\alpha_t \beta\right)$
+## Distribuição $\text{Beta}\left(\alpha_t \beta\right)$
 
 $$\begin{gathered}
 f(x \mid \alpha, \beta)-\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha-1}(1-x)^{\beta-1}: 0<x<1 \\
