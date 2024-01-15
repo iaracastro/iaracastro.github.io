@@ -107,7 +107,7 @@ $$f(x \mid \alpha, \beta)=\frac{\beta^\alpha}{\Gamma(\alpha)} x^{-\alpha-1} e^{-
 
 ## Distribuição $\text{Beta}\left(\alpha_t \beta\right)$
 
-$$f(x | \alpha, \beta) - \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha - 1}(1 - x)^{\beta-1}
+$$f(x | \alpha, \beta) - \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha - 1}(1 - x)^{\beta-1}$$
 
 $$\xi(\theta) \propto \theta^{\alpha 1}(1-\theta)^{\sigma / 1}$$
 
