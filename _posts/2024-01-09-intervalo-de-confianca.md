@@ -95,7 +95,8 @@ $$\text{Pr}\{A(X) < g(\theta)\} \geq \gamma$$
 
 dizemos que o intervalo aleatório $(A(X), \infty)$ é chamado um intervalo de confiança unilateral de $100 \gamma \%$ para $g(\theta)$, ou, ainda, um intervalo de confiança inferior de $100 \gamma \%$ para $g(\theta)$. O intervalo $(-\infty, B(X))$, com
 
-$$\text{Pr}\{g(\theta)<B(X)\} \geq \gamma,$$
+$$\text{Pr}\{g(\theta) < B(X)\} \geq \gamma$$
+
 é definido de forma análoga, e é chamado de intervalo de confiança superior de $100 \gamma \%$ para $g(\theta)$. Se a desigualdade é uma igualdade para todo $\theta \in \Omega$, os intervalos são chamados exatos.
 
 ### Quantidade Pivotal 
