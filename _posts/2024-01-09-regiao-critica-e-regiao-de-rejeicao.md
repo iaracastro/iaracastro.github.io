@@ -19,7 +19,7 @@ $$\begin{aligned}
 & X \in S_0 \Longrightarrow \text { não rejeitar } H_0
 \end{aligned}$$
 
-Seja $T:= | \bar{X}_n-\mu_0 |$, rejeitamos $H_0$ se $T \geq c$.
+Seja $T:= \mid \bar{X}_n-\mu_0 \mid$, rejeitamos $H_0$ se $T \geq c$.
 
 ---
 
