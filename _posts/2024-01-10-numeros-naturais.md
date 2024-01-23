@@ -10,8 +10,8 @@ sidebar:
 
 $\mathrm{O}$ conjunto $\mathbb{N}$ dos números naturais é caracterizado pelos seguintes fatos:
 
-1. Existe uma função injetiva $s: \mathbb{N} \rightarrow \mathbb{N}$. A imagem $s(n)$ de cada número natural $n \in \mathbb{N}$ chama-se o sucessor de $n$. Ou seja, todo número natural tem um sucessor, que ainda é um número natural. \
-2. Existe um único número natural $1 \in \mathbb{N}$ tal que $1 \neq s(n)$ para todo $n \in \mathbb{N}$. Ou seja, existe um único número natural 1 que não é sucessor de nenhum outro. \
+1. Existe uma função injetiva $s: \mathbb{N} \rightarrow \mathbb{N}$. A imagem $s(n)$ de cada número natural $n \in \mathbb{N}$ chama-se o sucessor de $n$. Ou seja, todo número natural tem um sucessor, que ainda é um número natural.
+2. Existe um único número natural $1 \in \mathbb{N}$ tal que $1 \neq s(n)$ para todo $n \in \mathbb{N}$. Ou seja, existe um único número natural 1 que não é sucessor de nenhum outro.
 3. Se um conjunto $X \subset \mathbb{N}$ é tal que $1 \in X$ e $s(X) \subset X$ (isto é, $n \in X \Rightarrow s(n) \in X)$ então $X=\mathbb{N}$. Ou seja, se um conjunto de números naturais contém o número 1 e cada um dos seus sucessores, então esse conjunto contém todos os números naturais.
 
 Essas afirmações são conhecidas como **Axiomas de Peano**, e 3. é conhecido como o **Princípio da Indução**.
@@ -67,5 +67,5 @@ Um conjunto $X$ diz-se enumerável quando é finito ou quando existe uma bijeç�
 
 ### Exemplos
 
-1. O conjunto $\mathbb{Z}=\{\ldots,-2,-1,0,1,2, \ldots\}$ dos números inteiros é enumerável. Uma bijeção $f: \mathbb{N} \rightarrow \mathbb{Z}$ pode ser definida pondo $f(n)=(n-1) / 2$ para $n$ ímpar e $f(n)=-n / 2$ para $n$ par. \
+1. O conjunto $\mathbb{Z}=\{\ldots,-2,-1,0,1,2, \ldots\}$ dos números inteiros é enumerável. Uma bijeção $f: \mathbb{N} \rightarrow \mathbb{Z}$ pode ser definida pondo $f(n)=(n-1) / 2$ para $n$ ímpar e $f(n)=-n / 2$ para $n$ par. 
 2. O conjunto $\mathbb{Q}=\{m / n ; m, n \in \mathbb{Z}, n \neq 0\}$ dos números racionais é enumerável. Com efeito, escrevendo $\mathbb{Z}^* = \mathbb{Z} - \{0\}$, podemos definir uma função sobrejetiva $f: \mathbb{Z} \times \mathbb{Z}^* \rightarrow \mathbb{Q}$ pondo $f(m, n)=m / n$.
