@@ -18,8 +18,11 @@ Os axiomas a que essas operações obedecem são:
 
 #### Desigualdade Triangular (e inversa):
 Se $x,y \in \mathbb{R}$:
+
 $$|x+y| \leq |x| + |y|$$
+
 $$|x - y| \geq |x| - |y|$$
+
 $$|x-y| \geq ||x| - |y||$$
 
 
