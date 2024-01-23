@@ -42,7 +42,7 @@ Valem as seguintes propriedades da relação de ordem $x < y$ em $\mathbb{R}$ :
 
 #### Propriedade 
 
-Sejam $a, x, \delta \in \mathbb{R}$. Tem-se $|x-a| < \delta$ se, e somente se, $a-\delta< x < a+\delta$
+Sejam $a, x, \delta \in \mathbb{R}$. Tem-se $$|x-a| < \delta \Leftrightarrow a-\delta< x < a+\delta$$
 
 #### $\mathbb{R}$ é um corpo ordenado completo.
 
