@@ -10,7 +10,7 @@ sidebar:
 
 ### Intervalos Limitados, Ilimitados, Abertos e Fechados
 
-Seja $\mathbb{K}$ um corpo ordenado e $a, b \in \mathbb{K}$ tais que $a<b$. Definimos os intervalos:
+Seja $\mathbb{K}$ um corpo ordenado e $a, b \in \mathbb{K}$ tais que $a < b$. Definimos os intervalos:
 
 1. Intervalo Fechado: $[a, b]:=\{x \in \mathbb{K}: a \leq x \leq b\}$ \
 Tal intervalo representa o conjunto de todos os elementos de $\mathbb{K}$ que estão entre $a$ e $b$, inclusive os extremos $a$ e $b$.
@@ -19,8 +19,8 @@ Tal intervalo representa o conjunto de todos os elementos de $\mathbb{K}$ que es
 Neste caso, tal intervalo representa o conjunto de todos os elementos de $\mathbb{K}$ que estão entre $a$ e $b$, menos os extremos $a$ e $b$. Geometricamente, representamos o intervalo $(a, b)$ por
 Repare que os extremos $a$ e $b$ são representados por bolas "furadas". Esta simbologia serve para indicar que $a$ e $b$ não pertencem ao intervalo, são apenas limitantes do mesmo.
 
-4. Intervalo Misto: $[a, b):=\{x \in \mathbb{K}: a \leq x<b\}$ 
-5. Intervalo Misto: $(a, b]:=\{x \in \mathbb{K}: a<x \leq b\}$ 
+4. Intervalo Misto: $[a, b):=\{x \in \mathbb{K}: a \leq x < b\}$ 
+5. Intervalo Misto: $(a, b]:=\{x \in \mathbb{K}: a < x \leq b\}$ 
 6. Intervalo Limitado à esquerda: $(-\infty, b]:=\{x \in \mathbb{K}: x \leq b\}$
 
 #### Exemplos
@@ -48,7 +48,7 @@ Diz-se que o ponto $a$ é interior ao conjunto $X \subset \mathbb{R}$ quando exi
 O conjunto dos pontos interiores a $X$ chama-se o interior do conjunto $X$ e representa-se pela notação int $X$. Quando $a \in \operatorname{int} X$ diz-se que o conjunto $X$ é uma vizinhança do ponto $a$. Um conjunto $A \subset \mathbb{R}$ chamase aberto quando $A=\operatorname{int} A$, isto é, quando todos os pontos de $A$ são interiores a $A$.
 
 a) Se $A_1$ e $A_2$ são conjuntos abertos então a interseção $A_1 \cap A_2$ é um conjunto aberto. \
-b) $S e\left(A_\lambda\right)_{\lambda \in L}$ é uma familia qualquer de conjuntos abertos, a reunião $A=\bigcup_{\lambda \in L} A_\lambda$ é um conjunto aberto.
+b) Se $(A_\lambda)_{\lambda \in L}$ é uma familia qualquer de conjuntos abertos, a reunião $A=\cap_{\lambda \in L} A_\lambda$ é um conjunto aberto.
 
 ### Pontos Aderentes
 
