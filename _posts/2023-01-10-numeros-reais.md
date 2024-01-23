@@ -1,3 +1,11 @@
+---
+tags: real-analysis
+title: Números Reais
+#published: false
+sidebar:
+    nav: docs-en
+---
+
 Isto significa que estão definidas em $\mathbb{R}$ duas operações, chamadas adição e multiplicação, que cumprem certas condições, abaixo especificadas.
 
 A adição faz corresponder a cada par de elementos $x, y \in \mathbb{R}$, sua soma $x+y \in \mathbb{R}$, enquanto a multiplicação associa a esses elementos o seu produto $x \cdot y \in \mathbb{R}$.
@@ -59,7 +67,7 @@ Mais explicitamente, $b$ é o supremo de $X$ quando cumpre as duas condições:
 - Sejam A e B conjuntos limitados de números positivos, então vale $\sup (A \cdot B)=\sup (A) \cdot \sup (B)$
 - Sejam A e B conjuntos limitados de números positivos, então vale $\inf (A \cdot B)=\inf (A) \cdot \inf (B)$
 
-Propriedade 53. Sejam A e B conjuntos limitados de números positivos, então vale $\inf (A \cdot B)=\inf (A) \cdot \inf (B)$
+Sejam A e B conjuntos limitados de números positivos, então vale $\inf (A \cdot B)=\inf (A) \cdot \inf (B)$
 
 ### Supremo e Ínfimo (funções)
 Seja uma função limitada $f: V \rightarrow R$.
