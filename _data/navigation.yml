@@ -95,3 +95,14 @@ docs-en:
         url:    2024/01/09/teste-da-razao-da-verossimilhanca-e-teorema-de-wilks.html
       - title: Teste não-viesado e Teste T
         url:    2024/01/09/teste-nao-viesado-e-teste-t.html
+
+- title:      Análise Real
+    children:
+      - title:  Números Naturais
+          url:    2024/01/10/numeros-naturais.html
+      - title:  Números Reais
+        url:    2024/01/10/numeros-reais.html
+      - title:  Intervalos
+        url:    2024/01/10/intervalos.html
+        
+      
