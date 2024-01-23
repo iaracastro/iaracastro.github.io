@@ -58,7 +58,7 @@ Diz-se que um conjunto é infinito quando não é finito. Assim, $X$ é infinito
 
 ## Conjuntos Enumeráveis
 
-Um conjunto $X$ diz-se enumerável quando é finito ou quando existe uma bijeção $f: \mathbb{N} \rightarrow X$. Neste caso, $f$ chama-se uma enumeração dos elementos de $X$. Escrevendo $f(1)=x_1, f(2)=x_2, \ldots, f(n)=x_n, \ldots$ tem-se então $X=\{ x_1, x_2, \ldots, x_n, \ldots \}$.
+Um conjunto $X$ diz-se enumerável quando é finito ou quando existe uma bijeção $f: \mathbb{N} \rightarrow X$. Neste caso, $f$ chama-se uma enumeração dos elementos de $X$. Escrevendo $f(1)=x_1, f(2)=x_2, \ldots, f(n)=x_n, \ldots$ tem-se então $X = \{ x_1, x_2, \ldots, x_n, \ldots \}$.
 
 - Todo subconjunto $X \subset \mathbb{N}$ é enumerável.
 - Seja $f: X \rightarrow Y$ injetiva. Se $Y$ é enumerável então $X$ também é. Em particular, todo subconjunto de um conjunto enumerável é enumerável.
