@@ -30,12 +30,12 @@ Isto significa que existe um subconjunto $\mathbb{R}^{+} \subset \mathbb{R}$, ch
 P1. A soma e o produto de números reais positivos são positivos. Ou seja, $x, y \in \mathbb{R}^{+} \Rightarrow x+y \in \mathbb{R}^{+}$e $x \cdot y \in \mathbb{R}^{+}$. \
 P2. Dado $x \in \mathbb{R}$, exatamente uma das três alternativas seguintes ocorre: ou $x=0$, ou $x \in \mathbb{R}^{+}$ou $-x \in \mathbb{R}^{+}$.
 
-Valem as seguintes propriedades da relação de ordem $x<y$ em $\mathbb{R}$ :
+Valem as seguintes propriedades da relação de ordem $x < y$ em $\mathbb{R}$ :
 
-- Transitividade: se $x<y$ e $y<z$ então $x<z$.
-- Tricotomia: dados $x, y \in \mathbb{R}$, ocorre exatamente uma das alternativas $x=y, x<y$ ou $y<x$.
-- Monotonicidade da adição: se $x<y$ então, para todo $z \in \mathbb{R}$, tem-se $x+z<y+z$.
-- Monotonicidade da multiplicação: se $x<y$ então, para todo $z>0$ tem-se $x z<y z$. Se, porém, $z<0$ então $x<y$ implica $y z<x z$.
+- Transitividade: se $x < y$ e $y < z$ então $x < z$.
+- Tricotomia: dados $x, y \in \mathbb{R}$, ocorre exatamente uma das alternativas $x=y, x < y$ ou $y < x$.
+- Monotonicidade da adição: se $x < y$ então, para todo $z \in \mathbb{R}$, tem-se $x + z < y + z$.
+- Monotonicidade da multiplicação: se $x < y$ então, para todo $z>0$ tem-se $x z < y z$. Se, porém, $z<0$ então $x < y$ implica $y z < x z$.
 
 #### Propriedade 
 
