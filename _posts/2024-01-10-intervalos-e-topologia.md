@@ -48,7 +48,7 @@ Diz-se que o ponto $a$ é interior ao conjunto $X \subset \mathbb{R}$ quando exi
 O conjunto dos pontos interiores a $X$ chama-se o interior do conjunto $X$ e representa-se pela notação int $X$. Quando $a \in \text{ int } X$ diz-se que o conjunto $X$ é uma vizinhança do ponto $a$. Um conjunto $A \subset \mathbb{R}$ chamase aberto quando $A= \text{ int } A$, isto é, quando todos os pontos de $A$ são interiores a $A$.
 
 a) Se $A_1$ e $A_2$ são conjuntos abertos então a interseção $A_1 \cap A_2$ é um conjunto aberto. \
-b) Se $(A_\lambda)_{\lambda \in L}$ é uma familia qualquer de conjuntos abertos, a reunião $A=\cap_{\lambda \in L} A_\lambda$ é um conjunto aberto.
+b) Se $(A_\lambda)$, onde $\lambda \in L$, é uma familia qualquer de conjuntos abertos, a reunião $A=\cap_{\lambda \in L} A_\lambda$ é um conjunto aberto.
 
 ### Pontos Aderentes
 
