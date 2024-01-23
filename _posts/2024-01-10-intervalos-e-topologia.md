@@ -15,7 +15,7 @@ Seja $\mathbb{K}$ um corpo ordenado e $a, b \in \mathbb{K}$ tais que $a < b$. De
 1. Intervalo Fechado: $[a, b]:=\{x \in \mathbb{K}: a \leq x \leq b\}$ \
 Tal intervalo representa o conjunto de todos os elementos de $\mathbb{K}$ que estão entre $a$ e $b$, inclusive os extremos $a$ e $b$.
 
-2. Intervalo Aberto: $(a, b):=\{x \in \mathbb{K}: a<x<b\}$ \
+2. Intervalo Aberto: $(a, b):=\{x \in \mathbb{K}: a < x < b\}$ \
 Neste caso, tal intervalo representa o conjunto de todos os elementos de $\mathbb{K}$ que estão entre $a$ e $b$, menos os extremos $a$ e $b$. Geometricamente, representamos o intervalo $(a, b)$ por
 Repare que os extremos $a$ e $b$ são representados por bolas "furadas". Esta simbologia serve para indicar que $a$ e $b$ não pertencem ao intervalo, são apenas limitantes do mesmo.
 
