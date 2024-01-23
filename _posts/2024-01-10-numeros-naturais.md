@@ -44,7 +44,7 @@ Então, $P$ é válida para todos os números naturais.
 ## Conjuntos Finitos
 
 Continuaremos usando a notação $I_n=\{p \in \mathbb{N} ; p \leq n\}$.
-Um conjunto $X$ diz-se finito quando é vazio ou então existem $n \in \mathbb{N}$ e uma bijeção $f: I_n \rightarrow X$. Escrevendo $x_1=f(1), x_2=f(2), \ldots$, $x_n=f(n)$ temos então $X=\left\{x_1, x_2, \ldots, x_n\right\}$. A bijeção $f$ chama-se uma contagem dos elementos de $X$ e o número $n$ chama-se o número de elementos, ou número cardinal do conjunto finito $X$.
+Um conjunto $X$ diz-se finito quando é vazio ou então existem $n \in \mathbb{N}$ e uma bijeção $f: I_n \rightarrow X$. Escrevendo $x_1=f(1), x_2=f(2), \ldots$, $x_n=f(n)$ temos então $X= \{x_1, x_2, \ldots, x_n \}$. A bijeção $f$ chama-se uma contagem dos elementos de $X$ e o número $n$ chama-se o número de elementos, ou número cardinal do conjunto finito $X$.
 
 - Todo subconjunto de um conjunto finito é finito.
 - Um subconjunto $X \subset \mathbb{N}$ é finito se, e somente se, é limitado.
