@@ -28,7 +28,7 @@ Então $X = \mathbb{N}$
 
 Seja $P$ uma proposição acerca dos números naturais. Suponhamos que $P$ seja tal que:
 
-1. $P[1]$ vale, isto é, 1 verifica a proposição $P$ \
+1. $P[1]$ vale, isto é, 1 verifica a proposição $P$
 2. Se $P[k]$ vale, então vale $P[k+1]$, isto é, se $k$ verifica a proposição $P$, então seu sucessor $k+1$ também a verifica.
 
 Então, $P$ é válida para todos os números naturais.
@@ -44,7 +44,7 @@ Então, $P$ é válida para todos os números naturais.
 ## Conjuntos Finitos
 
 Continuaremos usando a notação $I_n=\{p \in \mathbb{N} ; p \leq n\}$.
-Um conjunto $X$ diz-se finito quando é vazio ou então existem $n \in \mathbb{N}$ e uma bijeção $f: I_n \rightarrow X$. Escrevendo $x_1=f(1), x_2=f(2), \ldots$, $x_n=f(n)$ temos então $X= \{x_1, x_2, \ldots, x_n \}$. A bijeção $f$ chama-se uma contagem dos elementos de $X$ e o número $n$ chama-se o número de elementos, ou número cardinal do conjunto finito $X$.
+Um conjunto $X$ diz-se finito quando é vazio ou então existem $n \in \mathbb{N}$ e uma bijeção $f: I_n \rightarrow X$. Escrevendo $x_1=f(1), x_2=f(2), \ldots$, $x_n=f(n)$ temos então $X= \{x_1, x_2, \ldots, x_n\}$. A bijeção $f$ chama-se uma contagem dos elementos de $X$ e o número $n$ chama-se o número de elementos, ou número cardinal do conjunto finito $X$.
 
 - Todo subconjunto de um conjunto finito é finito.
 - Um subconjunto $X \subset \mathbb{N}$ é finito se, e somente se, é limitado.
@@ -58,7 +58,7 @@ Diz-se que um conjunto é infinito quando não é finito. Assim, $X$ é infinito
 
 ## Conjuntos Enumeráveis
 
-Um conjunto $X$ diz-se enumerável quando é finito ou quando existe uma bijeção $f: \mathbb{N} \rightarrow X$. Neste caso, $f$ chama-se uma enumeração dos elementos de $X$. Escrevendo $f(1)=x_1, f(2)=x_2, \ldots, f(n)=x_n, \ldots$ tem-se então $X = \{ x_1, x_2, \ldots, x_n, \ldots \}$.
+Um conjunto $X$ diz-se enumerável quando é finito ou quando existe uma bijeção $f: \mathbb{N} \rightarrow X$. Neste caso, $f$ chama-se uma enumeração dos elementos de $X$. Escrevendo $f(1)=x_1, f(2)=x_2, \ldots, f(n)=x_n, \ldots$ tem-se então $X = \{x_1, x_2, \ldots, x_n, \ldots\}$.
 
 - Todo subconjunto $X \subset \mathbb{N}$ é enumerável.
 - Seja $f: X \rightarrow Y$ injetiva. Se $Y$ é enumerável então $X$ também é. Em particular, todo subconjunto de um conjunto enumerável é enumerável.
