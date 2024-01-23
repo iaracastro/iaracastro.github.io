@@ -1,4 +1,4 @@
-![image](https://github.com/iaracastro/iaracastro.github.io/assets/84725802/8892d32f-d080-46b4-8826-7dd3293ae28d)---
+---
 tags: real-analysis
 title: Números Naturais
 #published: false
