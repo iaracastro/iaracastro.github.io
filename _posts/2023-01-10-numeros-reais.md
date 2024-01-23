@@ -39,7 +39,7 @@ Valem as seguintes propriedades da relação de ordem $x < y$ em $\mathbb{R}$ :
 
 #### Propriedade 
 
-Sejam $a, x, \delta \in \mathbb{R}$. Tem-se $|x-a|<\delta$ se, e somente se, $a-\delta<x<a+\delta$
+Sejam $a, x, \delta \in \mathbb{R}$. Tem-se $|x-a| < \delta$ se, e somente se, $a-\delta< x < a+\delta$
 
 #### $\mathbb{R}$ é um corpo ordenado completo.
 
@@ -56,7 +56,7 @@ Um conjunto $X \subset \mathbb{R}$ diz-se limitado superiormente quando existe a
 Mais explicitamente, $b$ é o supremo de $X$ quando cumpre as duas condições:
 
 - Para todo $x \in X$, tem-se $x \leq b$;
-- Se $c \in \mathbb{R}$ é tal que $x \leq c$ para todo $x \in X$ então $b \leq c$. Ou, se $c<b$ então existe $x \in X$ com $c < x$.
+- Se $c \in \mathbb{R}$ é tal que $x \leq c$ para todo $x \in X$ então $b \leq c$. Ou, se $c < b$ então existe $x \in X$ com $c < x$.
 
 #### Propriedades
 
@@ -74,6 +74,7 @@ Seja uma função limitada $f: V \rightarrow R$.
 
 Definição 1.
 $$\sup f:=\sup f(V)=\sup \{f(x) \mid x \in V\}$$
+
 Definição 2.
 $$\inf f:=\inf f(V)=\inf \{f(x) \mid x \in V\}$$
 
