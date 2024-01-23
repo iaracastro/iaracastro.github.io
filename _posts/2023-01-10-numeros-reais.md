@@ -47,7 +47,7 @@ Sejam $a, x, \delta \in \mathbb{R}$. Tem-se $|x-a|<\delta$ se, e somente se, $a-
 - Operações usuais (+, . ) 
 - Ordem $\leq$ , $<$
 
-### $\mathbb{R} não é enumerável
+### $\mathbb{R}$ não é enumerável
 
 ### Limitado Superiormente e Inferiormente
 Um conjunto $X \subset \mathbb{R}$ diz-se limitado superiormente quando existe algum $b \in \mathbb{R}$ tal que $x \leq b$ para todo $x \in X$. Neste caso, diz-se que $b$ é uma cota superior de $X$. Analogamente, diz-se que o conjunto $X \subset \mathbb{R}$ é limitado inferiormente quando existe $a \in \mathbb{R}$ tal que $a \leq x$ para todo $x \in X$. O número $a$ chama-se então uma cota inferior de $X$. Se $X$ é
@@ -56,7 +56,7 @@ Um conjunto $X \subset \mathbb{R}$ diz-se limitado superiormente quando existe a
 Mais explicitamente, $b$ é o supremo de $X$ quando cumpre as duas condições:
 
 - Para todo $x \in X$, tem-se $x \leq b$;
-- Se $c \in \mathbb{R}$ é tal que $x \leq c$ para todo $x \in X$ então $b \leq c$. Ou, se $c<b$ então existe $x \in X$ com $c<x$.
+- Se $c \in \mathbb{R}$ é tal que $x \leq c$ para todo $x \in X$ então $b \leq c$. Ou, se $c<b$ então existe $x \in X$ com $c < x$.
 
 #### Propriedades
 
