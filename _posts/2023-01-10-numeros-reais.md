@@ -134,19 +134,3 @@ $$=\frac{a d+b c}{b d}$$
 - $\left(x^{-1}\right)^{-1}=x$.
 
 Dado que $x \cdot x^{-1}=1$, temos que $x$ é o inverso de $x^{-1}$, isto é $x=\left(x^{-1}\right)^{-1}$.
-
-#### Questões
-
-1. Seja $A \subseteq \mathbb{R}$ limitado superiormente e contruído por números positivos. Definimos $-A = \{-x: x \in A\}$. Mostre que -A é limitado inferiormente e que: $$inf(-A) = -sup(A)$$Exemplo:
-![[Pasted image 20220924162723.png]]
-- -A é limitado inferiormente.
-- Sabemos que existe M> 0 tal que $a \leq M \; \forall$ $a \in A$
-- $inf(-A) = -sup(A)$
-	$-sup(A)$ é cota inferior de $-A$.
-	Sabemos que $sup(A) \geq a \; \forall \; a \in A \rightarrow -sup(A) \leq -a \; \forall \; a \in A$ 
-	$-sup(A)$ é cota inferior de $A$.
-	$-sup(A)$ é a maior das cotas inferiores de $-A$.
-
-	Seja c tal que c é a cota inferior de -A. Então:
-	$c \leq -a \leftrightarrow -c \geq a \; \forall \; a \in A$.
-	Com sso, -c é a cota superior de A. Logo, $sup(A) \leq -c \leftrightarrow -sup(A) \geq c$
