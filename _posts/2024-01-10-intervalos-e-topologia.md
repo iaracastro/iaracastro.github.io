@@ -68,7 +68,7 @@ Um conjunto $X$ diz-se fechado quando $X=\bar{X}$, isto é, quando todo ponto ad
 - Um conjunto $F \subset R$ é fechado se, e somente se, seu complementar $A = \mathbb{R} — F$ é aberto.
 
 a) Se $F_1$ e $F_2$ são fechados então $F_1 \cup F_2$ é fechado. \
-b) Se $\left( F_\lambda \right)_{\lambda \in L}$ é uma família qualquer de conjuntos fechados então a interseção $F = \cap_{\lambda \in L} $F_\lambda$ é um conjunto fechado.
+b) Se $\left( F_\lambda \right)$, onde $\lambda \in L$, é uma família qualquer de conjuntos fechados então a interseção $F = \cap_{\lambda \in L} $F_\lambda$ é um conjunto fechado.
 
 ### Pontos de Acumulação
 
