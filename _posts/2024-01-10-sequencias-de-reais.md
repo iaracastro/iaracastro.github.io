@@ -15,7 +15,7 @@ Escreve-se $\left(x_1, x_2, \ldots, x_n, \ldots\right)$ ou $\left(x_n\right)_{n 
 - Uma sequência $\left(x_n\right)$ diz-se **limitada superiormente** quando existe $c \in \mathbb{R}$ tal que $x_n \leq c$ para todo $n \in \mathbb{N}$. 
 - Analogamente, uma sequência se diz **limitada inferiormente** quando existe $c \in \mathbb{R}$ tal que $x_n \leq c$ tal que $x_n \geq c$ para todo $n \in \mathbb{N}$. 
 
-Diz-se que a sequência $\left(x_n\right)$ é limitada quando ela é limitada superior e inferiormente. Isto equivale a dizer que existe $k > 0$ tal que $|x_n| \leq k$ para todo $n \in \mathbb{N}$. 
+Diz-se que a sequência $\left(x_n\right)$ é limitada quando ela é limitada superior e inferiormente. Isto equivale a dizer que existe $k > 0$ tal que: $$|x_n| \leq n \forall n \in \mathbb{N}$$
 
 ### Limite de Sequência
 
@@ -44,11 +44,6 @@ Analogamente, dada uma seqüência $\left(x_n\right)$, $\lim x_n= -\infty$, se d
 (3) Se $x_n>c>0, y_n>0$ para todo $n \in \mathbb{N}$ e $\lim y_n=0$ então $\lim \frac{x_n}{y_n}=+\infty$ \
 (4) $S e\left(x_n\right)$ é limitada e $\lim y_n=+\infty$ então $\lim \frac{x_n}{y_n}=0$.
 
-### Subsequências
-
-Uma subsequência de uma sequência é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
-
-Como $\mathbb{N}^{\prime}$ é enumerável, seus elementos podem ser escritos como $\left\{n_1, n_2, \ldots, n_k, \ldots\right\}$, e ainda podemos escolher a enumeração de forma com que $n_i<n_j$, se $i<j$. Então podemos identificar uma subsequência com uma sequência escrevendo $\left(a_{n_k}\right)_{k \in \mathbb{N}}$. Portanto, todos os teoremas que valem para sequências valem para subsequências.
 ### Subsequência
 
 Uma subsequência de uma sequência $\left(a_n\right)$, com $n \in \mathbb{N}$, é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
@@ -64,7 +59,7 @@ Como $\mathbb{N}^{\prime}$ é enumerável, seus elementos podem ser escritos com
 
 ### Teorema de Bolzano-Weierstrass 
 
-Toda sequência limitada de números reais possui uma subseqüência convergente.
+Toda sequência limitada de números reais possui uma subsequência convergente.
 
 ### Valores de Aderência
 Os valores de aderência de uma sequência são os limites de suas subsequências convergentes (podem não existir, mas se a sequência é convergente somente há um valor de aderência). 
