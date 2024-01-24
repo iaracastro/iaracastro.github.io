@@ -15,7 +15,9 @@ Escreve-se $\left(x_1, x_2, \ldots, x_n, \ldots\right)$ ou $\left(x_n\right)_{n 
 - Uma sequência $\left(x_n\right)$ diz-se **limitada superiormente** quando existe $c \in \mathbb{R}$ tal que $x_n \leq c$ para todo $n \in \mathbb{N}$. 
 - Analogamente, uma sequência se diz **limitada inferiormente** quando existe $c \in \mathbb{R}$ tal que $x_n \leq c$ tal que $x_n \geq c$ para todo $n \in \mathbb{N}$. 
 
-Diz-se que a sequência $\left(x_n\right)$ é limitada quando ela é limitada superior e inferiormente. Isto equivale a dizer que existe $k > 0$ tal que: $$|x_n| \leq n \forall n \in \mathbb{N}$$
+Diz-se que a sequência $\left(x_n\right)$ é limitada quando ela é limitada superior e inferiormente. Isto equivale a dizer que existe $k > 0$ tal que: 
+
+$$\left|x_n\right| \leq n \forall n \in \mathbb{N}$$
 
 ### Limite de Sequência
 
