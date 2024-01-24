@@ -46,14 +46,14 @@ Analogamente, dada uma seqüência $\left(x_n\right)$, $\lim x_n= -\infty$, se d
 
 ### Subsequências
 
-Uma subsequência de uma sequência $\left(a_n\right)_{n \in \mathbb{N}}$ é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
+Uma subsequência de uma sequência é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
 
 Como $\mathbb{N}^{\prime}$ é enumerável, seus elementos podem ser escritos como $\left\{n_1, n_2, \ldots, n_k, \ldots\right\}$, e ainda podemos escolher a enumeração de forma com que $n_i<n_j$, se $i<j$. Então podemos identificar uma subsequência com uma sequência escrevendo $\left(a_{n_k}\right)_{k \in \mathbb{N}}$. Portanto, todos os teoremas que valem para sequências valem para subsequências.
 ### Subsequência
 
-Uma subsequência de uma sequência $\left(a_n\right)_{n \in \mathbb{N}}$ é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
+Uma subsequência de uma sequência $\left(a_n\right)$, com $n \in \mathbb{N}$, é uma função $s: \mathbb{N}^{\prime} \rightarrow \mathbb{R}$, onde $\mathbb{N}^{\prime} \subset \mathbb{N}$ e $\mathbb{N}^{\prime}$ é infinito. A notação usual para representar uma subsequência é $\left(a_n\right)_{n \in \mathbb{N}^{\prime}}$.
 
-Como $\mathbb{N}^{\prime}$ é enumerável, seus elementos podem ser escritos como $\left\{n_1, n_2, \ldots, n_k, \ldots\right\}$, e ainda podemos escolher a enumeração de forma com que $n_i<n_j$, se $i<j$. Então podemos identificar uma subsequência com uma sequência escrevendo $\left(a_{n_k}\right)_{k \in \mathbb{N}}$. Portanto, todos os teoremas que valem para sequências valem para subsequências.
+Como $\mathbb{N}^{\prime}$ é enumerável, seus elementos podem ser escritos como $\{n_1, n_2, \ldots, n_k, \ldots\}$, e ainda podemos escolher a enumeração de forma com que $n_i<n_j$, se $i<j$. Então podemos identificar uma subsequência com uma sequência escrevendo $\left(a_{n_k}\right)$, com $k \in \mathbb{N}$. Portanto, todos os teoremas que valem para sequências valem para subsequências.
 
 ### Teoremas de Sequências
 
