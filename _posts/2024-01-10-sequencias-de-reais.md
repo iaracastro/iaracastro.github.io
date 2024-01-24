@@ -17,7 +17,7 @@ Escreve-se $\left(x_1, x_2, \ldots, x_n, \ldots\right)$ ou $\left(x_n\right)_{n 
 
 Diz-se que a sequência $\left(x_n\right)$ é limitada quando ela é limitada superior e inferiormente. Isto equivale a dizer que existe $k > 0$ tal que: 
 
-$$\left|x_n\right| \leq n \forall n \in \mathbb{N}$$
+$$\left|x_n\right| \leq n \quad \forall \; n \in \mathbb{N}$$
 
 ### Limite de Sequência
 
