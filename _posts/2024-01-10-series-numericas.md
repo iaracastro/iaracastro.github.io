@@ -35,7 +35,7 @@ Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum\left|a_n\rig
 
 ### Exemplo
 
-Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1<a<1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $\left|a^n\right|=|a|^n$, com $0 \leq|a|<1$.
+Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $\left|a^n\right|=|a|^n$, com $0 \leq|a| < 1$.
 
 ## Testes de Convergência
 
