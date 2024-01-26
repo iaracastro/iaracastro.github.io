@@ -16,11 +16,11 @@ Os números $s_n$ chamam-se as reduzidas ou somas parciais da série $\sum a_n$.
 
 ## Séries Convergentes e Divergentes
 
-Se existir o limite $s=\lim _{n \rightarrow \infty} s_n$, diremos que a série $\sum a_n$ é convergente e $s=\sum a_n=\sum_{n=1}^{\infty} a_n=a_1+a_2+\cdots+a_n+\cdots$ será chamado a soma da série. Se $\lim s_n$ não existir, diremos que $\sum a_n$ é uma série divergente.
+Se existir o limite $s= \lim_{n \rightarrow \infty} s_n$, diremos que a série $\sum a_n$ é convergente e $s=\sum a_n=\sum_{n=1}^{\infty} a_n=a_1+a_2+\cdots+a_n+\cdots$ será chamado a soma da série. Se $\lim s_n$ não existir, diremos que $\sum a_n$ é uma série divergente.
 
 ### Exemplos
 
--  a série geométrica: $1+a+a^2+\cdots+a^n+\cdots$, onde $|a|<1$, é convergente, com soma igual a $1 /(1-a)$.
+-  a série geométrica: $1+a+a^2+\cdots+a^n+\cdots$, onde $|$ $a$ $|$<1$, é convergente, com soma igual a $1 /(1-a)$.
 -  a série $1+1+1 / 2 !+\cdots+1 / n !+\cdots$ também converge, com soma igual a $e$.
 -  a série $1-1+1-1+\cdots$, de termo geral $(-1)^{n+1}$, é divergente pois a soma parcial $s_n$ é igual a zero quando $n$ é par, e igual a 1 quando $n$ é ímpar. Portanto não existe $\lim s_n$.
 -  a série $\sum 1 / n(n+1)$, cujo termo geral é $a_n=1 / n(n+1)=$ $1 / n-1 /(n+1)$, tem $n$-ésima soma parcial
@@ -31,11 +31,11 @@ $$s_n=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\cdots+\le
 
 ## Série Absolutamente Convergente
 
-Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum\left|a_n\right|$ converge.
+Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum$ $\left|$ $a_n$ $\right|$ converge.
 
 ### Exemplo
 
-Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $\left|a^n\right|=|a|^n$, com $0 \leq|a| < 1$.
+Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $\left|$ $a^n$ $\right|$ $=|a|^n$, com $0 \leq$ $|$ $a$ $|$ $< 1$.
 
 ## Testes de Convergência
 
