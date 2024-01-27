@@ -31,11 +31,11 @@ $$s_n=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\cdots+\le
 
 ## Série Absolutamente Convergente
 
-Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum$ $\left|$ $a_n$ $\right|$ converge.
+Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum$ $|$ $a_n$ $|$ converge.
 
 ### Exemplo
 
-Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $\left|$ $a^n$ $\right|$ $=|a|^n$, com $0 \leq$ $|$ $a$ $|$ $< 1$.
+Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $|$ $a^n$ $|$ $=|a|^n$, com $0 \leq$ $|$ $a$ $|$ $< 1$.
 
 ## Testes de Convergência
 
