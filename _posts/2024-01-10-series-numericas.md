@@ -20,7 +20,12 @@ Se existir o limite $s= \lim_{n \rightarrow \infty} s_n$, diremos que a série $
 
 ### Exemplos
 
--  a série geométrica: $1+a+a^2+\cdots+a^n+\cdots$, onde $|$ $a$ $|$ $<1$, é convergente, com soma igual a $1 /(1-a)$.
+-  a série geométrica: $1+a+a^2+\cdots+a^n+\cdots$, onde
+
+$$|a| <1$$
+
+é convergente, com soma igual a $1 /(1-a)$.
+
 -  a série $1+1+1 / 2 !+\cdots+1 / n !+\cdots$ também converge, com soma igual a $e$.
 -  a série $1-1+1-1+\cdots$, de termo geral $(-1)^{n+1}$, é divergente pois a soma parcial $s_n$ é igual a zero quando $n$ é par, e igual a 1 quando $n$ é ímpar. Portanto não existe $\lim s_n$.
 -  a série $\sum 1 / n(n+1)$, cujo termo geral é $a_n=1 / n(n+1)=$ $1 / n-1 /(n+1)$, tem $n$-ésima soma parcial
@@ -48,13 +53,27 @@ Demonstração: Se, para algum $c>0$, tivermos $\left|a_n / b_n\right| \leq c$. 
 
 ### Teste de d'Alembert.
 
-Seja $a_n \neq 0$ para todo $n \in$ $\mathbb{N}$. Se existir uma constante $c$ tal que $\left|a_{n+1} / a_n\right| \leq c<1$ para todo $n$ suficientemente grande (em particular, se $\lim \left|a_{n+1} / a_n\right|<1$ ) então a série $\sum a_n$ será abolutamente convergente.
+Seja $a_n \neq 0$ para todo $n \in$ $\mathbb{N}$. Se existir uma constante $c$ tal que 
 
-- Usualmente se procura calcular $\lim \left|a_{n+1} / a_n\right|=L$. Se $L>1$ então a série diverge pois se tem $\left|a_{n+1} / a_n\right|>1$, donde $\left|a_{n+1}\right|>\left|a_n\right|$ para todo $n$ suficientemente grande e daí resulta que o termo geral $a_n$ não tende para zero. Se $L=1$, o teste é inconclusivo. A série pode convergir (como no caso $\sum 1 / n^2$ ) ou divergir (como no caso $\sum 1 / n$ ).
+$$|a_{n+1} / a_n | \leq c<1$$
+
+para todo $n$ suficientemente grande, então a série $\sum a_n$ será abolutamente convergente.
+
+- Usualmente se procura calcular $\lim \left|a_{n+1} / a_n\right|=L$. Se $L>1$ então a série diverge pois se tem
+
+$$\left|a_{n+1} / a_n\right|>1$$
+
+onde $$\left|a_{n+1}\right|>\left|a_n\right| \; \forall \; n$$ 
+
+suficientemente grande e daí resulta que o termo geral $a_n$ não tende para zero. Se $L=1$, o teste é inconclusivo. A série pode convergir (como no caso $\sum 1 / n^2$ ) ou divergir (como no caso $\sum 1 / n$ ).
   
 ### Teste de Cauchy
 
-Quando existe um número real c tal que $\sqrt[n]{\left|a_n\right|} \leq c<1$ para todo $n \in \mathbb{N}$ suficientemente grande (em particular, quando $\left.\lim \sqrt[n]{\left|a_n\right|}<1\right)$, a série $\sum a_n$ é absolutamente convergente.
+Quando existe um número real c tal que 
+
+$$\sqrt[n]{\left|a_n\right|} \leq c<1 \; \forall n \in \mathbb{N}$$ 
+
+suficientemente grande (em particular, quando $\left.\lim \sqrt[n]{\left|a_n\right|}<1\right)$, a série $\sum a_n$ é absolutamente convergente.
 
 #### Exemplo
 
@@ -65,5 +84,11 @@ Seja $a_n=(\log n / n)^n$. Como $\sqrt[n]{a_n}=\log n / n$ tende a zero, a séri
 - O termo geral de uma série convergente tem limite zero.
 - **Leibniz**: Se ( $a_n$ ) é uma seqüência monótona decrescente que tende para zero então $\sum(-1)^{n+1} a_n$ é uma série convergente.
 - Toda série absolutamente convergente é convergente.
-- relacão entre os testes de d'Alembert e Cauchy: seja $\left(a_n\right)$ uma seqüência cujos termos são diferentes de zero. Se $\lim \left|a_{n+1}\right| /\left|a_n\right|=L$ então $\lim \sqrt[n]{\left|a_n\right|}=L$.
+- relacão entre os testes de d'Alembert e Cauchy: seja $\left(a_n\right)$ uma seqüência cujos termos são diferentes de zero. Se
+
+  $$\lim \left|a_{n+1}\right| /\left|a_n\right|=L$$
+
+  então
+
+  $$\lim \sqrt[n]{\left|a_n\right|}=L$$
 
