@@ -12,11 +12,11 @@ $$|f(x)-L|<\varepsilon$$
 
 sempre que 
 
-$$x \in X$ e $0<|x-a|<\delta$$
+$$x \in X \text{ e } 0<|x-a|<\delta$$
 
 ---
 
-$$\lim _{x \rightarrow a} f(x)=L . \equiv . \forall \varepsilon>0 \exists \delta>0 ; x \in X, 0<|x-a|<\delta \Rightarrow|f(x)-L|<\varepsilon$$
+$$\lim _{x \rightarrow a} f(x)=L \; \equiv \; \forall \varepsilon>0 \exists \delta>0 ; x \in X, 0<|x-a|<\delta \Rightarrow|f(x)-L|<\varepsilon$$
 
 Em outras palavras, $\lim _{x \rightarrow a} f(x)=L$ quer dizer que se pode tornar $f(x)$ tão próximo de $L$ quanto se queira desde que se tome $x \in X$ suficientemente próximo, porém diferente de $a$. 
 
