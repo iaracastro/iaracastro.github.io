@@ -1,6 +1,6 @@
 ---
 tags: real-analysis
-title: Limite de FunçÕes
+title: Limite de Funções
 #published: false
 sidebar:
     nav: docs-en
