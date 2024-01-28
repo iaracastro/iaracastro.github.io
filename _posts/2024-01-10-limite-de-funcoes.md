@@ -60,13 +60,13 @@ $$\begin{aligned}
 L é **limite à direita** de $f(x)$ quando:
 $$\lim_{x\rightarrow a^{+}} f(x) = L$$
 $\forall \epsilon>0$, existe $\delta>0$ tal que:
-$$0 < x -a <\delta \Rightarrow|f(x) - L| <\epsilon$$
+$$0 < x - a <\delta \Rightarrow|f(x) - L| < \epsilon$$
 
 
 L é **limite à esquerda** de $f(x)$ quando:
 $$\lim_{x\rightarrow a^{-}} f(x) = L$$
 $\forall \epsilon>0$, existe $\delta>0$ tal que:
-$$0<a-x<\delta \Rightarrow |f(x) - L|<\epsilon$$
+$$0 < a-x < \delta \Rightarrow |f(x) - L| < \epsilon$$
 
 ### Existência de Limite
 
