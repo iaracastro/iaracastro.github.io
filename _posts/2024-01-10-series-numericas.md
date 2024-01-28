@@ -36,11 +36,21 @@ $$s_n=\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\cdots+\le
 
 ## Série Absolutamente Convergente
 
-Uma série $\sum a_n$ diz-se absolutamente convergente quando $\sum$ $|$ $a_n$ $|$ converge.
+Uma série $\sum a_n$ diz-se absolutamente convergente quando 
+
+$$\sum |a_n|$$ 
+
+converge.
 
 ### Exemplo
 
-Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois $|$ $a^n$ $|$ $=|a|^n$, com $0 \leq$ $|$ $a$ $|$ $< 1$.
+Uma série convergente cujos termos não mudam de sinal é absolutamente convergente. Quando $-1 < a < 1$, a série geométrica $\sum_{n=0}^{\infty} a^n$ é absolutamente convergente, pois 
+
+$$| a^n| =|a|^n$$
+
+com 
+
+$$0 \leq |a| < 1$$
 
 ## Testes de Convergência
 
@@ -59,7 +69,11 @@ $$|a_{n+1} / a_n | \leq c<1$$
 
 para todo $n$ suficientemente grande, então a série $\sum a_n$ será abolutamente convergente.
 
-- Usualmente se procura calcular $\lim \left|a_{n+1} / a_n\right|=L$. Se $L>1$ então a série diverge pois se tem
+- Usualmente se procura calcular
+
+$$\lim \left|a_{n+1} / a_n\right|=L$$
+
+Se $L>1$ então a série diverge pois se tem
 
 $$\left|a_{n+1} / a_n\right|>1$$
 
@@ -73,7 +87,11 @@ Quando existe um número real c tal que
 
 $$\sqrt[n]{\left|a_n\right|} \leq c<1 \; \forall n \in \mathbb{N}$$ 
 
-suficientemente grande (em particular, quando $\left.\lim \sqrt[n]{\left|a_n\right|}<1\right)$, a série $\sum a_n$ é absolutamente convergente.
+suficientemente grande (em particular, quando 
+
+$$\left(\lim \sqrt[n]{\left|a_n\right|}<1\right)$$
+
+a série $\sum a_n$ é absolutamente convergente.
 
 #### Exemplo
 
