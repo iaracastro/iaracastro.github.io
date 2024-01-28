@@ -77,7 +77,9 @@ Se $L>1$ então a série diverge pois se tem
 
 $$\left|a_{n+1} / a_n\right|>1$$
 
-onde $$\left|a_{n+1}\right|>\left|a_n\right| \; \forall \; n$$ 
+onde 
+
+$$\left|a_{n+1}\right|>\left|a_n\right| \; \forall \; n$$ 
 
 suficientemente grande e daí resulta que o termo geral $a_n$ não tende para zero. Se $L=1$, o teste é inconclusivo. A série pode convergir (como no caso $\sum 1 / n^2$ ) ou divergir (como no caso $\sum 1 / n$ ).
   
