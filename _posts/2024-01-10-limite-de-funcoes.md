@@ -22,21 +22,21 @@ Em outras palavras, $\lim _{x \rightarrow a} f(x)=L$ quer dizer que se pode torn
 
 ## Teoremas
 
-1. Sejam $f, g: X \rightarrow \mathbb{R}, a \in X^{\prime}, \lim _{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)$ $=M$. Se $L<M$ então existe $\delta>0$ tal que $f(x) < g(x)$ para todo $x \in X$ com
+1. Sejam $f, g: X \rightarrow \mathbb{R}, a \in X^{\prime}, \lim _{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)$ $=M$. Se $L < M$ então existe $\delta>0$ tal que $f(x) < g(x)$ para todo $x \in X$ com
 
 $$0<|x-a|<\delta$$
 
-2. Se $\lim _{x \rightarrow a} f(x)=L<M$ então existe $\delta > 0$ tal que $f(x) < M$ para todo $x \in X$ com
+2. Se $\lim_{x \rightarrow a} f(x)=L < M$ então existe $\delta < 0$ tal que $f(x) < M$ para todo $x \in X$ com
 
 $$0<|x-a|<\delta$$
 
-3. Sejam $\lim _{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)=M$. Se $f(x) \leq$ $g(x)$ para todo $x \in X-\{a\}$ então $L \leq M$.
+3. Sejam $\lim_{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)=M$. Se $f(x) \leq$ $g(x)$ para todo $x \in X-\{a\}$ então $L \leq M$.
 
 4. **(Teorema do sanduíche)** Sejam $f, g, h: X \rightarrow \mathbb{R}, a \in$ $X^{\prime}$ e $\lim _{x \rightarrow a} f(x)=\lim _{x \rightarrow a} g(x)=L$. Se $f(x) \leq h(x) \leq g(x)$ para todo $x \in X-\{a\}$ então $\lim _{x \rightarrow a} h(x)=L$.
 
 5. Sejam $f: X \rightarrow \mathbb{R}$ e $a \in X^{\prime}$. A fim de que seja $\lim _{x \rightarrow a} f(x)=L$ é necessário e suficiente que, para toda seqüência de pontos $x_n \in X-\{a\}$ com $\lim x_n=a$, tenha-se $\lim f\left(x_n\right)=L$.
 
-6. **(Unicidade do limite)** Sejam $f: X \rightarrow \mathbb{R}$ e $a \in X^{\prime}$. Se $\lim _{x \rightarrow a} f(x)=L e \lim _{x \rightarrow a} f(x)=M$ então $L=M$.
+6. **(Unicidade do limite)** Sejam $f: X \rightarrow \mathbb{R}$ e $a \in X^{\prime}$. Se $\lim_{x \rightarrow a} f(x)=L e \lim_{x \rightarrow a} f(x)=M$ então $L=M$.
 
 ## Operações com Limites
 
@@ -70,9 +70,9 @@ $$0<a-x<\delta \Rightarrow |f(x) - L|<\epsilon$$
 
 ### Existência de Limite
 
-Existe $\lim _{x \rightarrow a} f(x)=L$ se, e somente se, existem e são iguais os limites laterais:
+Existe $\lim_{x \rightarrow a} f(x)=L$ se, e somente se, existem e são iguais os limites laterais:
 
-$$\lim _{x \rightarrow a+} f(x)=\lim _{x \rightarrow a-} f(x)=L$$
+$$\lim_{x \rightarrow a+} f(x)=\lim _{x \rightarrow a-} f(x)=L$$
 
 ## Limite de Função Infinita (L)
 
