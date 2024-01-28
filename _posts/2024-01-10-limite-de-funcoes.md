@@ -22,11 +22,11 @@ Em outras palavras, $\lim _{x \rightarrow a} f(x)=L$ quer dizer que se pode torn
 
 ## Teoremas
 
-1. Sejam $f, g: X \rightarrow \mathbb{R}, a \in X^{\prime}, \lim _{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)$ $=M$. Se $L<M$ então existe $\delta>0$ tal que $f(x)<g(x)$ para todo $x \in X$ com
+1. Sejam $f, g: X \rightarrow \mathbb{R}, a \in X^{\prime}, \lim _{x \rightarrow a} f(x)=L$ e $\lim _{x \rightarrow a} g(x)$ $=M$. Se $L<M$ então existe $\delta>0$ tal que $f(x) < g(x)$ para todo $x \in X$ com
 
 $$0<|x-a|<\delta$$
 
-2. Se $\lim _{x \rightarrow a} f(x)=L<M$ então existe $\delta>0$ tal que $f(x)<M$ para todo $x \in X$ com
+2. Se $\lim _{x \rightarrow a} f(x)=L<M$ então existe $\delta > 0$ tal que $f(x) < M$ para todo $x \in X$ com
 
 $$0<|x-a|<\delta$$
 
