@@ -12,11 +12,19 @@ Quando a série de potências $\sum a_n\left(x-x_0\right)^n$ tem raio de converg
 
 1. **Funções seno e cosseno**: Suas séries de Taylor em torno do ponto $x=0$ são
 
-$$\sin x=x-\frac{x^3}{3 !}+\frac{x^5}{5 !}-\cdots \quad \text { e } \quad \cos x=1-\frac{x^2}{2 !}+\frac{x^4}{4 !}-\cdots$$
+$$\sin x=x-\frac{x^3}{3 !}+\frac{x^5}{5 !}-\cdots$$
+
+$$\cos x=1-\frac{x^2}{2 !}+\frac{x^4}{4 !}-\cdots$$
 
 em virtude da própria definição dessas funções.
 
-2. **Função $1 /(1-x)$**: A série de potências $1+x+x^2+\cdots$ é uma série geométrica. Ela converge para a soma $1 /(1-x)$ quando $|x|<1$, e diverge quando $|x| \geq 1$. Logo é a série de Taylor da função $f:(-1,1) \rightarrow \mathbb{R}$, definida por $f(x)=$ $1 /(1-x)$.
+2. **Função $1 /(1-x)$**: A série de potências $1+x+x^2+\cdots$ é uma série geométrica. Ela converge para a soma $1 /(1-x)$ quando
+
+$$|x|<1$$ 
+
+e diverge quando $$|x| \geq 1$$
+
+Logo é a série de Taylor da função $f:(-1,1) \rightarrow \mathbb{R}$, definida por $f(x)=$ $1 /(1-x)$.
 
 3. **Função exponencial**
 
