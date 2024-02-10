@@ -18,11 +18,13 @@ $$\cos x=1-\frac{x^2}{2 !}+\frac{x^4}{4 !}-\cdots$$
 
 em virtude da própria definição dessas funções.
 
-2. **Função $1 /(1-x)$**: A série de potências $1+x+x^2+\cdots$ é uma série geométrica. Ela converge para a soma $1 /(1-x)$ quando
+2. **Função** $1 /(1-x)$: A série de potências $1+x+x^2+\cdots$ é uma série geométrica. Ela converge para a soma $1 /(1-x)$ quando
 
 $$|x|<1$$ 
 
-e diverge quando $$|x| \geq 1$$
+e diverge quando 
+
+$$|x| \geq 1$$
 
 Logo é a série de Taylor da função $f:(-1,1) \rightarrow \mathbb{R}$, definida por $f(x)=$ $1 /(1-x)$.
 
