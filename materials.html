@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Materials — Iara Castro</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Iara Castro</a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a class="active" href="materials.html">Materials</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Materials</h1>
+
+    <section class="card">
+      <h2>Slides</h2>
+      <ul>
+        <li><a href="#">Talk title (PDF)</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Teaching</h2>
+      <ul>
+        <li><a href="#">Course name — notes / assignments</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Code / Demos</h2>
+      <ul>
+        <li><a href="https://github.com/iaracastro" target="_blank" rel="noreferrer">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="y"></span> Iara Castro</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
