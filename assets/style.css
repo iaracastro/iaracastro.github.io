@@ -126,17 +126,17 @@
 
 /* LIGHT THEME OVERRIDES */
 :root[data-theme="light"] {
-  --bg: #ebf0f7;
+  --bg: #ffffff;
   --text: #192031;
   --muted: #8797ad;
   --border: transparent;
   --link: rgb(108, 145, 178);
-  --nav-bg: #d7e2f1; 
+  --nav-bg: #e5eef8; 
   --nav-active: transparent;
   --nav-hover: transparent;
   --accent: rgb(135, 180, 218);
   --card-bg: #cbd8ea; /* Light mode project card background */
-  --exp-card-bg: #d7e2f1; /* Light mode experience card background */
+  --exp-card-bg: #f0f7ff; /* Light mode experience card background */
   --shadow: 0 10px 30px rgba(2,6,23,0.08);
 }
 
