@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Materials — Iara Castro</title>
+  <title>Projects — Iara Castro</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
@@ -14,8 +14,8 @@
     <nav class="nav">
       <div class="links">
         <a href="index.html">Home</a>
-        <a class="active" href="materials.html">Materials</a>
-        <a href="projects.html">Projects</a>
+        <a href="materials.html">Materials</a>
+        <a class="active" href="projects.html">Projects</a>
       </div>
 
       <!-- THEME TOGGLE -->
@@ -31,59 +31,30 @@
   </header>
 
   <main class="container">
-    <h1>Statistics</h1>
-    <section class="card1">
-      <p style="font-family:Calibri">Statistical Inference</p>
-    </section>
-
-    <section class="card2">
-      <p style="font-family:Calibri">Statistical Modelling</p>
-    </section>
-
-    <section class="card1">
-      <p style="font-family:Calibri">Causality</p>
-    </section>
-  </main>
-
-  <main class="container">
-    <h1>Finances</h1>
-    <section class="card1">
-      <p style="font-family:Calibri">Stochastic Processes</p>
-    </section>
-
-    <section class="card2">
-      <p style="font-family:Calibri">Mathematical Methods in Finance</p>
-    </section>
-
-    <section class="card1">
-      <p style="font-family:Calibri">Financial Mathematics</p>
-    </section>
-  </main>
-
-  <main class="container">
-    <h1>Artificial Intelligence</h1>
-    <section class="card1">
-      <p style="font-family:Calibri">Machine Learning</p>
-    </section>
-
-    <section class="card2">
-      <p style="font-family:Calibri">Deep Learning</p>
-    </section>
-  </main>
-
-    <main class="container">
-    <h1>Fundamentals</h1>
-    <section class="card1">
-      <p style="font-family:Calibri">Linear Algebra</p>
-    </section>
-
-    <section class="card2">
-      <p style="font-family:Calibri">Probability</p>
-    </section>
-
-    <section class="card1">
-      <p style="font-family:Calibri">Real Analysis</p>
-    </section>
+    <h1>Projects</h1>
+    <div class="project-cards">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Project 1" class="project-img" />
+        <div class="project-info">
+          <h2>Project 1</h2>
+          <p>Lorem ipsum is a dummy text used in the design and publishing industry, originating from a scrambled passage of Cicero's work from the 15th century.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Project 2" class="project-img" />
+        <div class="project-info">
+          <h2>Project 2</h2>
+          <p>Lorem ipsum is a dummy text used in the design and publishing industry, originating from a scrambled passage of Cicero's work from the 15th century.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Project 3" class="project-img" />
+        <div class="project-info">
+          <h2>Project 3</h2>
+          <p>Lorem ipsum is a dummy text used in the design and publishing industry, originating from a scrambled passage of Cicero's work from the 15th century.</p>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">
@@ -117,7 +88,5 @@
       setTheme(current === "dark" ? "light" : "dark");
     });
   </script>
-
-
 </body>
 </html>

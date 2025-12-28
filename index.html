@@ -1,50 +1,233 @@
 <!doctype html>
+<link rel="icon" href="images/rocket-svgrepo-com.svg" />
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Iara Castro</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    hr.gradient {
+        border: none;
+        height: 4px;
+        background: linear-gradient(to right, #abb4bf, #99b6cd);
+        border-radius: 2px;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+    <label for="menu-toggle" class="hamburger">☰</label>
+    <img src="images/rocket-svgrepo-com.svg" alt="Logo" class="site-logo" />
     <nav class="nav">
-      <a class="brand" href="index.html">Iara Castro</a>
       <div class="links">
         <a class="active" href="index.html">Home</a>
-        <a href="cv.html">CV</a>
         <a href="materials.html">Materials</a>
+        <a href="projects.html">Projects</a>
       </div>
+      <!-- THEME TOGGLE -->
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+        <span class="toggle-track">
+          <span class="toggle-thumb">
+            <span class="icon icon-sun" aria-hidden="true">☀</span>
+            <span class="icon icon-moon" aria-hidden="true">☾</span>
+          </span>
+        </span>
+      </button>
     </nav>
   </header>
 
   <main class="container">
-    <section class="hero">
-      <div class="avatar" aria-hidden="true"></div>
-      <div>
-        <h1>Hi, I’m Iara.</h1>
-        <p class="lead">
-          Short bio goes here (1–3 lines). Add your role, institution, and main interests.
-        </p>
-
-        <div class="buttons">
-          <a class="btn" href="cv.html">View CV</a>
-          <a class="btn secondary" href="materials.html">Materials</a>
+    <section class="about-banner">
+      <div class="hero-flex">
+        <div class="hero-image-section">
+          <img src="images/profile2.jpg" alt="Profile" class="profile-img" />
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/iara-cristina-mescua-castro-416994255" target="_blank" rel="noreferrer" title="LinkedIn">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.807 0-9.718h3.554v1.375c.429-.663 1.197-1.608 2.905-1.608 2.121 0 3.71 1.387 3.71 4.365v5.586zM5.337 9.433c-1.144 0-1.915-.759-1.915-1.712 0-.956.77-1.71 1.954-1.71 1.18 0 1.915.75 1.939 1.71 0 .953-.759 1.712-1.939 1.712zm1.581 11.019H3.656V8.734h3.262v11.718zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/iaracastro" target="_blank" rel="noreferrer" title="GitHub">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="mailto:iaramescuacastro@gmail.com" title="Email">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </a>
+            <a href="tel:+5522988087698" title="Phone">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.92 7.02C17.45 6.18 16.51 5.55 15.43 5.55c-2.13 0-3.91 1.78-3.91 3.91 0 1.04.42 1.99 1.12 2.67.3.3.77.77 1.27 1.27.5.5.97.97 1.27 1.27.7.7 1.63 1.12 2.67 1.12 2.13 0 3.91-1.78 3.91-3.91 0-1.08-.63-2.02-1.49-2.49M20.01 15.38c-1.21 1.2-2.85 1.95-4.69 1.95-3.87 0-7-3.13-7-7s3.13-7 7-7c1.84 0 3.48.75 4.69 1.95.92-.92 2.42-1.92 2.42-1.92C21.3 2.92 18.7 0 15.32 0 10.73 0 7 3.73 7 8.32c0 2.69 1.35 5.08 3.42 6.58-.02.21-.03.42-.03.64 0 1.66.67 3.16 1.76 4.24 1.08 1.08 2.58 1.76 4.24 1.76 1.66 0 3.16-.67 4.24-1.76 1.08-1.08 1.76-2.58 1.76-4.24 0-.22-.01-.43-.03-.64 2.07-1.5 3.42-3.89 3.42-6.58 0-4.59-3.73-8.32-8.32-8.32z"/>
+              </svg>
+            </a>
+          </div>
         </div>
-
-        <div class="icons">
-          <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com/iaracastro" target="_blank" rel="noreferrer">GitHub</a>
+        <div class="hero-text">
+          <h1>About Me</h1>
+          <p class="lead">
+            I'm Iara Cristina, a 21-year-old student currently at the last year on my Master degree's of Applied Mathematics and Data Science at FGV (Fundação Getúlio Vargas). <br> <br>
+            Born into a world where academia was not just a profession but a way of life, both my parents served as professors at UENF (Universidade Estadual Norte Fluminense Darcy Ribeiro).
+            Their influence fostered a love for learning and a deep appreciation for the real-world applications of mathematics. 
+            I was always passionate about numbers and problem-solving, which naturally led me to move to Rio de Janeiro to pursue a Applied Mathematics bachelor's degree at FGV.
+            There, i was able to learn from some of the best researchers in different fields of mathematics, statistics, computer science, finance and biology.<br><br>
+            As the future beckons with myriad possibilities, my life goal is to explore the infinite avenues STEM has to offer and, in the process, extend a helping hand and share knowledge with fellow teammates.
+          </p>
         </div>
       </div>
     </section>
+    <div class="section-divider"></div>
+  </main>
 
+  <main class="container">
+    <!-- When passing the cursor through CV show Download text-->
+    <h1 href="files/Iara_Castro_CV.pdf" download="Iara_Castro_CV.pdf" title="Download CV">
+      Resume
+    </h1>
+    <h2>Education</h2> 
+    <hr class="gradient">
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Master of Applied Mathematics and Data Science </div>
+          <div class="exp-corp"><a href="https://emap.fgv.br/curso/mestrado-em-matematica-aplicada-e-ciencia-de-dados#apresentacao" target="_blank">Fundação Getúlio Vargas</a>
+          <br> Average Concept: A </div>
+          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2021 - 12/2024</span></div>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <li>Linear Algebra</li>
+        <li>Reinforcement Learning</li>
+        <li>Real Analysis</li>
+        <li>Causality</li>
+        <li>Computer Vision</li>
+        <li>Deep Learning</li>
+        <li>Mathematical Biology</li>
+      </ul>
+    </section>
+
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Bachelor of Applied Mathematics </div>
+          <div class="exp-corp"><a href="https://www.fgv.br/ciencias-exatas-e-tecnologicas/curso/bacharelado-em-matematica-aplicada" target="_blank">Fundação Getúlio Vargas</a> 
+          <br> CR: 8.5/10 </div>
+          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2019 - 12/2023</span></div>
+        </div>
+      </div>
+      <ul class="exp-desc">  
+        <li> Probability </li>
+        <li> Introduction to Economics </li>
+        <li> Modeling of Physical Phenomena </li>
+        <li> Modeling of Biological Phenomena </li>
+        <li> Discrete Mathematics</li>
+        <li> Data Structure</li>
+        <li> Exploratory Data Analysis </li>
+        <li> Ordinary Differential Equations (ODE)</li>
+        <li> Partial Differential Equations (PDE)</li>
+        <li> Introduction to Numerical Analysis </li>
+        <li> Stochastic Processes</li>
+        <li> Statistical Inference </li>
+        <li> Statistical Modelling </li>
+        <li> Machine Learning </li>
+        <li> Algebra and Cryptography </li>
+        <li> Linear and Integer Programming</li>
+        <li> Continuous Optimization </li>
+      </ul>
+    </section>
+    <!--  Add line here -->
+    <br><br>
+    <h2>Experience</h2>
+    <hr class="gradient">
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/bocombbm.png" alt="BBM Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Money Laundering Prevention and Combating Terrorism Intern</div>
+          <div class="exp-corp"><a href="https://www.bocombbm.com.br/" target="_blank">Bank of Communications (Bocom BBM)</a></div>
+          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">09/2023 - 03/2024</span></div>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <li>Improved client transaction monitoring by automating alert triggers based on customized rules (e.g., daily amount thresholds, number of counterparties, frequency of transactions).</li>
+        <li>Automated compliance routines, such as including web scraping for negative news searches on individuals using targeted keywords, Integrated Idwall API for optimized streamlined client background checks (individuals and companies) and automated monthly database generation and maintenance for reporting.</li>
+        <li>Created templates for semi-automated contract generation in Word, reducing manual workload.</li>
+      </ul>
+    </section>
+    <!--
     <section class="card">
-      <h2>News</h2>
-      <ul>
-        <li>Add recent updates here.</li>
-        <li>Example: “New preprint on … (Dec 2025)”</li>
+      <h2>Publications</h2>
+      <ol>
+        <li>Paper title, authors, venue/year. <a href="#">link</a></li>
+      </ol>
+    </section>
+    -->
+    <br><br>
+    <h2>Volunteer Work</h2>
+    <hr class="gradient">
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/corrente.jpg" alt="Corrente Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Community Service Volunteer</div>
+          <div class="exp-corp"><a href="https://www.correntepelobem.com/" target="_blank">Corrente pelo Bem</a></div>
+          <span class="exp-date">12/2025 - Present</span></div>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <u>Corrente pelo Bem</u> is a non-profit project that promotes social, educational, moral, spiritual and material assistance,
+        providing protection to the family, especially through actions, services, projects, programs and benefits.
+        I prepare and distribute meals, drinks and clothing to vulnerable communities, and help organize special events to bring joy to families in need.
+      </ul>
+    </section>
+
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/reprograma.jpg" alt="Reprograma Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Volunteer Data Analysis Mentor</div>
+          <div class="exp-corp"><a href="https://www.reprograma.com/" target="_blank">{Reprograma}</a></div>
+          <span class="exp-date">03/2021 - 12/2021</span>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <u>{Reprograma}</u> is an initiative that focuses on teaching programming to women in situations of social vulnerability.
+        I mentored a session focused on career development in the technology field, relevant soft and hard skills, and career transition to Data Analysis.
+      </ul>
+    </section>
+
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/sda.jpg" alt="SDA Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Marketing Analyst</div>
+          <div class="exp-corp"><a href="https://www.fgv.br/" target="_blank">Sociedade das Artes da FGV</a></div>
+          <span class="exp-date">03/2023 - 12/2023</span>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <u>Sociedade das Artes da FGV</u> is a non-profit organization that aims to promote and support cultural and artistic activities within the FGV community.
+        I organized and promoted events and festivals, managed social networks and designed the team's t-shirt.
+      </ul>
+    </section>
+    
+    <section class="exp-card">
+      <div class="exp-header">
+        <img src="images/amplia.jpeg" alt="Amplia Logo" class="exp-logo" />
+        <div>
+          <div class="exp-role">Pedagogic Analyst</div>
+          <div class="exp-corp"><a href="https://www.ampliafgv.com.br/" target="_blank">Amplia FGV</a></div>
+          <span class="exp-date">03/2023 - 12/2023</span>
+        </div>
+      </div>
+      <ul class="exp-desc">
+        <u>Amplia</u> is a social preparatory course aimed at people in situations of socioeconomic vulnerability.
+        I assisted students, monitors and teachers, monitored classes and conducted interviews in the 2024 selection process.
       </ul>
     </section>
   </main>
@@ -56,7 +239,36 @@
   </footer>
 
   <script>
+    // Year copyright
     document.getElementById("y").textContent = new Date().getFullYear();
+
+    // Theme toggle logic
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    
+    // Load saved theme from localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      html.setAttribute('data-theme', 'light');
+    }
+    
+    // Toggle on click
+    themeToggle.addEventListener('click', function() {
+      const currentTheme = html.getAttribute('data-theme');
+      if (currentTheme === 'light') {
+        html.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        html.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+
+    document.querySelectorAll('.exp-desc').forEach(list => {
+      if (list.children.length > 10) {
+        list.classList.add('two-cols');
+      }
+    });
   </script>
 </body>
 </html>
