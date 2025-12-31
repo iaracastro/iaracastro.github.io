@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deep Learning — Iara Castro</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+    <label for="menu-toggle" class="hamburger">☰</label>
+    <img src="../images/rocket-svgrepo-com.svg" alt="Logo" class="site-logo" />
+    <nav class="nav">
+      <div class="links">
+        <a href="../index.html">Home</a>
+        <a href="../materials.html">Materials</a>
+        <a href="../projects.html">Projects</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+        <span class="toggle-track">
+          <span class="toggle-thumb">
+            <span class="icon icon-sun" aria-hidden="true">☀</span>
+            <span class="icon icon-moon" aria-hidden="true">☾</span>
+          </span>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="topic-page-container">
+      <aside class="topic-sidebar">
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="#introduction" class="sidebar-link active">Introduction</a></li>
+          <li><a href="#neural-networks" class="sidebar-link">Neural Networks</a></li>
+          <li><a href="#cnn" class="sidebar-link">Convolutional NN</a></li>
+          <li><a href="#rnn" class="sidebar-link">Recurrent NN</a></li>
+          <li><a href="#transformers" class="sidebar-link">Transformers</a></li>
+        </ul>
+      </aside>
+
+      <div class="topic-content">
+        <h2>Deep Learning</h2>
+        <section id="introduction"><h3>Introduction</h3><p>Content coming soon...</p></section>
+        <section id="neural-networks"><h3>Neural Networks</h3><p>Content coming soon...</p></section>
+        <section id="cnn"><h3>Convolutional Neural Networks</h3><p>Content coming soon...</p></section>
+        <section id="rnn"><h3>Recurrent Neural Networks</h3><p>Content coming soon...</p></section>
+        <section id="transformers"><h3>Transformers</h3><p>Content coming soon...</p></section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><small>© <span id="y"></span> Iara Castro</small></div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    const root = document.documentElement;
+    const btn = document.getElementById("themeToggle");
+
+    function setTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+    }
+
+    const saved = localStorage.getItem("theme");
+    const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+    setTheme(saved || (prefersLight ? "light" : "dark"));
+
+    btn.addEventListener("click", () => {
+      const current = root.getAttribute("data-theme") || "dark";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
+
+    const sidebarLinks = document.querySelectorAll('.sidebar-link');
+    sidebarLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        sidebarLinks.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        if (pageYOffset >= section.offsetTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      sidebarLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

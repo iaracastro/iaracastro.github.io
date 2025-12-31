@@ -112,7 +112,7 @@
   --muted: #8295b0; 
   --border: transparent; /* Invisible border */
   --link: #647FBC;
-  --max: 900px;
+  --max: 950px;
   --nav-bg: #141c2c; 
   --nav-active: transparent; /* Color of active nav box */
   --nav-hover: transparent; /* Color of nav box on hover */
@@ -148,17 +148,17 @@ body {
   .project-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 32px;
+    gap: 30px; /* Space between cards */
+    margin-top: 15px; /* Space above the cards */
     margin-bottom: 32px;
     justify-content: flex-start;
   }
   .project-card {
     background: var(--card-bg);
     border-radius: 18px;
-    box-shadow: 0 2px 12px rgba(30,52,100,0.10);
-    /* total width divided by 3 cards minus gap */
-    width: calc((100% - 60px) / 3);
+    /*box-shadow: 0 2px 12px rgba(30,52,100,0.10); */
+    /* 3 cards per row */
+    width: calc(100%/3); /* 60px = 2 * 30px gap */
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -166,11 +166,10 @@ body {
   }
   .project-card:hover {
     transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(30,52,100,0.18);
   }
   .project-img {
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
     background: var(--nav-bg);
   }
@@ -383,11 +382,22 @@ p {
   background-color: var(--exp-card-bg);
 }
 
+.card1 p:hover {
+  color: #0140B1; /* Escolha o tom que quiser para o texto */
+  cursor: pointer; /* Opcional, só para indicar que é interativo */
+  transition: background 0.2s, color 0.2s; /* Suaviza a transição */
+}
 
 .card2 {
   border:1px solid var(--border);
   border-radius:5px;
   background-color: transparent;
+}
+
+.card2 p:hover {
+  color: #0140B1; /* Escolha o tom que quiser para o texto */
+  cursor: pointer; /* Opcional, só para indicar que é interativo */
+  transition: background 0.2s, color 0.2s; /* Suaviza a transição */
 }
 
 /* THEME TOGGLE */
@@ -476,4 +486,149 @@ p {
   border-top:1px solid var(--border);
   color:var(--muted);
   font-size:12px;
+}
+
+/* TOPICS GRID */
+.topics-grid {
+  display: grid;
+  grid-template-columns: 0.4fr;
+  /* grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); */
+  gap: 15px; /* Space between topic cards */
+  margin-top: 15px; 
+}
+
+.topic-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 10px; /* Padding inside each card */
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10px;
+}
+
+.topic-card:hover {
+  transform: translateY(-4px);
+  background: var(--exp-card-bg);
+}
+
+.topic-card h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-family: var(--font-fancy);
+  font-weight: 500;
+}
+
+/* TOPIC PAGE LAYOUT */
+.topic-page-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 24px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topic-sidebar {
+  flex: 0 0 250px;
+  background: var(--nav-bg);
+  border-radius: 8px;
+  padding: 20px;
+  height: fit-content;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.topic-sidebar h4 {
+  margin: 0 0 16px 0;
+  font-size: 0.95rem;
+  color: var(--link);
+  font-family: var(--font-fancy);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.topic-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topic-sidebar li {
+  margin-bottom: 12px;
+}
+
+.topic-sidebar a {
+  display: block;
+  padding: 10px 12px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+  border-left: 3px solid transparent;
+}
+
+.topic-sidebar a:hover {
+  background: rgba(100, 127, 188, 0.1);
+  border-left-color: var(--link);
+  color: var(--link);
+}
+
+.topic-sidebar a.active {
+  background: rgba(100, 127, 188, 0.15);
+  border-left-color: var(--link);
+  color: var(--link);
+  font-weight: 600;
+}
+
+.topic-content {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.topic-content h2 {
+  color: var(--link);
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.topic-content p, .topic-content li {
+  line-height: 1.8;
+}
+
+.topic-content ul {
+  padding-left: 24px;
+}
+
+.topic-content li {
+  margin-bottom: 10px;
+}
+
+/* Mobile adjustments for topic pages */
+@media (max-width: 768px) {
+  .topics-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+  }
+
+  .topic-page-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .topic-sidebar {
+    flex: 0 0 auto;
+    position: relative;
+    top: 0;
+    max-height: none;
+  }
 }

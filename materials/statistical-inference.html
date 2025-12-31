@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Statistical Inference — Iara Castro</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+    <label for="menu-toggle" class="hamburger">☰</label>
+    <img src="../images/rocket-svgrepo-com.svg" alt="Logo" class="site-logo" />
+    <nav class="nav">
+      <div class="links">
+        <a href="../index.html">Home</a>
+        <a href="../materials.html">Materials</a>
+        <a href="../projects.html">Projects</a>
+      </div>
+
+      <!-- THEME TOGGLE -->
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+        <span class="toggle-track">
+          <span class="toggle-thumb">
+            <span class="icon icon-sun" aria-hidden="true">☀</span>
+            <span class="icon icon-moon" aria-hidden="true">☾</span>
+          </span>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="topic-page-container">
+      <!-- SIDEBAR -->
+      <aside class="topic-sidebar">
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="#introduction" class="sidebar-link active">Introduction</a></li>
+          <li><a href="#hypothesis-testing" class="sidebar-link">Hypothesis Testing</a></li>
+          <li><a href="#confidence-intervals" class="sidebar-link">Confidence Intervals</a></li>
+          <li><a href="#point-estimation" class="sidebar-link">Point Estimation</a></li>
+          <li><a href="#likelihood" class="sidebar-link">Maximum Likelihood</a></li>
+          <li><a href="#bayesian" class="sidebar-link">Bayesian Inference</a></li>
+          <li><a href="#applications" class="sidebar-link">Applications</a></li>
+        </ul>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <div class="topic-content">
+        <h2>Statistical Inference</h2>
+
+        <section id="introduction">
+          <h3>Introduction</h3>
+          <p>Statistical inference is the process of using data analysis to infer properties of an underlying distribution of probability. It uses sample data to make decisions about populations.</p>
+          <p>Key concepts include:</p>
+          <ul>
+            <li>Drawing conclusions from data</li>
+            <li>Estimating population parameters</li>
+            <li>Testing hypotheses about populations</li>
+            <li>Quantifying uncertainty</li>
+          </ul>
+        </section>
+
+        <section id="hypothesis-testing">
+          <h3>Hypothesis Testing</h3>
+          <p>Hypothesis testing is a method of statistical inference used to decide whether data sufficiently supports a particular hypothesis about a population parameter.</p>
+          <p>The main steps are:</p>
+          <ul>
+            <li>Formulate null and alternative hypotheses</li>
+            <li>Choose a significance level (α)</li>
+            <li>Calculate test statistic</li>
+            <li>Determine p-value</li>
+            <li>Make a decision to reject or fail to reject the null hypothesis</li>
+          </ul>
+        </section>
+
+        <section id="confidence-intervals">
+          <h3>Confidence Intervals</h3>
+          <p>A confidence interval is a range of values, derived from sample statistics, that is likely to contain the value of an unknown population parameter.</p>
+          <p>For example, a 95% confidence interval means that if we repeated the sampling process many times, approximately 95% of the intervals would contain the true population parameter.</p>
+        </section>
+
+        <section id="point-estimation">
+          <h3>Point Estimation</h3>
+          <p>Point estimation is the process of providing a single value (a point estimate) as an estimate of an unknown population parameter based on sample data.</p>
+          <p>Common estimators include:</p>
+          <ul>
+            <li>Sample mean for population mean</li>
+            <li>Sample proportion for population proportion</li>
+            <li>Sample variance for population variance</li>
+          </ul>
+        </section>
+
+        <section id="likelihood">
+          <h3>Maximum Likelihood Estimation</h3>
+          <p>Maximum likelihood estimation (MLE) is a method of estimating the parameters of a probability distribution by maximizing the likelihood function.</p>
+          <p>The likelihood function represents the probability of observing the given data as a function of the unknown parameters.</p>
+        </section>
+
+        <section id="bayesian">
+          <h3>Bayesian Inference</h3>
+          <p>Bayesian inference is a method that uses probability to represent uncertainty in statistical inference. It incorporates prior beliefs about parameters and updates them based on observed data.</p>
+          <p>Key components:</p>
+          <ul>
+            <li>Prior distribution</li>
+            <li>Likelihood of the data</li>
+            <li>Posterior distribution (updated beliefs)</li>
+          </ul>
+        </section>
+
+        <section id="applications">
+          <h3>Applications</h3>
+          <p>Statistical inference is widely used in various fields:</p>
+          <ul>
+            <li>Quality control in manufacturing</li>
+            <li>Clinical trials and medical research</li>
+            <li>Market research and surveys</li>
+            <li>Environmental monitoring</li>
+            <li>Financial analysis and risk assessment</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="y"></span> Iara Castro</small>
+    </div>
+  </footer>
+
+  <script>
+    // footer year
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // theme toggle
+    const root = document.documentElement;
+    const btn = document.getElementById("themeToggle");
+
+    function setTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+      btn.setAttribute("aria-pressed", theme === "light");
+    }
+
+    const saved = localStorage.getItem("theme");
+    const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+
+    // default: dark (your current), but respect saved choice; if none, use system preference
+    setTheme(saved ? saved : (prefersLight ? "light" : "dark"));
+
+    btn.addEventListener("click", () => {
+      const current = root.getAttribute("data-theme") || "dark";
+      setTheme(current === "dark" ? "light" : "dark");
+    });
+
+    // Sidebar active link highlighting
+    const sidebarLinks = document.querySelectorAll('.sidebar-link');
+    sidebarLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        sidebarLinks.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+
+    // Highlight active section on scroll
+    window.addEventListener('scroll', () => {
+      let current = '';
+      const sections = document.querySelectorAll('section');
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      sidebarLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
