@@ -632,3 +632,52 @@ p {
     max-height: none;
   }
 }
+
+/* RESUME TABS */
+.resume-tabs {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  flex-wrap: wrap;
+  /*border-bottom: 1px solid var(--border);*/
+  padding-bottom: 0cm;
+}
+
+.resume-tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: 1rem;
+  font-family: var(--font-fancy);
+  font-weight: 600;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  /*border-bottom: 3px solid transparent;*/
+  position: relative;
+}
+
+.resume-tab-btn:hover {
+  color: var(--link);
+  background: rgba(100, 127, 188, 0.08);
+}
+
+.resume-tab-btn.active {
+  color: var(--text);
+  /*border-bottom-color: var(--link);*/
+}
+
+.resume-category {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -87,149 +87,162 @@
     <a href="cv.pdf" download="Iara_Castro_CV.pdf" title="Download CV" target="_blank">
       <h1><u>Resume</u></h1>
     </a>
-    <h2>Education</h2> 
-    <hr class="gradient">
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Master of Applied Mathematics and Data Science </div>
-          <div class="exp-corp"><a href="https://emap.fgv.br/curso/mestrado-em-matematica-aplicada-e-ciencia-de-dados#apresentacao" target="_blank">Fundação Getúlio Vargas</a>
-          <br> Average Concept: A </div>
-          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2021 - 12/2024</span></div>
-        </div>
-      </div>
-      <ul class="exp-desc">
-        <li>Linear Algebra</li>
-        <li>Reinforcement Learning</li>
-        <li>Real Analysis</li>
-        <li>Causality</li>
-        <li>Computer Vision</li>
-        <li>Deep Learning</li>
-        <li>Mathematical Biology</li>
-      </ul>
-    </section>
 
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Bachelor of Applied Mathematics </div>
-          <div class="exp-corp"><a href="https://www.fgv.br/ciencias-exatas-e-tecnologicas/curso/bacharelado-em-matematica-aplicada" target="_blank">Fundação Getúlio Vargas</a> 
-          <br> CR: 8.5/10 </div>
-          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2019 - 12/2023</span></div>
-        </div>
-      </div>
-      <ul class="exp-desc">  
-        <li> Probability </li>
-        <li> Introduction to Economics </li>
-        <li> Modeling of Physical Phenomena </li>
-        <li> Modeling of Biological Phenomena </li>
-        <li> Discrete Mathematics</li>
-        <li> Data Structure</li>
-        <li> Exploratory Data Analysis </li>
-        <li> Ordinary Differential Equations (ODE)</li>
-        <li> Partial Differential Equations (PDE)</li>
-        <li> Introduction to Numerical Analysis </li>
-        <li> Stochastic Processes</li>
-        <li> Statistical Inference </li>
-        <li> Statistical Modelling </li>
-        <li> Machine Learning </li>
-        <li> Algebra and Cryptography </li>
-        <li> Linear and Integer Programming</li>
-        <li> Continuous Optimization </li>
-      </ul>
-    </section>
-    <!--  Add line here -->
-    <br><br>
-    <h2>Experience</h2>
-    <hr class="gradient">
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/bocombbm.png" alt="BBM Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Money Laundering Prevention and Combating Terrorism Intern</div>
-          <div class="exp-corp"><a href="https://www.bocombbm.com.br/" target="_blank">Bank of Communications (Bocom BBM)</a></div>
-          <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">09/2023 - 03/2024</span></div>
-        </div>
-      </div>
-      <ul class="exp-desc">
-        <li>Improved client transaction monitoring by automating alert triggers based on customized rules (e.g., daily amount thresholds, number of counterparties, frequency of transactions).</li>
-        <li>Automated compliance routines, such as including web scraping for negative news searches on individuals using targeted keywords, Integrated Idwall API for optimized streamlined client background checks (individuals and companies) and automated monthly database generation and maintenance for reporting.</li>
-        <li>Created templates for semi-automated contract generation in Word, reducing manual workload.</li>
-      </ul>
-    </section>
-    <!--
-    <section class="card">
-      <h2>Publications</h2>
-      <ol>
-        <li>Paper title, authors, venue/year. <a href="#">link</a></li>
-      </ol>
-    </section>
-    -->
-    <br><br>
-    <h2>Volunteer Work</h2>
-    <hr class="gradient">
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/corrente.jpg" alt="Corrente Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Community Service Volunteer</div>
-          <div class="exp-corp"><a href="https://www.correntepelobem.com/" target="_blank">Corrente pelo Bem</a></div>
-          <span class="exp-date">12/2025 - Present</span></div>
-        </div>
-      </div>
-      <ul class="exp-desc">
-        <u>Corrente pelo Bem</u> is a non-profit project that promotes social, educational, moral, spiritual and material assistance,
-        providing protection to the family, especially through actions, services, projects, programs and benefits.
-        I prepare and distribute meals, drinks and clothing to vulnerable communities, and help organize special events to bring joy to families in need.
-      </ul>
-    </section>
+    <!-- Resume Category Tabs -->
+    <div class="resume-tabs">
+      <button class="resume-tab-btn active" data-category="education">Education</button>
+      <button class="resume-tab-btn" data-category="experience">Experience</button>
+      <button class="resume-tab-btn" data-category="volunteer">Volunteer Work</button>
+      <button class="resume-tab-btn" data-category="certificates">Certificates</button>
+    </div>
 
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/reprograma.jpg" alt="Reprograma Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Volunteer Data Analysis Mentor</div>
-          <div class="exp-corp"><a href="https://www.reprograma.com/" target="_blank">{Reprograma}</a></div>
-          <span class="exp-date">03/2021 - 12/2021</span>
+    <!-- Education Section -->
+    <div class="resume-category" id="education" style="display: block;">
+      <hr class="gradient">
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Master of Applied Mathematics and Data Science </div>
+            <div class="exp-corp"><a href="https://emap.fgv.br/curso/mestrado-em-matematica-aplicada-e-ciencia-de-dados#apresentacao" target="_blank">Fundação Getúlio Vargas</a>
+            <br> Average Concept: A </div>
+            <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2021 - 12/2024</span></div>
+          </div>
         </div>
-      </div>
-      <ul class="exp-desc">
-        <u>{Reprograma}</u> is an initiative that focuses on teaching programming to women in situations of social vulnerability.
-        I mentored a session focused on career development in the technology field, relevant soft and hard skills, and career transition to Data Analysis.
-      </ul>
-    </section>
+        <ul class="exp-desc">
+          <li>Linear Algebra</li>
+          <li>Reinforcement Learning</li>
+          <li>Real Analysis</li>
+          <li>Causality</li>
+          <li>Computer Vision</li>
+          <li>Deep Learning</li>
+          <li>Mathematical Biology</li>
+        </ul>
+      </section>
 
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/sda.jpg" alt="SDA Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Marketing Analyst</div>
-          <div class="exp-corp"><a href="https://www.fgv.br/" target="_blank">Sociedade das Artes da FGV</a></div>
-          <span class="exp-date">03/2023 - 12/2023</span>
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/fgv.png" alt="FGV Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Bachelor of Applied Mathematics </div>
+            <div class="exp-corp"><a href="https://www.fgv.br/ciencias-exatas-e-tecnologicas/curso/bacharelado-em-matematica-aplicada" target="_blank">Fundação Getúlio Vargas</a> 
+            <br> CR: 8.5/10 </div>
+            <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">03/2019 - 12/2023</span></div>
+          </div>
         </div>
-      </div>
-      <ul class="exp-desc">
-        <u>Sociedade das Artes da FGV</u> is a non-profit organization that aims to promote and support cultural and artistic activities within the FGV community.
-        I organized and promoted events and festivals, managed social networks and designed the team's t-shirt.
-      </ul>
-    </section>
-    
-    <section class="exp-card">
-      <div class="exp-header">
-        <img src="images/amplia.jpeg" alt="Amplia Logo" class="exp-logo" />
-        <div>
-          <div class="exp-role">Pedagogic Analyst</div>
-          <div class="exp-corp"><a href="https://www.ampliafgv.com.br/" target="_blank">Amplia FGV</a></div>
-          <span class="exp-date">03/2023 - 12/2023</span>
+        <ul class="exp-desc">  
+          <li> Probability </li>
+          <li> Introduction to Economics </li>
+          <li> Modeling of Physical Phenomena </li>
+          <li> Modeling of Biological Phenomena </li>
+          <li> Discrete Mathematics</li>
+          <li> Data Structure</li>
+          <li> Exploratory Data Analysis </li>
+          <li> Ordinary Differential Equations (ODE)</li>
+          <li> Partial Differential Equations (PDE)</li>
+          <li> Introduction to Numerical Analysis </li>
+          <li> Stochastic Processes</li>
+          <li> Statistical Inference </li>
+          <li> Statistical Modelling </li>
+          <li> Machine Learning </li>
+          <li> Algebra and Cryptography </li>
+          <li> Linear and Integer Programming</li>
+          <li> Continuous Optimization </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="resume-category" id="experience" style="display: none;">
+      <hr class="gradient">
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/bocombbm.png" alt="BBM Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Money Laundering Prevention and Combating Terrorism Intern</div>
+            <div class="exp-corp"><a href="https://www.bocombbm.com.br/" target="_blank">Bank of Communications (Bocom BBM)</a></div>
+            <div class="exp-locdate">Rio de Janeiro, Brazil &nbsp; <span class="exp-date">09/2023 - 03/2024</span></div>
+          </div>
         </div>
-      </div>
-      <ul class="exp-desc">
-        <u>Amplia</u> is a social preparatory course aimed at people in situations of socioeconomic vulnerability.
-        I assisted students, monitors and teachers, monitored classes and conducted interviews in the 2024 selection process.
-      </ul>
-    </section>
+        <ul class="exp-desc">
+          <li>Improved client transaction monitoring by automating alert triggers based on customized rules (e.g., daily amount thresholds, number of counterparties, frequency of transactions).</li>
+          <li>Automated compliance routines, such as including web scraping for negative news searches on individuals using targeted keywords, Integrated Idwall API for optimized streamlined client background checks (individuals and companies) and automated monthly database generation and maintenance for reporting.</li>
+          <li>Created templates for semi-automated contract generation in Word, reducing manual workload.</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Volunteer Work Section -->
+    <div class="resume-category" id="volunteer" style="display: none;">
+      <hr class="gradient">
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/corrente.jpg" alt="Corrente Logo" class="exp-logo" />
+            <div>
+              <div class="exp-role">Community Service Volunteer</div>
+              <div class="exp-corp"><a href="https://www.correntepelobem.com/" target="_blank">Corrente pelo Bem</a></div>
+            <span class="exp-date">12/2025 - Present</span>
+          </div>
+        </div>
+        <ul class="exp-desc">
+          <u>Corrente pelo Bem</u> is a non-profit project that promotes social, educational, moral, spiritual and material assistance,
+          providing protection to the family, especially through actions, services, projects, programs and benefits.
+          I prepare and distribute meals, drinks and clothing to vulnerable communities, and help organize special events to bring joy to families in need.
+        </ul>
+      </section>
+
+
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/reprograma.jpg" alt="Reprograma Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Volunteer Data Analysis Mentor</div>
+            <div class="exp-corp"><a href="https://www.reprograma.com/" target="_blank">{Reprograma}</a></div>
+            <span class="exp-date">03/2021 - 12/2021</span>
+          </div>
+        </div>
+        <ul class="exp-desc">
+          <u>{Reprograma}</u> is an initiative that focuses on teaching programming to women in situations of social vulnerability.
+          I mentored a session focused on career development in the technology field, relevant soft and hard skills, and career transition to Data Analysis.
+        </ul>
+      </section>
+
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/sda.jpg" alt="SDA Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Marketing Analyst</div>
+            <div class="exp-corp"><a href="https://www.fgv.br/" target="_blank">Sociedade das Artes da FGV</a></div>
+            <span class="exp-date">03/2023 - 12/2023</span>
+          </div>
+        </div>
+        <ul class="exp-desc">
+          <u>Sociedade das Artes da FGV</u> is a non-profit organization that aims to promote and support cultural and artistic activities within the FGV community.
+          I organized and promoted events and festivals, managed social networks and designed the team's t-shirt.
+        </ul>
+      </section>
+      
+      <section class="exp-card">
+        <div class="exp-header">
+          <img src="images/amplia.jpeg" alt="Amplia Logo" class="exp-logo" />
+          <div>
+            <div class="exp-role">Pedagogic Analyst</div>
+            <div class="exp-corp"><a href="https://www.ampliafgv.com.br/" target="_blank">Amplia FGV</a></div>
+            <span class="exp-date">03/2023 - 12/2023</span>
+          </div>
+        </div>
+        <ul class="exp-desc">
+          <u>Amplia</u> is a social preparatory course aimed at people in situations of socioeconomic vulnerability.
+          I assisted students, monitors and teachers, monitored classes and conducted interviews in the 2024 selection process.
+        </ul>
+      </section>
+    </div>
+
+    <!-- Certificates Section (empty for now) -->
+    <div class="resume-category" id="certificates" style="display: none;">
+      <hr class="gradient">
+      <p class="muted">Coming soon...</p>
+    </div>
   </main>
 
   <footer class="footer">
@@ -268,6 +281,28 @@
       if (list.children.length > 10) {
         list.classList.add('two-cols');
       }
+    });
+
+    // Resume tabs functionality
+    const resumeTabButtons = document.querySelectorAll('.resume-tab-btn');
+    const resumeCategories = document.querySelectorAll('.resume-category');
+
+    resumeTabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const category = button.getAttribute('data-category');
+
+        // Remove active class from all buttons
+        resumeTabButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // Hide all categories
+        resumeCategories.forEach(cat => cat.style.display = 'none');
+
+        // Add active class to clicked button
+        button.classList.add('active');
+        
+        // Show selected category
+        document.getElementById(category).style.display = 'block';
+      });
     });
   </script>
 </body>
